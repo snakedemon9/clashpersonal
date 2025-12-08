@@ -141,6 +141,7 @@ sniffer:
     - 'dlg.io.mi.com'
     - '+.apple.com'
 tcp-concurrent: true
+
 proxies:
   - {name: "0地址:  huahe.moe", server: 2lutb5l2.huaqida.xyz, port: 1006, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '132260:gTmVajOqhn0Lq6eX', obfs-param: download.microsoft.com}
   - {name: '0邮箱:huahecloud@gmail.com', server: 2lutb5l2.huaqida.xyz, port: 1006, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '132260:gTmVajOqhn0Lq6eX', obfs-param: download.microsoft.com}
