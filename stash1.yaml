@@ -418,14 +418,14 @@ proxies:
     uuid: 1ac9dda6-3a41-459a-9db1-bfb7bde40d5e
   - alterId: 0
     cipher: ""
-    flow: ""
+    flow: xtls-rprx-vision
     name: 美国住宅5倍
     port: 57345
     server: szsx.wjkc.click
     type: vmess
     uuid: cfe3fa1b-3a34-4ac7-b1b2-ccc12bab129c
   - alterId: 0
-    cipher: ""
+    cipher: "auto"
     flow: xtls-rprx-vision
     name: 🇺🇸美国二区直连
     port: 443
