@@ -141,7 +141,6 @@ sniffer:
     - 'dlg.io.mi.com'
     - '+.apple.com'
 tcp-concurrent: true
-
 proxies:
   - {name: "0地址:  huahe.moe", server: 2lutb5l2.huaqida.xyz, port: 1006, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '132260:gTmVajOqhn0Lq6eX', obfs-param: download.microsoft.com}
   - {name: '0邮箱:huahecloud@gmail.com', server: 2lutb5l2.huaqida.xyz, port: 1006, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '132260:gTmVajOqhn0Lq6eX', obfs-param: download.microsoft.com}
@@ -417,6 +416,14 @@ proxies:
     tls: true
     type: vless
     uuid: 1ac9dda6-3a41-459a-9db1-bfb7bde40d5e
+  - alterId: 0
+    cipher: ""
+    flow: ""
+    name: 美国住宅5倍
+    port: 57345
+    server: szsx.wjkc.click
+    type: vmess
+    uuid: cfe3fa1b-3a34-4ac7-b1b2-ccc12bab129c
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -495,6 +502,7 @@ proxy-groups:
       - 香港一区直连
       - 日本二区直连
       - 台湾一区直连
+      - 美国住宅5倍
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -589,6 +597,8 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 全局设置
+      - 自动选择2⚡️
+      - 📍精选测速
       - 🇺🇲 美国节点
       - 🇭🇰 香港节点
       - 🇰🇵台湾节点
@@ -599,14 +609,12 @@ proxy-groups:
       - DIRECT
       - 🍀huaheban
       - 🇰🇷韩国节点
-      - 自动选择2⚡️
+      - 🔀负载均衡
       - ♻️ 自动选择
       - 💫其他节点
       - 🇭🇰香港选择
       - 🇯🇵日本选择
       - 🇰🇷韩国测速
-      - 🔀负载均衡
-      - 📍精选测速
   - name: 🤖 ChatGPT
     type: select
     proxies:
@@ -643,6 +651,7 @@ proxy-groups:
       - 永久流量
       - 马来西亚网际快车2倍
       - 香港住宅3倍
+      - 美国住宅5倍
   - name: 📹 Youtube
     type: select
     proxies:
@@ -813,6 +822,7 @@ proxy-groups:
       - 网际快车香港家宽三倍
       - 马来西亚网际快车2倍
       - 香港住宅3倍
+      - 美国住宅5倍
     type: select
   - name: 🇭🇰 香港节点
     type: url-test
@@ -872,6 +882,7 @@ proxy-groups:
       - 🇺🇸 3美国 2
       - 🇺🇸 4非大陆专用-美国
       - 网际快车美国1区
+      - 美国住宅5倍
   - name: 🇸🇬 新加坡节点
     type: select
     proxies: [0.2X 🇸🇬 Singapore, 1.5X 🇲🇾 Malaysia, 🇸🇬 3新加坡, 网际快车新加坡1区]
