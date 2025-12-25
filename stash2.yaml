@@ -288,7 +288,7 @@ proxies:
   - alterId: 0
     cipher: auto
     flow: ""
-    name: 网际快车日本2区
+    name: 网际快车日本1
     port: 52725
     server: fakeip.wjkconline.life
     type: vmess
