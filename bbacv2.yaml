@@ -148,11 +148,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 香港二区[流媒体&游戏] [1.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -162,11 +157,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 香港三区[移动] [1.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -176,11 +166,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 新加坡一区[三线] [1.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -190,11 +175,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 日本二区[三线] [1.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -204,11 +184,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 台湾一区[家宽] [1.0倍消耗]
     type: vmess
     server: taiwan.wjkc.lat
@@ -218,11 +193,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 台湾二区[三网] [1.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -232,11 +202,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 美国一区[电信] [1.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -246,11 +211,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 美国住宅[家宽IP] [5.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -260,11 +220,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 日本原生[原生IP] [2.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -274,11 +229,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 日本家宽[住宅IP] [5.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -288,11 +238,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 英国原生[原生IP] [2.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -302,11 +247,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 德国原生[原生IP] [2.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -316,11 +256,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 泰国原生[转发] [2.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -330,11 +265,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 匈牙利原生[原生IP] [2.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -344,11 +274,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 俄罗斯[原生IP] [2.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -358,11 +283,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 加拿大[原生] [2.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -372,11 +292,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 菲律宾原生[原生IP] [2.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
@@ -386,11 +301,6 @@ proxies:
     cipher: auto
     udp: true
     tls: false
-
-    
-    
-
-
   - name: 印度原生[原生IP] [1.0倍消耗]
     type: vmess
     server: 122402.wjkc.click
