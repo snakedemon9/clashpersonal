@@ -130,28 +130,277 @@ tproxy: true
 tproxy-port: 23458
 tcp-concurrent: true
 proxies:
-  - {name: '🏳️‍🌈 永久流量:196.4G', server: szsx.wjkc.click, port: 10032, client-fingerprint: chrome, type: vmess, uuid: 2556b5cf-38f1-4d01-a200-2c54555708e9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇭🇰 香港二区[流媒体&游戏] [1.0x消耗]", server: szsx.wjkc.click, port: 36001, client-fingerprint: chrome, type: vmess, uuid: 5acf9ea4-d929-4590-995e-2b1a7df68711, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇸🇬 新加坡一区[三线] [1.0x消耗]", server: szsx.wjkc.click, port: 36007, client-fingerprint: chrome, type: vmess, uuid: ed707b09-9c5e-4795-935d-3011db1218d0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇯🇵 日本一区[三线] [1.0x消耗]", server: szsx.wjkc.click, port: 33333, client-fingerprint: chrome, type: vmess, uuid: 95a289d4-04f5-4f71-a037-a6a8c3d31a00, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇨🇳 台湾二区[三网] [1.0x消耗]", server: szsx.wjkc.click, port: 34019, client-fingerprint: chrome, type: vmess, uuid: 47166f70-00a0-467e-9d5c-c6cced88f8f1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇰🇷 韩国[移动] [1.0x消耗]", server: szsx.wjkc.click, port: 14431, client-fingerprint: chrome, type: vmess, uuid: 4f59b3a2-fb42-4088-b140-08134cd96e0c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇺🇸 美国一区[电信] [1.0x消耗]", server: szsx.wjkc.click, port: 49273, client-fingerprint: chrome, type: vmess, uuid: f5c25dd4-5483-44fd-9245-938b52993ed2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇭🇰 香港住宅[家宽IP] [3.0x消耗]", server: szsx.wjkc.click, port: 17283, client-fingerprint: chrome, type: vmess, uuid: fdb7fa57-a799-4cf8-810a-3a5c36cb826d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇺🇸 美国住宅[家宽IP] [5.0x消耗]", server: szsx.wjkc.click, port: 57345, client-fingerprint: chrome, type: vmess, uuid: cfe3fa1b-3a34-4ac7-b1b2-ccc12bab129c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇯🇵 日本原生[原生IP] [2.0x消耗]", server: szsx.wjkc.click, port: 59697, client-fingerprint: chrome, type: vmess, uuid: 92404d73-83a3-415e-8176-709360dc7ef3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇯🇵 日本家宽[住宅IP] [5.0x消耗]", server: szsx.wjkc.click, port: 38553, client-fingerprint: chrome, type: vmess, uuid: 416ca537-989d-404e-8cf1-e62fa7447e4f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇬🇧 英国原生[原生IP] [2.0x消耗]", server: szsx.wjkc.click, port: 17942, client-fingerprint: chrome, type: vmess, uuid: 507ea49d-7354-42b7-819b-619ea2c66c79, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇩🇪 德国原生[原生IP] [2.0x消耗]", server: szsx.wjkc.click, port: 24427, client-fingerprint: chrome, type: vmess, uuid: 9504acf1-6559-4ad6-ac00-24c2b480db0c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇧🇷 巴西原生[原生IP] [2.0x消耗]", server: szsx.wjkc.click, port: 28937, client-fingerprint: chrome, type: vmess, uuid: 4c97438c-b75c-4a5e-89d2-7fd4f7005d21, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇹🇭 泰国原生[转发] [2.0x消耗]", server: szsx.wjkc.click, port: 18139, client-fingerprint: chrome, type: vmess, uuid: acbb35ae-b7ce-4016-b027-6129cd61f45a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇰🇭 柬埔寨原生[原生IP] [2.0x消耗]", server: szsx.wjkc.click, port: 49419, client-fingerprint: chrome, type: vmess, uuid: c5240b85-4cf7-412e-a5c1-f0410686458d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇭🇺 匈牙利原生[原生IP] [2.0x消耗]", server: szsx.wjkc.click, port: 27157, client-fingerprint: chrome, type: vmess, uuid: c2fbb32b-3d77-4a46-b1ca-ae2d01c77b71, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇳🇴 挪威原生[转发] [2.0x消耗]", server: szsx.wjkc.click, port: 43501, client-fingerprint: chrome, type: vmess, uuid: 763ebbfc-412a-413d-9613-040c3fb27474, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇷🇺 俄罗斯[原生IP] [2.0x消耗]", server: szsx.wjkc.click, port: 28715, client-fingerprint: chrome, type: vmess, uuid: 2f40efe7-c22f-4489-b342-85e58cb0bbe3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇨🇦 加拿大[原生] [2.0x消耗]", server: szsx.wjkc.click, port: 45243, client-fingerprint: chrome, type: vmess, uuid: 97c63de2-46d4-4801-bbe3-6fc7b7ba0c80, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇵🇭 菲律宾原生[原生IP] [2.0x消耗]", server: szsx.wjkc.click, port: 24733, client-fingerprint: chrome, type: vmess, uuid: 5e849893-6f2e-4c81-a9ca-5bc0f4583e87, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇮🇳 印度原生[原生IP] [1.0x消耗]", server: szsx.wjkc.click, port: 43699, client-fingerprint: chrome, type: vmess, uuid: 60a7c2c2-7361-4f54-a05e-c1f8dcf51e92, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+   - name: 永久流量:1029.8G
+    type: vmess
+    server: 122402.wjkc.click
+    port: 10032
+    uuid: 2556b5cf-38f1-4d01-a200-2c54555708e9
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+ - name: 官网：快车.com
+    type: vmess
+    server: 122402.wjkc.click
+    port: 10032
+    uuid: 2556b5cf-38f1-4d01-a200-2c54555708e9
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 香港二区[流媒体&游戏] [1.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 36001
+    uuid: 5acf9ea4-d929-4590-995e-2b1a7df68711
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 香港三区[移动] [1.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 14640
+    uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 新加坡一区[三线] [1.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 36007
+    uuid: ed707b09-9c5e-4795-935d-3011db1218d0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 日本二区[三线] [1.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 33333
+    uuid: 95a289d4-04f5-4f71-a037-a6a8c3d31a00
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 台湾一区[家宽] [1.0倍消耗]
+    type: vmess
+    server: taiwan.wjkc.lat
+    port: 1443
+    uuid: 1ac9dda6-3a41-459a-9db1-bfb7bde40d5e
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 台湾二区[三网] [1.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 34019
+    uuid: 47166f70-00a0-467e-9d5c-c6cced88f8f1
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 美国一区[电信] [1.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 49273
+    uuid: f5c25dd4-5483-44fd-9245-938b52993ed2
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 美国住宅[家宽IP] [5.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 57345
+    uuid: cfe3fa1b-3a34-4ac7-b1b2-ccc12bab129c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 日本原生[原生IP] [2.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 59697
+    uuid: 92404d73-83a3-415e-8176-709360dc7ef3
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 日本家宽[住宅IP] [5.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 38553
+    uuid: 416ca537-989d-404e-8cf1-e62fa7447e4f
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 英国原生[原生IP] [2.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 17942
+    uuid: 507ea49d-7354-42b7-819b-619ea2c66c79
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 德国原生[原生IP] [2.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 24427
+    uuid: 9504acf1-6559-4ad6-ac00-24c2b480db0c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 泰国原生[转发] [2.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 18139
+    uuid: acbb35ae-b7ce-4016-b027-6129cd61f45a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 匈牙利原生[原生IP] [2.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 27157
+    uuid: c2fbb32b-3d77-4a46-b1ca-ae2d01c77b71
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 俄罗斯[原生IP] [2.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 28715
+    uuid: 2f40efe7-c22f-4489-b342-85e58cb0bbe3
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 加拿大[原生] [2.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 45243
+    uuid: 97c63de2-46d4-4801-bbe3-6fc7b7ba0c80
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 菲律宾原生[原生IP] [2.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 24733
+    uuid: 5e849893-6f2e-4c81-a9ca-5bc0f4583e87
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
+    
+    
+
+
+  - name: 印度原生[原生IP] [1.0倍消耗]
+    type: vmess
+    server: 122402.wjkc.click
+    port: 43699
+    uuid: 60a7c2c2-7361-4f54-a05e-c1f8dcf51e92
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
