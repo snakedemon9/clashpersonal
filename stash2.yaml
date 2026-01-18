@@ -346,7 +346,7 @@ proxies:
     flow: ""
     name: 永久流量
     port: 10032
-    server: gw.c1.can.gfw2500.com
+    server: p0.gw.c1.can.gfw2500.com
     type: vmess
     uuid: 2556b5cf-38f1-4d01-a200-2c54555708e9
   - alterId: 0
