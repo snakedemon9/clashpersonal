@@ -1,4 +1,4 @@
-port: 23457
+#port: 23457
 socks-port: 23458
 allow-lan: true
 mode: Rule
@@ -290,7 +290,7 @@ proxies:
     flow: ""
     name: 网际快车日本1
     port: 33333
-    server: gw.c1.can.gfw2500.com
+    server: p0.gw.c1.can.gfw2500.com
     type: vmess
     uuid: 95a289d4-04f5-4f71-a037-a6a8c3d31a00
   - alterId: 0
@@ -314,7 +314,7 @@ proxies:
     flow: ""
     name: 网际快车新加坡1区
     port: 36007
-    server: gw.c1.can.gfw2500.com
+    server: p0.gw.c1.can.gfw2500.com
     type: vmess
     uuid: ed707b09-9c5e-4795-935d-3011db1218d0
   - alterId: 0
