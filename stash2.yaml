@@ -443,7 +443,7 @@ proxies:
     flow: "xtls-rprx-origin"
     name: 网际快车台湾2区
     port: 34019
-    server: gw.c1.can.gfw2500.com
+    server: p0.gw.c1.can.gfw2500.com
     type: vmess
     uuid: 47166f70-00a0-467e-9d5c-c6cced88f8f1
     password: ""
