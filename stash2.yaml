@@ -144,7 +144,6 @@ tcp-concurrent: true
 proxies:
   - {name: "0地址:  huahe.moe", server: 1if6xn41.huaqiduo.xyz, port: 1006, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
   - {name: '0邮箱:huahecloud@gmail.com', server: 1if6xn41.huaqiduo.xyz, port: 1006, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-
   - {name: 🇭🇰 2香港, server: 1if6xn41.huaqiduo.xyz, port: 1009, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
   - {name: 🇭🇰 2香港 2, server: 1if6xn41.huaqiduo.xyz, port: 1017, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
   - {name: 🇰🇷 3 韩国, server: 1if6xn41.huaqiduo.xyz, port: 1010, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
