@@ -143,7 +143,7 @@ sniffer:
 tcp-concurrent: true
 proxies:
   - {name: "0地址:  huahe.moe", server: 1if6xn41.huaqiduo.xyz, port: 1006, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: '0邮箱:huahecloud@gmail.com', server: 1if6xn41.huaqiduo.xyz, port: 1006, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
+  - {name: "0邮箱:huahecloud@gmail.com\t", server: 1if6xn41.huaqiduo.xyz, port: 1006, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
   - {name: 🇭🇰 2香港, server: 1if6xn41.huaqiduo.xyz, port: 1009, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
   - {name: 🇭🇰 2香港 2, server: 1if6xn41.huaqiduo.xyz, port: 1017, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
   - {name: 🇰🇷 3 韩国, server: 1if6xn41.huaqiduo.xyz, port: 1010, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
@@ -280,9 +280,9 @@ proxies:
   - alterId: 0
     cipher: auto
     flow: ""
-    name: 网际快车香港2区游戏
+    name: 网际快车香港三区
     port: 36001
-    server: gw.c1.can.gfw2500.com
+    server: szsx.wjkc.click
     type: vmess
     uuid: 5acf9ea4-d929-4590-995e-2b1a7df68711
   - alterId: 0
@@ -290,7 +290,7 @@ proxies:
     flow: ""
     name: 网际快车日本1
     port: 33333
-    server: gw.c1.can.gfw2500.com
+    server: szsx.wjkc.click
     type: vmess
     uuid: 95a289d4-04f5-4f71-a037-a6a8c3d31a00
   - alterId: 0
@@ -298,23 +298,23 @@ proxies:
     flow: ""
     name: 网际快车泰国
     port: 18139
-    server: gw.c1.can.gfw2500.com
+    server: szsx.wjkc.click
     type: vmess
     uuid: acbb35ae-b7ce-4016-b027-6129cd61f45a
   - alterId: 0
     cipher: auto
     flow: ""
     name: 网际快车台湾2
-    port: 1443
-    server: taiwan.wjkc.lat
+    port: 34019
+    server: szsx.wjkc.click
     type: vmess
-    uuid: 1ac9dda6-3a41-459a-9db1-bfb7bde40d5e
+    uuid: 47166f70-00a0-467e-9d5c-c6cced88f8f1
   - alterId: 0
     cipher: auto
     flow: ""
     name: 网际快车新加坡1区
     port: 36007
-    server: gw.c1.can.gfw2500.com
+    server: szsx.wjkc.click
     type: vmess
     uuid: ed707b09-9c5e-4795-935d-3011db1218d0
   - alterId: 0
@@ -328,17 +328,17 @@ proxies:
   - alterId: 0
     cipher: auto
     flow: ""
-    name: 网际快车三区
-    port: 14640
-    server: gw.c1.can.gfw2500.com
+    name: 网际快车香港家宽三倍
+    port: 17283
+    server: szsx.wjkc.click
     type: vmess
-    uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
+    uuid: fdb7fa57-a799-4cf8-810a-3a5c36cb826d
   - alterId: 0
     cipher: auto
     flow: ""
     name: 网际快车美国1区
     port: 49273
-    server: gw.c1.can.gfw2500.com
+    server: szsx.wjkc.click
     type: vmess
     uuid: f5c25dd4-5483-44fd-9245-938b52993ed2
   - alterId: 0
@@ -346,7 +346,7 @@ proxies:
     flow: ""
     name: 永久流量
     port: 10032
-    server: gw.c1.can.gfw2500.com
+    server: szsx.wjkc.click
     type: vmess
     uuid: 2556b5cf-38f1-4d01-a200-2c54555708e9
   - alterId: 0
@@ -354,7 +354,7 @@ proxies:
     flow: ""
     name: 网际快车日本原生2倍
     port: 59697
-    server: gw.c1.can.gfw2500.com
+    server: szsx.wjkc.click
     type: vmess
     uuid: 92404d73-83a3-415e-8176-709360dc7ef3
   - alterId: 0
@@ -369,8 +369,8 @@ proxies:
     cipher: "auto"
     flow: ""
     name: 香港住宅3倍
-    port: 12356
-    server: gw.c1.can.gfw2500.com
+    port: 17283
+    server: szsx.wjkc.click
     type: vmess
     uuid: fdb7fa57-a799-4cf8-810a-3a5c36cb826d
   - alterId: 0
@@ -382,7 +382,7 @@ proxies:
     reality-opts:
       public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
       short-id: "77a47b18"
-    server: gw.c1.can.gfw2500.com
+    server: szsx.wjkc.click
     tls: true
     type: vless
     uuid: 4b2e9a73-1b8c-4abd-b161-ea90446e4240
@@ -396,7 +396,7 @@ proxies:
     reality-opts:
       public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
       short-id: ""
-    server: 49.212.131.227
+    server: 153.121.40.15
     servername: swdist.apple.com
     sni: swdist.apple.com
     tls: true
@@ -405,48 +405,25 @@ proxies:
   - alterId: 0
     cipher: ""
     flow: xtls-rprx-vision
-    name: 🇺🇸美国二区直连
-    port: 443
-    reality-opts:
-      public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
-      short-id: ""
-    server: 23.144.20.6
-    servername: swdist.apple.com
-    sni: swdist.apple.com
-    tls: true
-    type: vless
-    uuid: 909d92c4-daa1-458e-baa8-29a25b9f316e
-  - alterId: 0
-    cipher: "none"
-    flow: "xtls-rprx-vision"
-    name: 美国住宅5倍
-    port: 57345
-    server: gw.c1.can.gfw2500.com
-    type: vmess
-    uuid: cfe3fa1b-3a34-4ac7-b1b2-ccc12bab129c
-    reality-opts:
-      public-key: ""
-      short-id: ""
-  - alterId: 0
-    cipher: ""
-    flow: xtls-rprx-vision
-    name: 台湾直连
+    name: 台湾一区直连
     port: 1443
     reality-opts:
       public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
       short-id: ""
     server: hinet.wjkc66.vip
+    servername: swdist.apple.com
+    sni: swdist.apple.com
+    tls: true
     type: vless
     uuid: 1ac9dda6-3a41-459a-9db1-bfb7bde40d5e
   - alterId: 0
-    cipher: "none"
-    flow: "xtls-rprx-origin"
-    name: 网际快车台湾2区
-    port: 34019
-    server: gw.c1.can.gfw2500.com
+    cipher: ""
+    flow: ""
+    name: 美国住宅5倍
+    port: 57345
+    server: szsx.wjkc.click
     type: vmess
-    uuid: 47166f70-00a0-467e-9d5c-c6cced88f8f1
-    password: ""
+    uuid: cfe3fa1b-3a34-4ac7-b1b2-ccc12bab129c
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -486,7 +463,7 @@ proxy-groups:
       - 🇺🇸 3美国
       - 🇨🇳 3台湾
       - 🇺🇸 3美国 2
-      - 网际快车香港2区游戏
+      - 网际快车香港三区
       - 网际快车日本1
       - 网际快车台湾2
       - 🇯🇵 4非大陆专用-日本
@@ -519,15 +496,13 @@ proxy-groups:
       - 🍀huaheban
       - 🔀负载均衡
       - 网际快车韩国移动
-      - 网际快车三区
+      - 网际快车香港家宽三倍
       - 马来西亚网际快车2倍
       - 香港住宅3倍
       - 香港一区直连
       - 日本二区直连
-      - 🇺🇸美国二区直连
+      - 台湾一区直连
       - 美国住宅5倍
-      - 台湾直连
-      - 网际快车台湾2区
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -561,16 +536,15 @@ proxy-groups:
       - 🇯🇵 3日本 2
       - 🇺🇸 3美国 2
       - 🇺🇸 3美国
-      - 网际快车香港2区游戏
+      - 网际快车香港三区
       - 网际快车日本1
       - 网际快车台湾2
       - 网际快车新加坡1区
       - 永久流量
       - 网际快车韩国移动
       - 香港一区直连
+      - 台湾一区直连
       - 日本二区直连
-      - 台湾直连
-      - 网际快车台湾2区
     type: url-test
     interval: 300
   - name: 📍精选测速
@@ -578,16 +552,12 @@ proxy-groups:
       - 🇰🇷 3 韩国
       - 🇯🇵 3日本 1
       - 🇯🇵 3日本 2
-      - 网际快车香港2区游戏
+      - 网际快车香港三区
       - 网际快车日本1
       - 网际快车台湾2
       - 网际快车新加坡1区
       - 网际快车日本原生2倍
       - 网际快车韩国移动
-      - 网际快车三区
-      - 永久流量
-      - 日本二区直连
-      - 香港一区直连
     type: url-test
     interval: 180
   - name: 📲 Telegram
@@ -608,7 +578,7 @@ proxy-groups:
       - DIRECT
       - 🍀huaheban
       - 💫其他节点
-      - 网际快车香港2区游戏
+      - 网际快车香港三区
       - 网际快车日本1
       - 网际快车泰国
       - 网际快车台湾2
@@ -616,7 +586,7 @@ proxy-groups:
       - 🔀负载均衡
       - 📍精选测速
       - 网际快车韩国移动
-      - 网际快车三区
+      - 网际快车香港家宽三倍
       - 网际快车美国1区
       - 永久流量
       - 网际快车日本原生2倍
@@ -666,7 +636,7 @@ proxy-groups:
       - 💫其他节点
       - 📍精选测速
       - 网际快车日本原生2倍
-      - 网际快车香港2区游戏
+      - 网际快车香港三区
       - 网际快车日本1
       - 网际快车泰国
       - 网际快车台湾2
@@ -677,10 +647,11 @@ proxy-groups:
       - 🇰🇷韩国测速
       - 🔀负载均衡
       - 网际快车韩国移动
-      - 网际快车三区
+      - 网际快车香港家宽三倍
       - 永久流量
       - 马来西亚网际快车2倍
       - 香港住宅3倍
+      - 美国住宅5倍
   - name: 📹 Youtube
     type: select
     proxies:
@@ -695,7 +666,7 @@ proxy-groups:
       - 🚀 手动选择
       - DIRECT
       - 🇰🇷韩国节点
-      - 网际快车香港2区游戏
+      - 网际快车香港三区
       - 网际快车日本1
       - 网际快车泰国
       - 网际快车台湾2
@@ -839,7 +810,7 @@ proxy-groups:
       - 🇰🇷韩国节点
   - name: 💫其他节点
     proxies:
-      - 网际快车香港2区游戏
+      - 网际快车香港三区
       - 网际快车日本1
       - 网际快车泰国
       - 网际快车台湾2
@@ -848,14 +819,10 @@ proxy-groups:
       - 永久流量
       - 网际快车日本原生2倍
       - 网际快车韩国移动
-      - 网际快车三区
+      - 网际快车香港家宽三倍
       - 马来西亚网际快车2倍
       - 香港住宅3倍
-      - 🇺🇸美国二区直连
-      - 日本二区直连
       - 美国住宅5倍
-      - 香港一区直连
-      - 台湾直连
     type: select
   - name: 🇭🇰 香港节点
     type: url-test
@@ -863,15 +830,15 @@ proxy-groups:
       - 🇭🇰 2香港
       - 🇭🇰 2香港 2
       - 🇭🇰 4非大陆专用-香港
-      - 网际快车香港2区游戏
+      - 网际快车香港三区
       - 永久流量
       - 香港一区直连
   - name: 🇭🇰香港选择
     proxies:
       - 🇭🇰 2香港
       - 🇭🇰 2香港 2
-      - 网际快车香港2区游戏
-      - 网际快车三区
+      - 网际快车香港三区
+      - 网际快车香港家宽三倍
       - 永久流量
       - 香港住宅3倍
       - 香港一区直连
@@ -915,7 +882,6 @@ proxy-groups:
       - 🇺🇸 3美国 2
       - 🇺🇸 4非大陆专用-美国
       - 网际快车美国1区
-      - 🇺🇸美国二区直连
       - 美国住宅5倍
   - name: 🇸🇬 新加坡节点
     type: select
@@ -927,15 +893,14 @@ proxy-groups:
       - 🇨🇳 4非大陆专用-台湾
       - 3.0X 🇹🇼 Taiwan 1
       - 网际快车台湾2
-      - 台湾直连
-      - 网际快车台湾2区
+      - 台湾一区直连
   - name: 🇨🇿泰国节点
     proxies: [1.5X 🇹🇭 Thailand Bangkok, 网际快车泰国]
     type: select
   - name: 🔀负载均衡
     proxies:
       - 永久流量
-      - 网际快车香港2区游戏
+      - 网际快车香港三区
       - 🇭🇰 2香港
       - 🇭🇰 2香港 2
       - 🇨🇳 3台湾
@@ -946,10 +911,6 @@ proxy-groups:
       - 🇸🇬 3新加坡
       - 网际快车新加坡1区
       - 网际快车韩国移动
-      - '0地址:  huahe.moe'
-      - 0邮箱:huahecloud@gmail.com
-      - 🇰🇷 3 韩国
-      - 香港一区直连
     type: load-balance
     interval: 180
     strategy: consistent-hashing
@@ -969,7 +930,7 @@ proxy-groups:
       - 1.2X 🇲🇽 Mexico Mexico City
       - 0.2X 🇸🇬 Singapore
       - 3.0X 🇹🇼 Taiwan 1
-      - 网际快车香港2区游戏
+      - 网际快车香港三区
       - 网际快车泰国
       - 网际快车日本1
       - 网际快车台湾2
@@ -980,7 +941,7 @@ proxy-groups:
       - 网际快车韩国移动
       - 马来西亚网际快车2倍
       - 香港住宅3倍
-      - 网际快车三区
+      - 网际快车香港家宽三倍
   - name: 🍀huaheban
     proxies:
       - 1.5X 🇨🇦 Canada Ottawa
@@ -992,7 +953,7 @@ proxy-groups:
       - 1.0X 🇰🇷 Korea
       - 0.2X 🇸🇬 Singapore
       - 3.0X 🇹🇼 Taiwan 1
-      - 网际快车香港2区游戏
+      - 网际快车香港三区
       - 网际快车日本1
       - 网际快车泰国
       - 网际快车台湾2
@@ -1076,7 +1037,7 @@ proxy-groups:
       - 🇯🇵 4非大陆专用-日本
       - 🇺🇸 4非大陆专用-美国
       - 🇭🇰 4非大陆专用-香港
-      - 网际快车香港2区游戏
+      - 网际快车香港三区
       - 网际快车日本1
       - 网际快车台湾2
       - 网际快车新加坡1区
