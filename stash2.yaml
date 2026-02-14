@@ -142,21 +142,21 @@ sniffer:
     - '+.apple.com'
 tcp-concurrent: true
 proxies:
-  - {name: "0地址:  huahe.moe", server: 1if6xn41.huaqiduo.xyz, port: 1006, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: '0邮箱:huahecloud@gmail.com', server: 1if6xn41.huaqiduo.xyz, port: 1006, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: 🇭🇰 2香港, server: 1if6xn41.huaqiduo.xyz, port: 1009, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: 🇭🇰 2香港 2, server: 1if6xn41.huaqiduo.xyz, port: 1017, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: 🇰🇷 3 韩国, server: 1if6xn41.huaqiduo.xyz, port: 1010, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: 🇨🇳 3台湾, server: 1if6xn41.huaqiduo.xyz, port: 1014, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: 🇸🇬 3新加坡, server: 1if6xn41.huaqiduo.xyz, port: 2027, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: 🇯🇵 3日本 1, server: 1xhx2151.yuyuhuaa.com, port: 1005, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: 🇯🇵 3日本 2, server: 1xhx2151.yuyuhuaa.com, port: 1013, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: 🇺🇸 3美国, server: 150jtahus1.huaqiduo.xyz, port: 1012, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: 🇺🇸 3美国 2, server: 150jtahus1.huaqiduo.xyz, port: 1002, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: 🇨🇳 4非大陆专用-台湾, server: tw.polgade.com, port: 1051, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: 🇯🇵 4非大陆专用-日本, server: jp.polgade.com, port: 1051, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: 🇺🇸 4非大陆专用-美国, server: us.polgade.com, port: 1051, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
-  - {name: 🇭🇰 4非大陆专用-香港, server: hk.polgade.com, port: 1051, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 52086:kq5g2t10il, obfs-param: download.microsoft.com}
+  - {name: "0地址:  huahe.moe", server: 1if6xn41.huaqiduo.xyz, port: 1006, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
+  - {name: '0邮箱:huahecloud@gmail.com', server: 1if6xn41.huaqiduo.xyz, port: 1006, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
+  - {name: 🇭🇰 2香港, server: 1if6xn41.huaqiduo.xyz, port: 1009, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
+  - {name: 🇭🇰 2香港 2, server: 1if6xn41.huaqiduo.xyz, port: 1017, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
+  - {name: 🇰🇷 3 韩国, server: 1if6xn41.huaqiduo.xyz, port: 1010, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
+  - {name: 🇨🇳 3台湾, server: 1if6xn41.huaqiduo.xyz, port: 1014, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
+  - {name: 🇸🇬 3新加坡, server: 1if6xn41.huaqiduo.xyz, port: 2027, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
+  - {name: 🇯🇵 3日本 1, server: 1xhx2151.yuyuhuaa.com, port: 1005, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
+  - {name: 🇯🇵 3日本 2, server: 1xhx2151.yuyuhuaa.com, port: 1013, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
+  - {name: 🇺🇸 3美国, server: 150jtahus1.huaqiduo.xyz, port: 1012, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
+  - {name: 🇺🇸 3美国 2, server: 150jtahus1.huaqiduo.xyz, port: 1002, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
+  - {name: 🇨🇳 4非大陆专用-台湾, server: tw.polgade.com, port: 1051, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
+  - {name: 🇯🇵 4非大陆专用-日本, server: jp.polgade.com, port: 1051, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
+  - {name: 🇺🇸 4非大陆专用-美国, server: us.polgade.com, port: 1051, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
+  - {name: 🇭🇰 4非大陆专用-香港, server: hk.polgade.com, port: 1051, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: HUAHE, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '52086:kq5g2t10il', obfs-param: download.microsoft.com}
   - alterId: 0
     cipher: auto
     flow: ""
@@ -281,7 +281,7 @@ proxies:
     cipher: auto
     flow: ""
     name: 网际快车香港2区游戏
-    port: 36001
+    port: 57529
     server: gw.c1.can.gfw2500.com
     type: vmess
     uuid: 5acf9ea4-d929-4590-995e-2b1a7df68711
@@ -321,18 +321,18 @@ proxies:
     cipher: auto
     flow: ""
     name: 网际快车韩国移动
-    port: 14431
-    server: szsx.wjkc.click
+    port: 45711
+    server: p0.gw.c1.can.gfw2500.com
     type: vmess
-    uuid: b862419e-a015-4fc8-9675-9702c5a947c9
+    uuid: 6f997411-7b41-4b31-b4a1-09f70ca3a8e2
   - alterId: 0
     cipher: auto
     flow: ""
     name: 网际快车三区
-    port: 14640
-    server: gw.c1.can.gfw2500.com
+    port: 22443
+    server: real.gw.c1.can.gfw2500.com
     type: vmess
-    uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
+    uuid: 4b2e9a73-1b8c-4abd-b161-ea90446e4240
   - alterId: 0
     cipher: auto
     flow: ""
@@ -369,8 +369,8 @@ proxies:
     cipher: "auto"
     flow: ""
     name: 香港住宅3倍
-    port: 12356
-    server: gw.c1.can.gfw2500.com
+    port: 33596
+    server: p0.gw.c1.can.gfw2500.com
     type: vmess
     uuid: fdb7fa57-a799-4cf8-810a-3a5c36cb826d
   - alterId: 0
@@ -421,7 +421,7 @@ proxies:
     flow: "xtls-rprx-vision"
     name: 美国住宅5倍
     port: 57345
-    server: gw.c1.can.gfw2500.com
+    server: lkhjm.edu2026.cn
     type: vmess
     uuid: cfe3fa1b-3a34-4ac7-b1b2-ccc12bab129c
     reality-opts:
