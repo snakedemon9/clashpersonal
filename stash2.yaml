@@ -289,10 +289,10 @@ proxies:
     cipher: auto
     flow: ""
     name: 网际快车日本1
-    port: 33333
-    server: p0.gw.c1.can.gfw2500.com
+    port: 3203
+    server: gw.c1.can.gfw2500.com
     type: vmess
-    uuid: 95a289d4-04f5-4f71-a037-a6a8c3d31a00
+    uuid: 2bf27c01-81a3-40bc-8021-6a8ac17e832a
   - alterId: 0
     cipher: auto
     flow: ""
@@ -305,34 +305,34 @@ proxies:
     cipher: auto
     flow: ""
     name: 网际快车台湾2
-    port: 1443
-    server: taiwan.wjkc.lat
+    port: 34019
+    server: gw.c1.can.gfw2500.com
     type: vmess
-    uuid: 1ac9dda6-3a41-459a-9db1-bfb7bde40d5e
+    uuid: 47166f70-00a0-467e-9d5c-c6cced88f8f1
   - alterId: 0
     cipher: auto
     flow: ""
     name: 网际快车新加坡1区
-    port: 36007
-    server: p0.gw.c1.can.gfw2500.com
+    port: 21559
+    server: gw.c1.can.gfw2500.com
     type: vmess
-    uuid: ed707b09-9c5e-4795-935d-3011db1218d0
+    uuid: 4784e813-e6ed-428c-852c-10a0c2aaeaae
   - alterId: 0
     cipher: auto
     flow: ""
     name: 网际快车韩国移动
     port: 45711
-    server: p0.gw.c1.can.gfw2500.com
+    server: gw.c1.can.gfw2500.com
     type: vmess
     uuid: 6f997411-7b41-4b31-b4a1-09f70ca3a8e2
   - alterId: 0
     cipher: auto
     flow: ""
     name: 网际快车三区
-    port: 22443
-    server: real.gw.c1.can.gfw2500.com
+    port: 53106
+    server: gw.c1.can.gfw2500.com
     type: vmess
-    uuid: 4b2e9a73-1b8c-4abd-b161-ea90446e4240
+    uuid: b321c935-14a4-4fc0-94dc-3025ac92dcdd
   - alterId: 0
     cipher: auto
     flow: ""
@@ -346,17 +346,17 @@ proxies:
     flow: ""
     name: 永久流量
     port: 10032
-    server: p0.gw.c1.can.gfw2500.com
+    server: gw.c1.can.gfw2500.com
     type: vmess
     uuid: 2556b5cf-38f1-4d01-a200-2c54555708e9
   - alterId: 0
     cipher: auto
     flow: ""
-    name: 网际快车日本原生2倍
-    port: 59697
+    name: 网际快车日本原生5倍
+    port: 3833
     server: gw.c1.can.gfw2500.com
     type: vmess
-    uuid: 92404d73-83a3-415e-8176-709360dc7ef3
+    uuid: 416ca537-989d-404e-8cf1-e62fa7447e4f
   - alterId: 0
     cipher: auto
     flow: ""
@@ -370,7 +370,7 @@ proxies:
     flow: ""
     name: 香港住宅3倍
     port: 33596
-    server: p0.gw.c1.can.gfw2500.com
+    server: gw.c1.can.gfw2500.com
     type: vmess
     uuid: fdb7fa57-a799-4cf8-810a-3a5c36cb826d
   - alterId: 0
@@ -582,7 +582,7 @@ proxy-groups:
       - 网际快车日本1
       - 网际快车台湾2
       - 网际快车新加坡1区
-      - 网际快车日本原生2倍
+      - 网际快车日本原生5倍
       - 网际快车韩国移动
       - 网际快车三区
       - 永久流量
@@ -619,7 +619,7 @@ proxy-groups:
       - 网际快车三区
       - 网际快车美国1区
       - 永久流量
-      - 网际快车日本原生2倍
+      - 网际快车日本原生5倍
       - 香港住宅3倍
       - 马来西亚网际快车2倍
       - 香港一区直连
@@ -665,7 +665,7 @@ proxy-groups:
       - 🇨🇿泰国节点
       - 💫其他节点
       - 📍精选测速
-      - 网际快车日本原生2倍
+      - 网际快车日本原生5倍
       - 网际快车香港2区游戏
       - 网际快车日本1
       - 网际快车泰国
@@ -846,7 +846,7 @@ proxy-groups:
       - 网际快车新加坡1区
       - 网际快车美国1区
       - 永久流量
-      - 网际快车日本原生2倍
+      - 网际快车日本原生5倍
       - 网际快车韩国移动
       - 网际快车三区
       - 马来西亚网际快车2倍
@@ -883,7 +883,7 @@ proxy-groups:
       - 🇯🇵 3日本 1
       - 🇯🇵 4非大陆专用-日本
       - 网际快车日本1
-      - 网际快车日本原生2倍
+      - 网际快车日本原生5倍
       - 日本二区直连
     interval: 300
   - name: 🇯🇵日本选择
@@ -891,7 +891,7 @@ proxy-groups:
       - 🇯🇵 3日本 1
       - 🇯🇵 3日本 2
       - 网际快车日本1
-      - 网际快车日本原生2倍
+      - 网际快车日本原生5倍
       - 🇯🇵 4非大陆专用-日本
       - 日本二区直连
     type: select
@@ -976,7 +976,7 @@ proxy-groups:
       - 网际快车新加坡1区
       - 网际快车美国1区
       - 永久流量
-      - 网际快车日本原生2倍
+      - 网际快车日本原生5倍
       - 网际快车韩国移动
       - 马来西亚网际快车2倍
       - 香港住宅3倍
@@ -999,7 +999,7 @@ proxy-groups:
       - 网际快车新加坡1区
       - 网际快车美国1区
       - 永久流量
-      - 网际快车日本原生2倍
+      - 网际快车日本原生5倍
       - 网际快车韩国移动
     type: select
   - name: 🇨🇳回国节点
