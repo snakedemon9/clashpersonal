@@ -402,6 +402,15 @@ proxies:
     server: gw.c1.can.gfw2500.com
     type: vmess
     uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
+  - # 美国二区[BGP] [1.0倍消耗]
+    alterId: 0
+    cipher: auto
+    flow: ""
+    name: '网际快车美国二区[BGP] '
+    port: 53193
+    server: gw.c1.can.gfw2500.com
+    type: vmess
+    uuid: b275b178-8032-48f8-8dc2-730c281dfc75
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -480,6 +489,7 @@ proxy-groups:
       - 网际快车台湾家宽2倍
       - 网际快车日本原生5倍
       - 香港一区[三线] [1.0倍消耗]
+      - '网际快车美国二区[BGP] '
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -684,6 +694,50 @@ proxy-groups:
       - 🤖 ChatGPT
       - 💫其他节点
       - 🐟 其他网站
+  - name: 🐼disney
+    proxies:
+      - 🚀 全局设置
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 自动选择2⚡️
+      - 📍精选测速
+      - 📢 谷歌FCM
+      - 🤖 ChatGPT
+      - 🎥 Netflix
+      - 📹 Youtube
+      - 🐟 其他网站
+      - 🇭🇰 香港节点
+      - 🇭🇰香港选择
+      - 🇯🇵 日本测速
+      - 🇯🇵日本选择
+      - 🇰🇷韩国测速
+      - 🇰🇷韩国节点
+      - 🇺🇲 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇰🇵台湾节点
+      - 🔑 网际快车专用线路
+      - DIRECT
+      - REJECT
+    type: select
+  - name: 🐟 其他网站
+    type: select
+    proxies:
+      - 🚀 全局设置
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇰🇵台湾节点
+      - 🇸🇬 新加坡节点
+      - 🇯🇵 日本测速
+      - 🇺🇲 美国节点
+      - 🚀 手动选择
+      - 🍀huaheban
+      - 🔑 网际快车专用线路
+      - 🇨🇿泰国节点
+      - 🇰🇷韩国节点
+      - 🇯🇵日本选择
+      - 🇭🇰香港选择
+      - 🇰🇷韩国测速
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -772,22 +826,6 @@ proxy-groups:
       - 🇰🇷韩国节点
       - 🇯🇵 日本测速
       - 🇺🇲 美国节点
-  - name: 🐟 其他网站
-    type: select
-    proxies:
-      - 🚀 全局设置
-      - ♻️ 自动选择
-      - DIRECT
-      - 🇭🇰 香港节点
-      - 🇰🇵台湾节点
-      - 🇸🇬 新加坡节点
-      - 🇯🇵 日本测速
-      - 🇺🇲 美国节点
-      - 🚀 手动选择
-      - 🍀huaheban
-      - 🔑 网际快车专用线路
-      - 🇨🇿泰国节点
-      - 🇰🇷韩国节点
   - name: 💫其他节点
     proxies:
       - 网际快车香港2区游戏
@@ -863,6 +901,7 @@ proxy-groups:
       - 🇺🇸 4非大陆专用-美国
       - 网际快车美国1区
       - 美国住宅5倍
+      - '网际快车美国二区[BGP] '
   - name: 🇸🇬 新加坡节点
     type: select
     proxies: [0.2X 🇸🇬 Singapore, 1.5X 🇲🇾 Malaysia, 🇸🇬 3新加坡, 网际快车新加坡1区]
@@ -1010,6 +1049,13 @@ proxy-groups:
       - 永久流量
     type: select
 rules:
+  - DOMAIN-SUFFIX,dss.map.fastly.net,🐼disney
+  - DOMAIN-SUFFIX,alphacdn.net,🐼disney
+  - DOMAIN-SUFFIX,dssott-cds.s.llnwi.net,🐼disney
+  - DOMAIN-SUFFIX,www.disneyplus.com,🐼disney
+  - DOMAIN-SUFFIX,edge.bamgrid.com,🐼disney
+  - DOMAIN-KEYWORD,dssott.com,🐼disney
+  - DOMAIN,cdn.registerdisney.go.com,🐼disney
   - DOMAIN-SUFFIX,messense.me,DIRECT
   - DOMAIN-SUFFIX,futunn.com,DIRECT
   - DOMAIN-SUFFIX,jd.com,DIRECT
