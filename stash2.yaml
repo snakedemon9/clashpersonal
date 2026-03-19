@@ -411,6 +411,30 @@ proxies:
     server: gw.c1.can.gfw2500.com
     type: vmess
     uuid: b275b178-8032-48f8-8dc2-730c281dfc75
+  - cipher: chacha20-ietf-poly1305
+    name: vv日本6全解锁3倍
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    port: 13599
+    server: zf.sg-iepl.com
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: vv台湾3倍流媒体解锁
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    port: 13599
+    server: zf.sg-iepl.com
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: vv美国6动态家宽全解锁
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    port: 44065
+    server: zf.sg-iepl.com
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: vv香港A14三倍全解锁
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    port: 6740
+    server: zf.sg-iepl.com
+    type: ss
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -490,6 +514,10 @@ proxy-groups:
       - 网际快车日本原生5倍
       - 香港一区[三线] [1.0倍消耗]
       - '网际快车美国二区[BGP] '
+      - vv日本6全解锁3倍
+      - vv台湾3倍流媒体解锁
+      - vv美国6动态家宽全解锁
+      - vv香港A14三倍全解锁
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -722,21 +750,21 @@ proxy-groups:
   - name: 🐟 其他网站
     type: select
     proxies:
+      - DIRECT
       - 🚀 全局设置
       - ♻️ 自动选择
-      - DIRECT
       - 🇭🇰 香港节点
+      - 🇯🇵 日本测速
+      - 🇯🇵日本选择
+      - 🇺🇲 美国节点
+      - 🇭🇰香港选择
       - 🇰🇵台湾节点
       - 🇸🇬 新加坡节点
-      - 🇯🇵 日本测速
-      - 🇺🇲 美国节点
       - 🚀 手动选择
       - 🍀huaheban
       - 🔑 网际快车专用线路
       - 🇨🇿泰国节点
       - 🇰🇷韩国节点
-      - 🇯🇵日本选择
-      - 🇭🇰香港选择
       - 🇰🇷韩国测速
   - name: 🌍 国外媒体
     type: select
@@ -862,6 +890,7 @@ proxy-groups:
       - 永久流量
       - 香港住宅3倍
       - 香港一区[三线] [1.0倍消耗]
+      - vv香港A14三倍全解锁
     type: select
   - name: 🇯🇵 日本测速
     type: url-test
@@ -879,6 +908,7 @@ proxy-groups:
       - 网际快车日本1
       - 网际快车日本原生5倍
       - 🇯🇵 4非大陆专用-日本
+      - vv日本6全解锁3倍
     type: select
   - name: 🇰🇷韩国测速
     proxies:
@@ -902,6 +932,7 @@ proxy-groups:
       - 网际快车美国1区
       - 美国住宅5倍
       - '网际快车美国二区[BGP] '
+      - vv美国6动态家宽全解锁
   - name: 🇸🇬 新加坡节点
     type: select
     proxies: [0.2X 🇸🇬 Singapore, 1.5X 🇲🇾 Malaysia, 🇸🇬 3新加坡, 网际快车新加坡1区]
@@ -913,6 +944,7 @@ proxy-groups:
       - 3.0X 🇹🇼 Taiwan 1
       - 网际快车台湾2
       - 网际快车台湾家宽2倍
+      - vv台湾3倍流媒体解锁
   - name: 🇨🇿泰国节点
     proxies: [1.5X 🇹🇭 Thailand Bangkok, 网际快车泰国]
     type: select
