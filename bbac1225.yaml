@@ -16311,9 +16311,11 @@ rules:
   - GEOIP,CN,🎯 国内网络
   - MATCH,🐟 其他网站
 
+ 
+ 
 redir-port: 23457
 allow-lan: true
-mode: rule
+mode: Rule
 log-level: error
 external-controller: 192.168.50.1:9990
 experimental:
