@@ -16311,7 +16311,7 @@ rules:
   - GEOIP,CN,🎯 国内网络
   - MATCH,🐟 其他网站
 
-redir-port：23457
+redir-port: 23457
 allow-lan: true
 mode: rule
 log-level: error
