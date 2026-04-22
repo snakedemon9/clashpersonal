@@ -1,4 +1,5 @@
-redir-port: 23457
+port: 23457
+socks-port:23458
 allow-lan: true
 mode: rule
 log-level: error
