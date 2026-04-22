@@ -1,6 +1,3 @@
-
- 
- 
 redir-port: 23457
 allow-lan: true
 mode: rule
