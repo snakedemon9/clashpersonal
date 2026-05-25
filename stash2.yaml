@@ -146,91 +146,11 @@ proxies:
   - alterId: 0
     cipher: auto
     flow: ""
-    name: 网际快车香港2区游戏
-    port: 57529
-    server: gw.c1.can.gfw2500.com
-    type: vmess
-    uuid: 5acf9ea4-d929-4590-995e-2b1a7df68711
-  - alterId: 0
-    cipher: auto
-    flow: ""
-    name: 网际快车日本1
-    port: 3203
-    server: gw.c1.can.gfw2500.com
-    type: vmess
-    uuid: 2bf27c01-81a3-40bc-8021-6a8ac17e832a
-  - alterId: 0
-    cipher: auto
-    flow: ""
-    name: 网际快车泰国
-    port: 18139
-    server: gw.c1.can.gfw2500.com
-    type: vmess
-    uuid: acbb35ae-b7ce-4016-b027-6129cd61f45a
-  - alterId: 0
-    cipher: auto
-    flow: ""
-    name: 网际快车台湾2
-    port: 34019
-    server: gw.c1.can.gfw2500.com
-    type: vmess
-    uuid: 47166f70-00a0-467e-9d5c-c6cced88f8f1
-  - alterId: 0
-    cipher: auto
-    flow: ""
-    name: 网际快车新加坡1区
-    port: 21559
-    server: gw.c1.can.gfw2500.com
-    type: vmess
-    uuid: 4784e813-e6ed-428c-852c-10a0c2aaeaae
-  - alterId: 0
-    cipher: auto
-    flow: ""
-    name: 网际快车韩国移动
-    port: 45711
-    server: gw.c1.can.gfw2500.com
-    type: vmess
-    uuid: 6f997411-7b41-4b31-b4a1-09f70ca3a8e2
-  - alterId: 0
-    cipher: auto
-    flow: ""
-    name: 网际快车香港三区2倍
-    port: 53106
-    server: gw.c1.can.gfw2500.com
-    type: vmess
-    uuid: b321c935-14a4-4fc0-94dc-3025ac92dcdd
-  - alterId: 0
-    cipher: auto
-    flow: ""
-    name: 网际快车美国1区
-    port: 49273
-    server: gw.c1.can.gfw2500.com
-    type: vmess
-    uuid: f5c25dd4-5483-44fd-9245-938b52993ed2
-  - alterId: 0
-    cipher: auto
-    flow: ""
     name: 永久流量
     port: 10032
     server: gw.c1.can.gfw2500.com
     type: vmess
     uuid: 2556b5cf-38f1-4d01-a200-2c54555708e9
-  - alterId: 0
-    cipher: auto
-    flow: ""
-    name: 网际快车日本原生5倍
-    port: 3833
-    server: gw.c1.can.gfw2500.com
-    type: vmess
-    uuid: 416ca537-989d-404e-8cf1-e62fa7447e4f
-  - alterId: 0
-    cipher: auto
-    flow: ""
-    name: 马来西亚网际快车2倍
-    port: 12851
-    server: szsx.wjkc.click
-    type: vmess
-    uuid: 39935899-c28f-4dbf-b69e-60b4067dd6c2
   - alterId: 0
     cipher: auto
     flow: ""
@@ -251,15 +171,6 @@ proxies:
       public-key: ""
       short-id: ""
   - alterId: 0
-    cipher: none
-    flow: xtls-rprx-origin
-    name: 网际快车台湾家宽2倍
-    port: 31443
-    server: gw.c1.can.gfw2500.com
-    type: vmess
-    uuid: 1ac9dda6-3a41-459a-9db1-bfb7bde40d5e
-    password: ""
-  - alterId: 0
     cipher: auto
     flow: ""
     name: 香港一区[三线] [1.0倍消耗]
@@ -267,14 +178,6 @@ proxies:
     server: gw.c1.can.gfw2500.com
     type: vmess
     uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
-  - alterId: 0
-    cipher: auto
-    flow: ""
-    name: "网际快车美国二区[BGP] "
-    port: 53193
-    server: gw.c1.can.gfw2500.com
-    type: vmess
-    uuid: b275b178-8032-48f8-8dc2-730c281dfc75
   - name: "0地址:  huahe.moe"
     server: 3larqv13.huaqiduo.xyz
     port: 1006
@@ -1151,7 +1054,6 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🔀负载均衡
       - 💫其他节点
-      - 🔑 网际快车专用线路
       - DIRECT
       - 🇨🇳回国节点
       - 🌏其他国家
@@ -1176,9 +1078,6 @@ proxy-groups:
       - 🇺🇸 3美国
       - 🇨🇳 3台湾
       - 🇺🇸 3美国 2
-      - 网际快车香港2区游戏
-      - 网际快车日本1
-      - 网际快车台湾2
       - 🇯🇵 4非大陆专用-日本
       - 🇺🇸 4非大陆专用-美国
       - 🇭🇰 4非大陆专用-香港
@@ -1212,26 +1111,16 @@ proxy-groups:
       - 5.0X 🇨🇳 日志记录 深圳 南亚中转
       - 5.0X 🇨🇳 日志记录 深圳 东亚中转
       - 5.0X 🇨🇳 日志记录 深圳 负载中转
-      - 网际快车泰国
-      - 网际快车新加坡1区
-      - 网际快车美国1区
       - 永久流量
       - 🇯🇵 日本测速
       - 🇯🇵日本选择
       - 🇰🇷韩国测速
       - 🇰🇷韩国节点
-      - 🔑 网际快车专用线路
       - 🍀huaheban
       - 🔀负载均衡
-      - 网际快车韩国移动
-      - 网际快车香港三区2倍
-      - 马来西亚网际快车2倍
       - 香港住宅3倍
       - 美国住宅5倍
-      - 网际快车台湾家宽2倍
-      - 网际快车日本原生5倍
       - 香港一区[三线] [1.0倍消耗]
-      - "网际快车美国二区[BGP] "
       - D日本2-网页视频浏览-1倍率
       - D日本3-网页视频浏览-1倍率
       - D日本4-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
@@ -1316,12 +1205,7 @@ proxy-groups:
       - 🇯🇵 3日本 2
       - 🇺🇸 3美国 2
       - 🇺🇸 3美国
-      - 网际快车香港2区游戏
-      - 网际快车日本1
-      - 网际快车台湾2
-      - 网际快车新加坡1区
       - 永久流量
-      - 网际快车韩国移动
       - 香港一区[三线] [1.0倍消耗]
     type: url-test
     interval: 300
@@ -1330,16 +1214,8 @@ proxy-groups:
       - 🇰🇷 3 韩国
       - 🇯🇵 3日本 1
       - 🇯🇵 3日本 2
-      - 网际快车香港2区游戏
-      - 网际快车日本1
-      - 网际快车台湾2
-      - 网际快车新加坡1区
-      - 网际快车韩国移动
-      - 网际快车香港三区2倍
       - 永久流量
-      - 网际快车台湾家宽2倍
       - 香港一区[三线] [1.0倍消耗]
-      - 网际快车美国1区
     type: url-test
     interval: 180
   - name: 📲 Telegram
@@ -1355,25 +1231,14 @@ proxy-groups:
       - 🇰🇷韩国节点
       - 🇺🇲 美国节点
       - 🌏其他国家
-      - 🔑 网际快车专用线路
       - 🚀 手动选择
       - DIRECT
       - 🍀huaheban
       - 💫其他节点
-      - 网际快车香港2区游戏
-      - 网际快车日本1
-      - 网际快车泰国
-      - 网际快车台湾2
-      - 网际快车新加坡1区
       - 🔀负载均衡
       - 📍精选测速
-      - 网际快车韩国移动
-      - 网际快车香港三区2倍
-      - 网际快车美国1区
       - 永久流量
-      - 网际快车日本原生5倍
       - 香港住宅3倍
-      - 马来西亚网际快车2倍
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -1385,7 +1250,6 @@ proxy-groups:
       - 🇰🇵台湾节点
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本测速
-      - 🔑 网际快车专用线路
       - 🚀 手动选择
       - DIRECT
       - 🍀huaheban
@@ -1408,7 +1272,6 @@ proxy-groups:
       - 🇯🇵 日本测速
       - 🇰🇷韩国节点
       - 🌏其他国家
-      - 🔑 网际快车专用线路
       - 🇺🇲 美国节点
       - 🚀 手动选择
       - DIRECT
@@ -1416,21 +1279,11 @@ proxy-groups:
       - 🇨🇿泰国节点
       - 💫其他节点
       - 📍精选测速
-      - 网际快车日本原生5倍
-      - 网际快车香港2区游戏
-      - 网际快车日本1
-      - 网际快车泰国
-      - 网际快车台湾2
-      - 网际快车新加坡1区
-      - 网际快车美国1区
       - 🇭🇰香港选择
       - 🇯🇵日本选择
       - 🇰🇷韩国测速
       - 🔀负载均衡
-      - 网际快车韩国移动
-      - 网际快车香港三区2倍
       - 永久流量
-      - 马来西亚网际快车2倍
       - 香港住宅3倍
       - 美国住宅5倍
   - name: 📹 Youtube
@@ -1443,16 +1296,9 @@ proxy-groups:
       - 🇰🇵台湾节点
       - 🇯🇵 日本测速
       - 🇺🇲 美国节点
-      - 🔑 网际快车专用线路
       - 🚀 手动选择
       - DIRECT
       - 🇰🇷韩国节点
-      - 网际快车香港2区游戏
-      - 网际快车日本1
-      - 网际快车泰国
-      - 网际快车台湾2
-      - 网际快车新加坡1区
-      - 网际快车美国1区
       - 永久流量
       - 自动选择2⚡️
       - 💫其他节点
@@ -1462,7 +1308,6 @@ proxy-groups:
       - 🍀huaheban
       - 🔀负载均衡
       - 📍精选测速
-      - 网际快车韩国移动
   - name: 🎥 Netflix
     type: select
     proxies:
@@ -1474,7 +1319,6 @@ proxy-groups:
       - 🇰🇷韩国节点
       - 🇯🇵 日本测速
       - 🇺🇲 美国节点
-      - 🔑 网际快车专用线路
       - 🚀 手动选择
       - DIRECT
       - 自动选择2⚡️
@@ -1508,7 +1352,6 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇸🇬 新加坡节点
       - 🇰🇵台湾节点
-      - 🔑 网际快车专用线路
       - DIRECT
       - REJECT
     type: select
@@ -1527,7 +1370,6 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🚀 手动选择
       - 🍀huaheban
-      - 🔑 网际快车专用线路
       - 🇨🇿泰国节点
       - 🇰🇷韩国节点
       - 🇰🇷韩国测速
@@ -1543,7 +1385,6 @@ proxy-groups:
       - 🇯🇵 日本测速
       - 🇰🇷韩国节点
       - 🇺🇲 美国节点
-      - 🔑 网际快车专用线路
       - 🚀 手动选择
       - DIRECT
       - 🔀负载均衡
@@ -1555,7 +1396,6 @@ proxy-groups:
       - 🇰🇵台湾节点
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本测速
-      - 🔑 网际快车专用线路
       - 🚀 手动选择
   - name: 🌏 出海媒体
     type: select
@@ -1565,7 +1405,6 @@ proxy-groups:
       - 🇰🇵台湾节点
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本测速
-      - 🔑 网际快车专用线路
       - 🚀 手动选择
       - 🇰🇷韩国节点
   - name: Ⓜ️ 微软云盘
@@ -1577,7 +1416,6 @@ proxy-groups:
       - 🇰🇵台湾节点
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本测速
-      - 🔑 网际快车专用线路
       - 🚀 手动选择
       - DIRECT
       - 🇰🇷韩国节点
@@ -1590,7 +1428,6 @@ proxy-groups:
       - 🇰🇵台湾节点
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本测速
-      - 🔑 网际快车专用线路
       - 🚀 手动选择
       - DIRECT
       - 🇰🇷韩国节点
@@ -1605,7 +1442,6 @@ proxy-groups:
       - 💫其他节点
       - 🇨🇳回国节点
       - 🍀huaheban
-      - 🔑 网际快车专用线路
       - 🌏其他国家
   - name: 🎯 国内网络
     type: select
@@ -1614,27 +1450,15 @@ proxy-groups:
       - 🚀 全局设置
       - ♻️ 自动选择
       - 🚀 手动选择
-      - 🔑 网际快车专用线路
       - 🇭🇰 香港节点
       - 🇰🇷韩国节点
       - 🇯🇵 日本测速
       - 🇺🇲 美国节点
   - name: 💫其他节点
     proxies:
-      - 网际快车香港2区游戏
-      - 网际快车日本1
-      - 网际快车泰国
-      - 网际快车台湾2
-      - 网际快车新加坡1区
-      - 网际快车美国1区
       - 永久流量
-      - 网际快车日本原生5倍
-      - 网际快车韩国移动
-      - 网际快车香港三区2倍
-      - 马来西亚网际快车2倍
       - 香港住宅3倍
       - 美国住宅5倍
-      - 网际快车台湾家宽2倍
       - 香港一区[三线] [1.0倍消耗]
     type: url-test
   - name: 🇭🇰 香港节点
@@ -1643,15 +1467,12 @@ proxy-groups:
       - 🇭🇰 2香港
       - 🇭🇰 2香港 2
       - 🇭🇰 4非大陆专用-香港
-      - 网际快车香港2区游戏
       - 永久流量
       - 香港一区[三线] [1.0倍消耗]
   - name: 🇭🇰香港选择
     proxies:
       - 🇭🇰 2香港
       - 🇭🇰 2香港 2
-      - 网际快车香港2区游戏
-      - 网际快车香港三区2倍
       - 永久流量
       - 香港住宅3倍
       - 香港一区[三线] [1.0倍消耗]
@@ -1671,15 +1492,11 @@ proxy-groups:
       - 🇯🇵 3日本 2
       - 🇯🇵 3日本 1
       - 🇯🇵 4非大陆专用-日本
-      - 网际快车日本1
-      - 网际快车日本原生5倍
     interval: 300
   - name: 🇯🇵日本选择
     proxies:
       - 🇯🇵 3日本 1
       - 🇯🇵 3日本 2
-      - 网际快车日本1
-      - 网际快车日本原生5倍
       - 🇯🇵 4非大陆专用-日本
       - D日本2-网页视频浏览-1倍率
       - D日本3-网页视频浏览-1倍率
@@ -1703,13 +1520,11 @@ proxy-groups:
   - name: 🇰🇷韩国测速
     proxies:
       - 🇰🇷 3 韩国
-      - 网际快车韩国移动
     type: url-test
     interval: 300
   - name: 🇰🇷韩国节点
     proxies:
       - 🇰🇷 3 韩国
-      - 网际快车韩国移动
     type: select
   - name: 🇺🇲 美国节点
     type: select
@@ -1717,9 +1532,7 @@ proxy-groups:
       - 🇺🇸 3美国
       - 🇺🇸 3美国 2
       - 🇺🇸 4非大陆专用-美国
-      - 网际快车美国1区
       - 美国住宅5倍
-      - "网际快车美国二区[BGP] "
       - D美国1-网页-视频浏览-2倍率
       - D美国2-网页-视频浏览-1倍率
       - D美国3-网页-视频浏览-1倍率
@@ -1746,61 +1559,34 @@ proxy-groups:
     type: select
     proxies:
       - 🇸🇬 3新加坡
-      - 网际快车新加坡1区
   - name: 🇰🇵台湾节点
     type: select
     proxies:
       - 🇨🇳 3台湾
       - 🇨🇳 4非大陆专用-台湾
-      - 网际快车台湾2
-      - 网际快车台湾家宽2倍
       - D台湾1-移动优化-流媒体全解锁TikTok优秀-1倍率
       - 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
   - name: 🇨🇿泰国节点
-    proxies:
-      - 网际快车泰国
+    proxies: []
     type: select
   - name: 🔀负载均衡
     proxies:
       - 永久流量
-      - 网际快车香港2区游戏
       - 🇭🇰 2香港
       - 🇭🇰 2香港 2
       - 🇨🇳 3台湾
       - 🇯🇵 3日本 1
       - 🇯🇵 3日本 2
-      - 网际快车日本1
-      - 网际快车台湾2
       - 🇸🇬 3新加坡
-      - 网际快车新加坡1区
-      - 网际快车韩国移动
       - "0地址:  huahe.moe"
       - 0邮箱:huahecloud@gmail.com
       - 🇰🇷 3 韩国
     type: load-balance
     interval: 180
     strategy: consistent-hashing
-  - name: 🔑 网际快车专用线路
-    type: url-test
-    proxies:
-      - 香港住宅3倍
-      - 网际快车香港三区2倍
-      - 网际快车香港2区游戏
-      - 网际快车台湾2
-      - 网际快车韩国移动
-      - 网际快车台湾家宽2倍
-      - 香港一区[三线] [1.0倍消耗]
   - name: 🍀huaheban
     proxies:
-      - 网际快车香港2区游戏
-      - 网际快车日本1
-      - 网际快车泰国
-      - 网际快车台湾2
-      - 网际快车新加坡1区
-      - 网际快车美国1区
       - 永久流量
-      - 网际快车日本原生5倍
-      - 网际快车韩国移动
     type: select
   - name: 🇨🇳回国节点
     proxies:
@@ -1867,9 +1653,7 @@ proxy-groups:
       - 5.0X 🇨🇳 日志记录 深圳 东亚中转
       - 5.0X 🇨🇳 日志记录 深圳 负载中转
   - name: 🌏其他国家
-    proxies:
-      - 网际快车泰国
-      - 马来西亚网际快车2倍
+    proxies: []
     type: select
   - name: 🛑 广告拦截
     type: select
@@ -1885,7 +1669,6 @@ proxy-groups:
       - 🇰🇵台湾节点
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本测速
-      - 🔑 网际快车专用线路
       - 🚀 手动选择
       - DIRECT
   - name: 🍃 应用净化
@@ -1898,7 +1681,6 @@ proxy-groups:
     proxies:
       - 🇰🇵台湾节点
       - 🚀 全局设置
-      - 🔑 网际快车专用线路
       - 🚀 手动选择
       - DIRECT
   - name: battle.net
@@ -1918,11 +1700,6 @@ proxy-groups:
       - 🇯🇵 4非大陆专用-日本
       - 🇺🇸 4非大陆专用-美国
       - 🇭🇰 4非大陆专用-香港
-      - 网际快车香港2区游戏
-      - 网际快车日本1
-      - 网际快车台湾2
-      - 网际快车新加坡1区
-      - 网际快车韩国移动
       - 永久流量
     type: select
 rules:
