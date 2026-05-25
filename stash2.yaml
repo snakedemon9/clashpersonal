@@ -851,6 +851,662 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
+  - name: 0.8X 🇨🇦 Canada Toronto
+    type: vmess
+    server: gcca.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.8X 🇨🇦 Canada 3
+    type: vmess
+    server: servarica.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 3.0X 🇦🇬 Antigua and Barbuda
+    type: vmess
+    server: equatorialguinea.ednovas.org
+    port: 443
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.5X 🇨🇷 Costa Rica San Jose
+    type: vmess
+    server: opcostarica.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.2X 🇲🇽 Mexico Mexico City
+    type: vmess
+    server: oneprovidermx.ednovas.net
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.8X 🇨🇴 Colombia Bogotá
+    type: vmess
+    server: opcolombia.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇵🇦 Panama Panama City
+    type: vmess
+    server: panama.ednovas.org
+    port: 22223
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 3.0X 🇪🇨 Ecuador Quito
+    type: vmess
+    server: opecuador.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 3.0X 🇵🇪 Peru Lima
+    type: vmess
+    server: opperu.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 3X 🇧🇷 Brazil Sao Paulo
+    type: vmess
+    server: opbr.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇦🇷 Argentina Rosario
+    type: vmess
+    server: donwebar.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇦🇶 Antarctica
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 55543
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 2.0X 🇫🇮 Finland Helsinki
+    type: vmess
+    server: opfinland.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.2X 🇨🇭 Switzerland Geneva
+    type: vmess
+    server: justhostswitzerland.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 3.0X 🇸🇲 San Marino
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 39804
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.5X 🇸🇪 Sweden Stockholm 2
+    type: vmess
+    server: heartbeatitsweden.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.8X 🇬🇧 United Kingdom Newport
+    type: vmess
+    server: oraclenewportarm.ednovas.net
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.2X 🇬🇧 United Kingdom London
+    type: vmess
+    server: massivegridgb.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇮🇪 Ireland Dublin
+    type: vmess
+    server: rnireland.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇩🇰 Denmark Copenhagen
+    type: vmess
+    server: opdenmark.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇩🇪 Germany
+    type: vmess
+    server: myprepaidserverde.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.8X 🇳🇱 Netherlands
+    type: vmess
+    server: heartbeatitnl.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.5X 🇮🇹 Italy 2
+    type: vmess
+    server: h501it.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 2.0X 🇪🇸 Spain Madrid
+    type: vmess
+    server: opspain.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 3.0X 🇬🇮 Gibraltar
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 36407
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇫🇷 France
+    type: vmess
+    server: edisfr.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.5X 🇱🇺 Luxembourg
+    type: vmess
+    server: buyvmluxembourg.ednovas.net
+    port: 22223
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.6X 🇵🇹 Portugal Lisbon
+    type: vmess
+    server: oneproviderpt.ednovas.net
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.6X 🇬🇷 Greece Athens
+    type: vmess
+    server: oneprovidergr.ednovas.net
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.8X 🇦🇹 Austria Vienna
+    type: vmess
+    server: vienna.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.6X 🇷🇴 Romania Kiajina
+    type: vmess
+    server: hostmazeromania.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 3.0X 🇫🇴 Faroe Islands
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 25111
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.6X 🇭🇷 Croatia Zagreb
+    type: vmess
+    server: ediscroatia.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.6X 🇲🇰 North Macedonia Skopje
+    type: vmess
+    server: edisnorthmacedonia.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.6X 🇸🇮 Slovenia Ljubljana
+    type: vmess
+    server: edisslovenia.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.6X 🇷🇸 Serbia Belgrade
+    type: vmess
+    server: edisserbia.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.6X 🇨🇿 Czechia Prague
+    type: vmess
+    server: retzorcz.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.6X 🇭🇺 Hungary Budapest
+    type: vmess
+    server: bazishungary.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.5X 🇱🇹 Lithuania Vilnius
+    type: vmess
+    server: bacloudlithuania.ednovas.net
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.5X 🇮🇱 Israel Roche Ain
+    type: vmess
+    server: kamateraisreal.ednovas.net
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.7X 🇹🇷 Turkey Istanbul
+    type: vmess
+    server: hostigertr.ednovas.net
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇲🇩 Moldova Chisinau
+    type: vmess
+    server: gcoremoldova.ednovas.net
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0 🇵🇱 Poland Warsaw
+    type: vmess
+    server: vdsplanetpoland.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.2X 🇪🇪 Estonia Tallinn
+    type: vmess
+    server: coresolutionsestonia.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.2X 🇰🇬 Kyrgyzstan Bishkek
+    type: vmess
+    server: hosterkyrgyzstan.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 3.0X 🇺🇿 Uzbekistan Tashkent
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 44722
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.2X 🇷🇺 Russia Moscow
+    type: vmess
+    server: justhost.ednovas.net
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 3.0X 🇿🇼 Zimbabwe
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 41023
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.5X 🇺🇦 Ukraine Odessa
+    type: vmess
+    server: ntupukraine.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 5.0X 🇬🇶 Equatorial Guinea
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 28594
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇸🇦 Saudi Arabia Jeddah
+    type: vmess
+    server: lightnodejeddah.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.7X 🇶🇦 Qatar Doha
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 53122
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 3.0X 🇲🇱 Mali
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 17945
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇧🇭 Bahrain Manama
+    type: vmess
+    server: lightnodebahrain.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇿🇦 South Africa Johannesburg
+    type: vmess
+    server: vultrsouthafrica.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.6X 🇳🇬 Nigeria Lagos
+    type: vmess
+    server: nigeria.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇳🇬 Nigeria 2
+    type: vmess
+    server: sitehubng.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 3.0X 🇹🇳 Tunisia
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 49758
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇪🇬 Egypt Cairo
+    type: vmess
+    server: binaryracksegypt.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇵🇭 Philippines Manila
+    type: vmess
+    server: cloudsigmaph.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.5X 🇦🇲 Armenia Vanadzor
+    type: vmess
+    server: gcorearmenia.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.5X Vietnam VNPT ISP
+    type: vmess
+    server: nhanhoavn.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.5X 🇹🇭 Thailand Bangkok
+    type: vmess
+    server: opthailand.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X Cambodia Phnom Penh
+    type: vmess
+    server: lncambodia.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.7X 🇲🇲 Myanmar
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 27283
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.8X 🇧🇩 Bangladesh Dhaka
+    type: vmess
+    server: lightnodebangladesh.ednovas.net
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.7X 🇱🇦 Laos Vientiane
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 25803
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.5X 🇲🇾 Malaysia
+    type: vmess
+    server: evoxtmy.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.5X 🇮🇩 Indonesia Jakarta
+    type: vmess
+    server: idcloudindo.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 2.0X 🇮🇳 India
+    type: vmess
+    server: doin.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 3.0X 🇹🇱 Timor-Leste
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 49727
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 3.0X 🇸🇧 Solomon Islands
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 28585
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.5X 🇸🇬 Singapore 1
+    type: vmess
+    server: gcoresg.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.5X 🇸🇬 Singapore 2
+    type: vmess
+    server: vmonsg.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 1.0X 🇸🇬 Singapore 3
+    type: vmess
+    server: akilesg.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 2.0X 🇦🇺 Australia Sydney3
+    type: vmess
+    server: evoxtau.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 2.0X 🇲🇴 Macao 1
+    type: vmess
+    server: macao2.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 2.0X 🇲🇴 Macao 2
+    type: vmess
+    server: hkbgp.ednovas.org
+    port: 38837
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 3.0X 🇹🇼 Taiwan 1
+    type: vmess
+    server: hkgtw2.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.5X 🇹🇼 Taiwan
+    type: vmess
+    server: akiletw.ednovas.org
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 0.5X 🇹🇼 Hinet Taiwan 2
+    type: vmess
+    server: hinet2.ednovas.org
+    port: 10050
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 5.0X 🇺🇳 Random ISP (Rotate every 12 hours)
+    type: vmess
+    server: random.ednovas.org
+    port: 22043
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -1334,7 +1990,8 @@ proxy-groups:
       - 🇨🇳 4非大陆专用-台湾
       - 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
   - name: 🇨🇿泰国节点
-    proxies: []
+    proxies:
+      - 1.5X 🇹🇭 Thailand Bangkok
     type: select
   - name: 🔀负载均衡
     proxies:
@@ -1387,6 +2044,91 @@ proxy-groups:
       - 5.0X 🇨🇳 日志记录 深圳 东亚中转
       - 5.0X 🇨🇳 日志记录 深圳 负载中转
     type: select
+  - name: novas其他国家
+    type: select
+    proxies:
+      - 0.8X 🇨🇦 Canada Toronto
+      - 0.8X 🇨🇦 Canada 3
+      - 3.0X 🇦🇬 Antigua and Barbuda
+      - 0.5X 🇨🇷 Costa Rica San Jose
+      - 1.2X 🇲🇽 Mexico Mexico City
+      - 0.8X 🇨🇴 Colombia Bogotá
+      - 1.0X 🇵🇦 Panama Panama City
+      - 3.0X 🇪🇨 Ecuador Quito
+      - 3.0X 🇵🇪 Peru Lima
+      - 3X 🇧🇷 Brazil Sao Paulo
+      - 1.0X 🇦🇷 Argentina Rosario
+      - 1.0X 🇦🇶 Antarctica
+      - 2.0X 🇫🇮 Finland Helsinki
+      - 0.2X 🇨🇭 Switzerland Geneva
+      - 3.0X 🇸🇲 San Marino
+      - 0.5X 🇸🇪 Sweden Stockholm 2
+      - 0.8X 🇬🇧 United Kingdom Newport
+      - 0.2X 🇬🇧 United Kingdom London
+      - 1.0X 🇮🇪 Ireland Dublin
+      - 1.0X 🇩🇰 Denmark Copenhagen
+      - 1.0X 🇩🇪 Germany
+      - 0.8X 🇳🇱 Netherlands
+      - 0.5X 🇮🇹 Italy 2
+      - 2.0X 🇪🇸 Spain Madrid
+      - 3.0X 🇬🇮 Gibraltar
+      - 1.0X 🇫🇷 France
+      - 0.5X 🇱🇺 Luxembourg
+      - 0.6X 🇵🇹 Portugal Lisbon
+      - 0.6X 🇬🇷 Greece Athens
+      - 0.8X 🇦🇹 Austria Vienna
+      - 0.6X 🇷🇴 Romania Kiajina
+      - 3.0X 🇫🇴 Faroe Islands
+      - 0.6X 🇭🇷 Croatia Zagreb
+      - 0.6X 🇲🇰 North Macedonia Skopje
+      - 0.6X 🇸🇮 Slovenia Ljubljana
+      - 0.6X 🇷🇸 Serbia Belgrade
+      - 0.6X 🇨🇿 Czechia Prague
+      - 0.6X 🇭🇺 Hungary Budapest
+      - 0.5X 🇱🇹 Lithuania Vilnius
+      - 0.5X 🇮🇱 Israel Roche Ain
+      - 0.7X 🇹🇷 Turkey Istanbul
+      - 1.0X 🇲🇩 Moldova Chisinau
+      - 1.0 🇵🇱 Poland Warsaw
+      - 0.2X 🇪🇪 Estonia Tallinn
+      - 0.2X 🇰🇬 Kyrgyzstan Bishkek
+      - 3.0X 🇺🇿 Uzbekistan Tashkent
+      - 0.2X 🇷🇺 Russia Moscow
+      - 3.0X 🇿🇼 Zimbabwe
+      - 0.5X 🇺🇦 Ukraine Odessa
+      - 5.0X 🇬🇶 Equatorial Guinea
+      - 1.0X 🇸🇦 Saudi Arabia Jeddah
+      - 0.7X 🇶🇦 Qatar Doha
+      - 3.0X 🇲🇱 Mali
+      - 1.0X 🇧🇭 Bahrain Manama
+      - 1.0X 🇿🇦 South Africa Johannesburg
+      - 0.6X 🇳🇬 Nigeria Lagos
+      - 1.0X 🇳🇬 Nigeria 2
+      - 3.0X 🇹🇳 Tunisia
+      - 1.0X 🇪🇬 Egypt Cairo
+      - 1.0X 🇵🇭 Philippines Manila
+      - 0.5X 🇦🇲 Armenia Vanadzor
+      - 0.5X Vietnam VNPT ISP
+      - 1.5X 🇹🇭 Thailand Bangkok
+      - 1.0X Cambodia Phnom Penh
+      - 0.7X 🇲🇲 Myanmar
+      - 0.8X 🇧🇩 Bangladesh Dhaka
+      - 0.7X 🇱🇦 Laos Vientiane
+      - 1.5X 🇲🇾 Malaysia
+      - 0.5X 🇮🇩 Indonesia Jakarta
+      - 2.0X 🇮🇳 India
+      - 3.0X 🇹🇱 Timor-Leste
+      - 3.0X 🇸🇧 Solomon Islands
+      - 0.5X 🇸🇬 Singapore 1
+      - 0.5X 🇸🇬 Singapore 2
+      - 1.0X 🇸🇬 Singapore 3
+      - 2.0X 🇦🇺 Australia Sydney3
+      - 2.0X 🇲🇴 Macao 1
+      - 2.0X 🇲🇴 Macao 2
+      - 3.0X 🇹🇼 Taiwan 1
+      - 0.5X 🇹🇼 Taiwan
+      - 0.5X 🇹🇼 Hinet Taiwan 2
+      - 5.0X 🇺🇳 Random ISP (Rotate every 12 hours)
   - name: novas
     type: select
     proxies:
@@ -1420,7 +2162,8 @@ proxy-groups:
       - 5.0X 🇨🇳 日志记录 深圳 东亚中转
       - 5.0X 🇨🇳 日志记录 深圳 负载中转
   - name: 🌏其他国家
-    proxies: []
+    proxies:
+      - DIRECT
     type: select
   - name: 🛑 广告拦截
     type: select
