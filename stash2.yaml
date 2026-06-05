@@ -354,6 +354,17 @@ proxies:
     protocol-param: 52086:kq5g2t10il
     obfs-param: download.microsoft.com
     client-fingerprint: chrome
+  - name: 5 测试
+    server: miao.huaqixiao.top
+    port: 1009
+    type: ssr
+    cipher: aes-256-cfb
+    password: HUAHE
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 52086:kq5g2t10il
+    obfs-param: download.microsoft.com
+    client-fingerprint: chrome
   - name: 海外专享-日本6-动态家宽IP适合Claude等ai全解锁-3倍率
     type: ss
     server: softbank88.xzcloudnode.sbs
@@ -431,13 +442,6 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
-  - name: 专线A1-美国9a-CN2GIA中美三网顶级-网页浏览视频-4倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 61067
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
   - name: 专线A1-加拿大1-极纯家宽IP-Claude稳定流媒体全解锁-3倍率
     type: ss
     server: pop.defuzhuanfa.com
@@ -501,10 +505,10 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
-  - name: 专线A1-日本9-三网顶级优化-家宽IP适合AI-Claude等Tiktok数据好银行全解锁-4倍率
+  - name: 专线A1-日本9-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁-4倍率
     type: ss
     server: pop.vxrelay.xyz
-    port: 48315
+    port: 17091
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
@@ -637,7 +641,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 绍兴 南亚中转
     type: vmess
-    server: awssg.wmzcy.com
+    server: awshk.wmzcy.com
     port: 16218
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -653,7 +657,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 绍兴 负载中转
     type: vmess
-    server: global.translink.cc
+    server: global.ednovas.world
     port: 16218
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -669,7 +673,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 湖北 南亚中转
     type: vmess
-    server: awssg.wmzcy.com
+    server: awshk.wmzcy.com
     port: 20037
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -685,7 +689,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 湖北 负载中转
     type: vmess
-    server: global.translink.cc
+    server: global.ednovas.world
     port: 20037
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -701,7 +705,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 厦门 南亚中转
     type: vmess
-    server: awssg.wmzcy.com
+    server: awshk.wmzcy.com
     port: 56280
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -717,40 +721,8 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 厦门 负载中转
     type: vmess
-    server: global.translink.cc
+    server: global.ednovas.world
     port: 56280
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 广州
-    type: vmess
-    server: guangzhou.ednovas.life
-    port: 22222
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 广州 南亚中转
-    type: vmess
-    server: awssg.wmzcy.com
-    port: 56281
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 广州 东亚中转
-    type: vmess
-    server: awsjp2.wmzcy.com
-    port: 56281
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 广州 负载中转
-    type: vmess
-    server: global.translink.cc
-    port: 56281
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
     cipher: auto
@@ -765,7 +737,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 济南 南亚中转
     type: vmess
-    server: awssg.wmzcy.com
+    server: awshk.wmzcy.com
     port: 35853
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -781,8 +753,40 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 济南 负载中转
     type: vmess
-    server: global.translink.cc
+    server: global.ednovas.world
     port: 35853
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 5.0X 🇨🇳 日志记录 北京
+    type: vmess
+    server: beijing.ednovas.life
+    port: 22222
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 5.0X 🇨🇳 日志记录 北京 南亚中转
+    type: vmess
+    server: awshk.wmzcy.com
+    port: 64551
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 5.0X 🇨🇳 日志记录 北京 东亚中转
+    type: vmess
+    server: awsjp2.wmzcy.com
+    port: 64551
+    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 5.0X 🇨🇳 日志记录 北京 负载中转
+    type: vmess
+    server: global.ednovas.world
+    port: 64551
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
     cipher: auto
@@ -797,7 +801,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 上海 南亚中转
     type: vmess
-    server: awssg.wmzcy.com
+    server: awshk.wmzcy.com
     port: 56099
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -813,7 +817,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 上海 负载中转
     type: vmess
-    server: global.translink.cc
+    server: global.ednovas.world
     port: 56099
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -829,7 +833,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 深圳 南亚中转
     type: vmess
-    server: awssg.wmzcy.com
+    server: awshk.wmzcy.com
     port: 56100
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -845,7 +849,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 深圳 负载中转
     type: vmess
-    server: global.translink.cc
+    server: global.ednovas.world
     port: 56100
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -1562,14 +1566,14 @@ proxy-groups:
       - 5.0X 🇨🇳 日志记录 厦门 南亚中转
       - 5.0X 🇨🇳 日志记录 厦门 东亚中转
       - 5.0X 🇨🇳 日志记录 厦门 负载中转
-      - 5.0X 🇨🇳 日志记录 广州
-      - 5.0X 🇨🇳 日志记录 广州 南亚中转
-      - 5.0X 🇨🇳 日志记录 广州 东亚中转
-      - 5.0X 🇨🇳 日志记录 广州 负载中转
       - 5.0X 🇨🇳 日志记录 济南
       - 5.0X 🇨🇳 日志记录 济南 南亚中转
       - 5.0X 🇨🇳 日志记录 济南 东亚中转
       - 5.0X 🇨🇳 日志记录 济南 负载中转
+      - 5.0X 🇨🇳 日志记录 北京
+      - 5.0X 🇨🇳 日志记录 北京 南亚中转
+      - 5.0X 🇨🇳 日志记录 北京 东亚中转
+      - 5.0X 🇨🇳 日志记录 北京 负载中转
       - 5.0X 🇨🇳 日志记录 上海
       - 5.0X 🇨🇳 日志记录 上海 南亚中转
       - 5.0X 🇨🇳 日志记录 上海 东亚中转
@@ -1596,7 +1600,7 @@ proxy-groups:
       - 专线A1-日本5-家宽动态IP视频AI全解锁Tiktok数据好-3倍率
       - 专线A1-日本6-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
       - 专线A1-日本7-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
-      - 专线A1-日本9-三网顶级优化-家宽IP适合AI-Claude等Tiktok数据好银行全解锁-4倍率
+      - 专线A1-日本9-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁-4倍率
       - 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
       - 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
       - 专线A1-美国1-3倍率
@@ -1609,7 +1613,6 @@ proxy-groups:
       - 专线A1-美国7a-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
       - 专线A1-美国8-双ISP家宽IP-适合AI-Claude等-3倍率
       - 专线A1-美国9-双ISP家宽IP-适合AI-Claude等-3倍率
-      - 专线A1-美国9a-CN2GIA中美三网顶级-网页浏览视频-4倍率
       - 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率
       - 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率
       - 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率
@@ -1949,7 +1952,7 @@ proxy-groups:
       - 专线A1-日本5-家宽动态IP视频AI全解锁Tiktok数据好-3倍率
       - 专线A1-日本6-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
       - 专线A1-日本7-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
-      - 专线A1-日本9-三网顶级优化-家宽IP适合AI-Claude等Tiktok数据好银行全解锁-4倍率
+      - 专线A1-日本9-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁-4倍率
       - 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
     type: select
   - name: 🇰🇷韩国测速
@@ -1978,7 +1981,6 @@ proxy-groups:
       - 专线A1-美国7a-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
       - 专线A1-美国8-双ISP家宽IP-适合AI-Claude等-3倍率
       - 专线A1-美国9-双ISP家宽IP-适合AI-Claude等-3倍率
-      - 专线A1-美国9a-CN2GIA中美三网顶级-网页浏览视频-4倍率
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
@@ -2027,14 +2029,14 @@ proxy-groups:
       - 5.0X 🇨🇳 日志记录 厦门 南亚中转
       - 5.0X 🇨🇳 日志记录 厦门 东亚中转
       - 5.0X 🇨🇳 日志记录 厦门 负载中转
-      - 5.0X 🇨🇳 日志记录 广州
-      - 5.0X 🇨🇳 日志记录 广州 南亚中转
-      - 5.0X 🇨🇳 日志记录 广州 东亚中转
-      - 5.0X 🇨🇳 日志记录 广州 负载中转
       - 5.0X 🇨🇳 日志记录 济南
       - 5.0X 🇨🇳 日志记录 济南 南亚中转
       - 5.0X 🇨🇳 日志记录 济南 东亚中转
       - 5.0X 🇨🇳 日志记录 济南 负载中转
+      - 5.0X 🇨🇳 日志记录 北京
+      - 5.0X 🇨🇳 日志记录 北京 南亚中转
+      - 5.0X 🇨🇳 日志记录 北京 东亚中转
+      - 5.0X 🇨🇳 日志记录 北京 负载中转
       - 5.0X 🇨🇳 日志记录 上海
       - 5.0X 🇨🇳 日志记录 上海 南亚中转
       - 5.0X 🇨🇳 日志记录 上海 东亚中转
@@ -2145,14 +2147,14 @@ proxy-groups:
       - 5.0X 🇨🇳 日志记录 厦门 南亚中转
       - 5.0X 🇨🇳 日志记录 厦门 东亚中转
       - 5.0X 🇨🇳 日志记录 厦门 负载中转
-      - 5.0X 🇨🇳 日志记录 广州
-      - 5.0X 🇨🇳 日志记录 广州 南亚中转
-      - 5.0X 🇨🇳 日志记录 广州 东亚中转
-      - 5.0X 🇨🇳 日志记录 广州 负载中转
       - 5.0X 🇨🇳 日志记录 济南
       - 5.0X 🇨🇳 日志记录 济南 南亚中转
       - 5.0X 🇨🇳 日志记录 济南 东亚中转
       - 5.0X 🇨🇳 日志记录 济南 负载中转
+      - 5.0X 🇨🇳 日志记录 北京
+      - 5.0X 🇨🇳 日志记录 北京 南亚中转
+      - 5.0X 🇨🇳 日志记录 北京 东亚中转
+      - 5.0X 🇨🇳 日志记录 北京 负载中转
       - 5.0X 🇨🇳 日志记录 上海
       - 5.0X 🇨🇳 日志记录 上海 南亚中转
       - 5.0X 🇨🇳 日志记录 上海 东亚中转
