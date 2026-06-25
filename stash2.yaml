@@ -178,137 +178,126 @@ proxies:
     server: gw.c1.can.gfw2500.com
     type: vmess
     uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
-  - name: "0地址:  huahe.moe"
-    server: 3larqv13.huaqiduo.xyz
+  - name: "0地址: huahe.moe"
+    server: 2lutb5l2.luochacha.top
     port: 1006
     type: ssr
     cipher: aes-256-cfb
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
   - name: 0邮箱:huahecloud@gmail.com
-    server: 3larqv13.huaqiduo.xyz
+    server: 2lutb5l2.luochacha.top
     port: 1006
     type: ssr
     cipher: aes-256-cfb
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
-  - name: 🇭🇰 2香港
-    server: 3larqv13.huaqiduo.xyz
+  - name: 2香港
+    server: 2lutb5l2.luochacha.top
     port: 1009
     type: ssr
     cipher: aes-256-cfb
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
-  - name: 🇭🇰 2香港 2
-    server: 3larqv13.huaqiduo.xyz
+  - name: 2香港 2
+    server: 2lutb5l2.luochacha.top
     port: 1017
     type: ssr
     cipher: aes-256-cfb
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
-  - name: 3 澳门
-    server: tongyong.huaqida.xyz
-    port: 1020
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
-    client-fingerprint: chrome
-  - name: 🇰🇷 3 韩国
-    server: 3larqv13.huaqiduo.xyz
+  - name: 3 韩国
+    server: 2lutb5l2.luochacha.top
     port: 1010
     type: ssr
     cipher: aes-256-cfb
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
-  - name: 🇨🇳 3台湾
-    server: 3larqv13.huaqiduo.xyz
+  - name: 3台湾
+    server: 2lutb5l2.luochacha.top
     port: 1014
     type: ssr
     cipher: aes-256-cfb
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
-  - name: 🇸🇬 3新加坡
-    server: 3larqv13.huaqiduo.xyz
+  - name: 3新加坡
+    server: 2lutb5l2.luochacha.top
     port: 2027
     type: ssr
     cipher: aes-256-cfb
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
-  - name: 🇯🇵 3日本 1
-    server: 3u2hej43.yuyuhuaa.com
+  - name: 3日本 1
+    server: 22dtgtr2.luochacha.top
     port: 1005
     type: ssr
     cipher: aes-256-cfb
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
-  - name: 🇯🇵 3日本 2
-    server: 3u2hej43.yuyuhuaa.com
+  - name: 3日本 2
+    server: 2lutb5l2.luochacha.top
     port: 1013
     type: ssr
     cipher: aes-256-cfb
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
-  - name: 🇺🇸 3美国
-    server: 3n58z4aus3.huaqiduo.xyz
+  - name: 3美国
+    server: 2qh9t7cus2.luochacha.top
     port: 1012
     type: ssr
     cipher: aes-256-cfb
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
-  - name: 🇺🇸 3美国 2
-    server: 3n58z4aus3.huaqiduo.xyz
+  - name: 3美国 2
+    server: 2qh9t7cus2.luochacha.top
     port: 1002
     type: ssr
     cipher: aes-256-cfb
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
   - name: 🇨🇳 4非大陆专用-台湾
     server: tw.polgade.com
@@ -318,8 +307,8 @@ proxies:
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
   - name: 🇯🇵 4非大陆专用-日本
     server: jp.polgade.com
@@ -329,8 +318,8 @@ proxies:
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
   - name: 🇺🇸 4非大陆专用-美国
     server: us.polgade.com
@@ -340,8 +329,8 @@ proxies:
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
   - name: 🇭🇰 4非大陆专用-香港
     server: hk.polgade.com
@@ -351,27 +340,9 @@ proxies:
     password: HUAHE
     protocol: auth_aes128_md5
     obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
+    protocol-param: 172737:9NvakJxRH8k0KQyo
+    obfs-param: aws.amazon.com
     client-fingerprint: chrome
-  - name: 5 测试
-    server: miao.huaqixiao.top
-    port: 1009
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 52086:kq5g2t10il
-    obfs-param: download.microsoft.com
-    client-fingerprint: chrome
-  - name: 海外专享-日本6-动态家宽IP适合Claude等ai全解锁-3倍率
-    type: ss
-    server: softbank88.xzcloudnode.sbs
-    port: 52412
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
   - name: 专线A1-美国1-3倍率
     type: ss
     server: pop.defuzhuanfa.com
@@ -456,13 +427,6 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
-  - name: 专线A1-日本1-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 22168
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
   - name: 专线A1-日本2-3倍率
     type: ss
     server: pop.defuzhuanfa.com
@@ -505,17 +469,17 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
-  - name: 专线A1-日本9-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁-4倍率
-    type: ss
-    server: pop.vxrelay.xyz
-    port: 17091
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
   - name: 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
     type: ss
     server: pop.defuzhuanfa.com
     port: 15687
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-日本9-4倍率-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+    type: ss
+    server: pop.vxrelay.xyz
+    port: 17091
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
@@ -530,6 +494,13 @@ proxies:
     type: ss
     server: pop.defuzhuanfa.com
     port: 57598
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-新加坡3-3倍率
+    type: ss
+    server: pop.defuzhuanfa.com
+    port: 37923
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
@@ -575,6 +546,13 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
+  - name: 专线A1-荷兰1-3倍率
+    type: ss
+    server: pop.vxrelay.xyz
+    port: 23639
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
   - name: 香港1-A-家宽IP视频优化
     server: hk1-lisa.vxrelay.xyz
     port: 443
@@ -585,10 +563,10 @@ proxies:
     hop-interval: 30
     type: hysteria2
     password: 89d88975-49e7-44f0-a6cb-00084230c229
-  - name: 香港3-A-极纯家宽IP-支持Cityline流媒体全解锁
-    server: hk3-lisa.vxrelay.xyz
+  - name: 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
+    server: hk2-lisa.vxrelay.xyz
     port: 443
-    sni: hk3.vxrelay.xyz
+    sni: hk2-lisa.vxrelay.xyz
     up: null
     down: null
     skip-cert-verify: false
@@ -641,7 +619,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 绍兴 南亚中转
     type: vmess
-    server: awshk.wmzcy.com
+    server: awssg.wmzcy.com
     port: 16218
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -673,7 +651,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 湖北 南亚中转
     type: vmess
-    server: awshk.wmzcy.com
+    server: awssg.wmzcy.com
     port: 20037
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -705,7 +683,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 厦门 南亚中转
     type: vmess
-    server: awshk.wmzcy.com
+    server: awssg.wmzcy.com
     port: 56280
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -737,7 +715,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 济南 南亚中转
     type: vmess
-    server: awshk.wmzcy.com
+    server: awssg.wmzcy.com
     port: 35853
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -769,7 +747,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 北京 南亚中转
     type: vmess
-    server: awshk.wmzcy.com
+    server: awssg.wmzcy.com
     port: 64551
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -801,7 +779,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 上海 南亚中转
     type: vmess
-    server: awshk.wmzcy.com
+    server: awssg.wmzcy.com
     port: 56099
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -833,7 +811,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 深圳 南亚中转
     type: vmess
-    server: awshk.wmzcy.com
+    server: awssg.wmzcy.com
     port: 56100
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -978,14 +956,6 @@ proxies:
   - name: 0.5X 🇸🇪 Sweden Stockholm 2
     type: vmess
     server: heartbeatitsweden.ednovas.org
-    port: 22222
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 0.8X 🇬🇧 United Kingdom Newport
-    type: vmess
-    server: oraclenewportarm.ednovas.net
     port: 22222
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -1487,7 +1457,7 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: 0.5X 🇹🇼 Taiwan
+  - name: 1.0X 🇹🇼 Taiwan
     type: vmess
     server: akiletw.ednovas.org
     port: 22222
@@ -1592,16 +1562,14 @@ proxy-groups:
       - 香港住宅3倍
       - 美国住宅5倍
       - 香港一区[三线] [1.0倍消耗]
-      - 海外专享-日本6-动态家宽IP适合Claude等ai全解锁-3倍率
-      - 专线A1-日本1-3倍率
       - 专线A1-日本2-3倍率
       - 专线A1-日本3-流媒体全解锁3倍率
       - 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率
       - 专线A1-日本5-家宽动态IP视频AI全解锁Tiktok数据好-3倍率
       - 专线A1-日本6-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
       - 专线A1-日本7-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
-      - 专线A1-日本9-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁-4倍率
       - 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本9-4倍率-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
       - 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
       - 专线A1-美国1-3倍率
       - 专线A1-美国2-三网优化3倍率
@@ -1617,7 +1585,7 @@ proxy-groups:
       - 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率
       - 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率
       - 香港1-A-家宽IP视频优化
-      - 香港3-A-极纯家宽IP-支持Cityline流媒体全解锁
+      - 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港1-B
   - name: ♻️ 自动选择
@@ -1928,7 +1896,7 @@ proxy-groups:
       - 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率
       - 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率
       - 香港1-A-家宽IP视频优化
-      - 香港3-A-极纯家宽IP-支持Cityline流媒体全解锁
+      - 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港1-B
     type: select
@@ -1944,16 +1912,14 @@ proxy-groups:
       - 🇯🇵 3日本 1
       - 🇯🇵 3日本 2
       - 🇯🇵 4非大陆专用-日本
-      - 海外专享-日本6-动态家宽IP适合Claude等ai全解锁-3倍率
-      - 专线A1-日本1-3倍率
       - 专线A1-日本2-3倍率
       - 专线A1-日本3-流媒体全解锁3倍率
       - 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率
       - 专线A1-日本5-家宽动态IP视频AI全解锁Tiktok数据好-3倍率
       - 专线A1-日本6-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
       - 专线A1-日本7-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
-      - 专线A1-日本9-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁-4倍率
       - 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本9-4倍率-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
     type: select
   - name: 🇰🇷韩国测速
     proxies:
@@ -2065,7 +2031,6 @@ proxy-groups:
       - 0.2X 🇨🇭 Switzerland Geneva
       - 3.0X 🇸🇲 San Marino
       - 0.5X 🇸🇪 Sweden Stockholm 2
-      - 0.8X 🇬🇧 United Kingdom Newport
       - 0.2X 🇬🇧 United Kingdom London
       - 1.0X 🇮🇪 Ireland Dublin
       - 1.0X 🇩🇰 Denmark Copenhagen
@@ -2128,7 +2093,7 @@ proxy-groups:
       - 2.0X 🇲🇴 Macao 1
       - 2.0X 🇲🇴 Macao 2
       - 3.0X 🇹🇼 Taiwan 1
-      - 0.5X 🇹🇼 Taiwan
+      - 1.0X 🇹🇼 Taiwan
       - 0.5X 🇹🇼 Hinet Taiwan 2
       - 5.0X 🇺🇳 Random ISP (Rotate every 12 hours)
   - name: novas
