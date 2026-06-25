@@ -130,9 +130,9 @@ sniffer:
   override-destination: true
   sniff:
     TLS:
-      ports: [443, 8443]
+      ports: [ 443, 8443 ]
     HTTP:
-      ports: [80, 8080-8880]
+      ports: [ 80, 8080-8880 ]
       override-destination: false
   force-domain:
     - +.v2ex.com
@@ -1538,7 +1538,7 @@ proxy-groups:
       - 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港1-B
       - 0邮箱:huahecloud@gmail.com
-      - '0地址: huahe.moe'
+      - "0地址: huahe.moe"
       - 2香港
       - 2香港 2
       - 3 韩国
@@ -1566,7 +1566,7 @@ proxy-groups:
       - 🇺🇸 4非大陆专用-美国
       - 🇭🇰 4非大陆专用-香港
       - 🇨🇳 4非大陆专用-台湾
-      - '0地址: huahe.moe'
+      - "0地址: huahe.moe"
       - 2香港
       - 2香港 2
       - 3 韩国
@@ -1858,7 +1858,45 @@ proxy-groups:
       - 🇯🇵 日本测速
       - 🇺🇲 美国节点
   - name: 💫其他节点
-    proxies: [🇨🇳 4非大陆专用-台湾, 🇯🇵 4非大陆专用-日本, 🇺🇸 4非大陆专用-美国, 🇭🇰 4非大陆专用-香港, 专线A1-美国1-3倍率, 专线A1-美国2-三网优化3倍率, 专线A1-美国3-三网优化Y2B视频快-3倍率, 专线A1-美国4-家宽IP银行 视频全解锁-3倍率, 专线A1-美国5-家宽ChatGPT流媒体银行全解锁-3倍率, 专线A1-美国6-家宽住宅IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率, 专线A1-美国7-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率, 专线A1-美国7a-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率, 专线A1-美国8-双ISP家宽IP-适合AI-Claude等-3倍率, 专线A1-美国9-双ISP家宽IP-适合AI-Claude等-3倍率, 专线A1-加拿大1-极纯家宽IP-Claude稳定流媒体全解锁-3倍率, 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率, 专线A1-日本2-3倍率, 专线A1-日本3-流媒体全解锁3倍率, 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率, 专线A1-日本5-家宽动态IP视频AI全解锁Tiktok数据好-3倍率, 专线A1-日本6-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率, 专线A1-日本7-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率, 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率, 专线A1-日本9-4倍率-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁, 专线A1-新加坡1-3倍率, 专线A1-新加坡2-3倍率, 专线A1-新加坡3-3倍率, 专线A1-韩国1家宽IP全解锁-3倍率, 专线A1-越南1家宽住宅IP全解锁-3倍率, 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率, 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率, 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率, 专线A1-伦敦3-解锁BBC iPlayer极纯家宽IP流媒体全解锁-3倍率, 专线A1-荷兰1-3倍率, 香港1-A-家宽IP视频优化, 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁, 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁, 香港1-B]
+    proxies:
+      - 🇨🇳 4非大陆专用-台湾
+      - 🇯🇵 4非大陆专用-日本
+      - 🇺🇸 4非大陆专用-美国
+      - 🇭🇰 4非大陆专用-香港
+      - 专线A1-美国1-3倍率
+      - 专线A1-美国2-三网优化3倍率
+      - 专线A1-美国3-三网优化Y2B视频快-3倍率
+      - 专线A1-美国4-家宽IP银行 视频全解锁-3倍率
+      - 专线A1-美国5-家宽ChatGPT流媒体银行全解锁-3倍率
+      - 专线A1-美国6-家宽住宅IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
+      - 专线A1-美国7-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
+      - 专线A1-美国7a-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
+      - 专线A1-美国8-双ISP家宽IP-适合AI-Claude等-3倍率
+      - 专线A1-美国9-双ISP家宽IP-适合AI-Claude等-3倍率
+      - 专线A1-加拿大1-极纯家宽IP-Claude稳定流媒体全解锁-3倍率
+      - 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
+      - 专线A1-日本2-3倍率
+      - 专线A1-日本3-流媒体全解锁3倍率
+      - 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率
+      - 专线A1-日本5-家宽动态IP视频AI全解锁Tiktok数据好-3倍率
+      - 专线A1-日本6-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本7-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本9-4倍率-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - 专线A1-新加坡1-3倍率
+      - 专线A1-新加坡2-3倍率
+      - 专线A1-新加坡3-3倍率
+      - 专线A1-韩国1家宽IP全解锁-3倍率
+      - 专线A1-越南1家宽住宅IP全解锁-3倍率
+      - 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - 专线A1-伦敦3-解锁BBC iPlayer极纯家宽IP流媒体全解锁-3倍率
+      - 专线A1-荷兰1-3倍率
+      - 香港1-A-家宽IP视频优化
+      - 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
+      - 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
+      - 香港1-B
     type: url-test
   - name: 🇭🇰 香港节点
     type: url-test
@@ -1872,6 +1910,7 @@ proxy-groups:
       - 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港1-B
+      - 🇭🇰 4非大陆专用-香港
   - name: 🇭🇰香港选择
     proxies:
       - 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率
@@ -1883,6 +1922,7 @@ proxy-groups:
       - 香港1-B
       - 2香港 2
       - 2香港
+      - 🇭🇰 4非大陆专用-香港
     type: select
   - name: 🇯🇵 日本测速
     type: url-test
@@ -1947,12 +1987,18 @@ proxy-groups:
       - 专线A1-新加坡1-3倍率
       - 专线A1-新加坡2-3倍率
       - 专线A1-新加坡3-3倍率
+      - 0.5X 🇸🇬 Singapore 1
+      - 0.5X 🇸🇬 Singapore 2
+      - 1.0X 🇸🇬 Singapore 3
   - name: 🇰🇵台湾节点
     type: select
     proxies:
       - 🇨🇳 4非大陆专用-台湾
       - 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
       - 3台湾
+      - 3.0X 🇹🇼 Taiwan 1
+      - 1.0X 🇹🇼 Taiwan
+      - 0.5X 🇹🇼 Hinet Taiwan 2
   - name: 🇨🇿泰国节点
     proxies:
       - 1.5X 🇹🇭 Thailand Bangkok
@@ -1960,7 +2006,7 @@ proxy-groups:
   - name: 🔀负载均衡
     proxies:
       - 0邮箱:huahecloud@gmail.com
-      - '0地址: huahe.moe'
+      - "0地址: huahe.moe"
       - 2香港
       - 2香港 2
       - 3 韩国
@@ -2147,7 +2193,7 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-      - '0地址: huahe.moe'
+      - "0地址: huahe.moe"
       - 0邮箱:huahecloud@gmail.com
   - name: 🍎 苹果服务
     type: select
@@ -2165,7 +2211,7 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-      - '0地址: huahe.moe'
+      - "0地址: huahe.moe"
       - 0邮箱:huahecloud@gmail.com
       - 2香港
       - 2香港 2
@@ -2183,7 +2229,7 @@ proxy-groups:
       - 🇺🇸 4非大陆专用-美国
       - 🇭🇰 4非大陆专用-香港
       - 0邮箱:huahecloud@gmail.com
-      - '0地址: huahe.moe'
+      - "0地址: huahe.moe"
       - 2香港
       - 2香港 2
       - 3 韩国
