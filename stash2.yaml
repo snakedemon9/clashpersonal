@@ -3548,11 +3548,11 @@ rules:
   - IP-CIDR,203.75.84.0/24,🎥 Netflix,no-resolve
   - IP-CIDR,207.45.72.0/22,🎥 Netflix,no-resolve
   - IP-CIDR,208.75.76.0/22,🎥 Netflix,no-resolve
-  - DOMAIN,bahamut.akamaized.net,📺 巴哈姆特
-  - DOMAIN,gamer-cds.cdn.hinet.net,📺 巴哈姆特
-  - DOMAIN,gamer2-cds.cdn.hinet.net,📺 巴哈姆特
-  - DOMAIN-SUFFIX,bahamut.com.tw,📺 巴哈姆特
-  - DOMAIN-SUFFIX,gamer.com.tw,📺 巴哈姆特
+  - DOMAIN,bahamut.akamaized.net,🌏 出海媒体
+  - DOMAIN,gamer-cds.cdn.hinet.net,🌏 出海媒体
+  - DOMAIN,gamer2-cds.cdn.hinet.net,🌏 出海媒体
+  - DOMAIN-SUFFIX,bahamut.com.tw,🌏 出海媒体
+  - DOMAIN-SUFFIX,gamer.com.tw,🌏 出海媒体
   - DOMAIN,apiintl.biliapi.net,🌏 国内媒体
   - DOMAIN,upos-hz-mirrorakam.akamaized.net,🌏 国内媒体
   - DOMAIN-SUFFIX,acg.tv,🌏 国内媒体
