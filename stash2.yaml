@@ -180,67 +180,67 @@ proxies:
     uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
   - name: 🇭🇰 香港 01
     type: anytls
-    server: n2nsit.huatls.top
+    server: y4ngxm.huatls.top
     port: 32001
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     client-fingerprint: chrome
     udp: true
-    sni: n2nsit.huatls.top
+    sni: y4ngxm.huatls.top
     alpn:
       - h2
       - http/1.1
     skip-cert-verify: false
   - name: 🇭🇰 香港 02
     type: anytls
-    server: valvzx.huatls.top
+    server: p3elly.huatls.top
     port: 32002
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     client-fingerprint: chrome
     udp: true
-    sni: valvzx.huatls.top
+    sni: p3elly.huatls.top
     alpn:
       - h2
       - http/1.1
     skip-cert-verify: false
   - name: 🇺🇸 美国 01
     type: anytls
-    server: n0nnkf.huatls.top
+    server: jvqp6e.huatls.top
     port: 32003
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     client-fingerprint: chrome
     udp: true
-    sni: n0nnkf.huatls.top
+    sni: jvqp6e.huatls.top
     alpn:
       - h2
       - http/1.1
     skip-cert-verify: false
   - name: 🇯🇵 日本 01
     type: anytls
-    server: xsxwdu.huatls.top
+    server: wp472q.huatls.top
     port: 32004
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     client-fingerprint: chrome
     udp: true
-    sni: xsxwdu.huatls.top
+    sni: wp472q.huatls.top
     alpn:
       - h2
       - http/1.1
     skip-cert-verify: false
   - name: 🇸🇬 新加坡 01
     type: anytls
-    server: w1zfz1.huatls.top
+    server: g2493v.huatls.top
     port: 32005
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     client-fingerprint: chrome
     udp: true
-    sni: w1zfz1.huatls.top
+    sni: g2493v.huatls.top
     alpn:
       - h2
       - http/1.1
     skip-cert-verify: false
   - name: 🇰🇷 韩国 01
     type: vless
-    server: r44q1q.huatls.top
+    server: ivuozo.huatls.top
     port: 32012
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     flow: xtls-rprx-vision
@@ -255,7 +255,7 @@ proxies:
     client-fingerprint: chrome
   - name: 🇺🇸 美国 AI
     type: vless
-    server: cjm0ry.huatls.top
+    server: k0crj0.huatls.top
     port: 32010
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     flow: xtls-rprx-vision
@@ -270,7 +270,7 @@ proxies:
     client-fingerprint: chrome
   - name: 🇯🇵 日本 AI
     type: vless
-    server: pycbov.huatls.top
+    server: ewl1z4.huatls.top
     port: 32011
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     flow: xtls-rprx-vision
@@ -285,11 +285,11 @@ proxies:
     client-fingerprint: chrome
   - name: 🇺🇸 直连 美国 0.1x
     type: tuic
-    server: m1h49p.2zi2js.huatls.top
+    server: g3xuz2.2zi2js.huatls.top
     port: 57003
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    sni: m1h49p.2zi2js.huatls.top
+    sni: g3xuz2.2zi2js.huatls.top
     disable-sni: false
     congestion-controller: bbr
     reduce-rtt: false
@@ -2076,16 +2076,23 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: url-test
     proxies:
-      - 🇺🇸 美国 01
-      - 🇯🇵 日本 01
-      - 🇰🇷 韩国 01
-      - 永久流量
       - 香港一区[三线] [1.0倍消耗]
+      - 香港住宅3倍
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - D香港3v-3倍率-住宅家宽IP解锁NetflixTVB等
+      - D香港2-住宅家宽IP解锁NetflixTVB等-3倍率
+      - D香港4-5倍率CN2顶级优化-住宅家宽IP解锁NetflixTVB等
+      - D香港5v-4倍率-三网优化-网页浏览
+      - 香港1-A-家宽IP视频优化
+      - 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
+      - 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
+      - 香港1-B
   - name: 🇭🇰香港选择
     proxies:
-      - 🇺🇸 美国 01
-      - 🇯🇵 日本 01
-      - 永久流量
       - 香港住宅3倍
       - 香港一区[三线] [1.0倍消耗]
       - 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率
@@ -2099,18 +2106,36 @@ proxy-groups:
       - 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港1-B
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
     type: select
   - name: 🇯🇵 日本测速
     type: url-test
     proxies:
-      - 🇺🇸 直连 美国 0.1x
       - 🇯🇵 日本 AI
       - 🇯🇵 日本 01
+      - 专线A1-日本2-3倍率
+      - 专线A1-日本3-流媒体全解锁3倍率
+      - 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率
+      - 专线A1-日本5-家宽动态IP视频AI全解锁Tiktok数据好-3倍率
+      - 专线A1-日本6-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本7-家宽IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本9-4倍率-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本2-网页视频浏览-1倍率
+      - D日本3v-网页视频浏览-1倍率
+      - D日本4v-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本4-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本5-4倍率-动态家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本6-4倍率动-态家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本7-4.5倍率-家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本8-4倍率动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本9a-4倍率-三网顶级优化-延迟低带宽足
+      - D日本9-4倍率-三网顶级优化动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
     interval: 300
   - name: 🇯🇵日本选择
     proxies:
       - 🇯🇵 日本 AI
-      - 🇺🇸 直连 美国 0.1x
       - 🇯🇵 日本 01
       - 专线A1-日本2-3倍率
       - 专线A1-日本3-流媒体全解锁3倍率
@@ -2133,19 +2158,20 @@ proxy-groups:
     type: select
   - name: 🇰🇷韩国测速
     proxies:
-      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
+      - 专线A1-韩国1家宽IP全解锁-3倍率
+      - D韩国1-家宽住宅IP三网优化-流媒体全解锁TikTok优秀-1倍率
     type: url-test
     interval: 300
   - name: 🇰🇷韩国节点
     proxies:
-      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
+      - 专线A1-韩国1家宽IP全解锁-3倍率
+      - D韩国1-家宽住宅IP三网优化-流媒体全解锁TikTok优秀-1倍率
     type: select
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇸🇬 新加坡 01
       - 美国住宅5倍
       - 专线A1-美国1-3倍率
       - 专线A1-美国2-三网优化3倍率
@@ -2168,17 +2194,30 @@ proxy-groups:
       - D美国8-3倍率-双ISP家宽IP适合AI-Claude等Tiktok数据好银行全解锁
       - D美国9-4倍率-双ISP家宽IP适合AI-Claude等Tiktok数据好银行全解锁
       - D美国9a-4倍率-CN2GIA中美三网顶级-网页浏览视频
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 AI
+      - 🇺🇸 直连 美国 0.1x
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
-      - 🇺🇸 美国 AI
+      - 🇸🇬 新加坡 01
+      - 专线A1-新加坡1-3倍率
+      - 专线A1-新加坡2-3倍率
+      - 专线A1-新加坡3-3倍率
+      - D新加坡1-移动优化-1倍率
+      - D新加坡2v-移动优化-1倍率
+      - D新加坡3-网页视频浏览-1倍率
+      - 0.5X 🇸🇬 Singapore 1
+      - 0.5X 🇸🇬 Singapore 2
+      - 1.0X 🇸🇬 Singapore 3
   - name: 🇰🇵台湾节点
     type: select
     proxies:
-      - 🇰🇷 韩国 01
-      - 🇺🇸 美国 01
       - 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
       - D台湾1-移动优化-流媒体全解锁TikTok优秀-4倍率
+      - 3.0X 🇹🇼 Taiwan 1
+      - 1.0X 🇹🇼 Taiwan
+      - 0.5X 🇹🇼 Hinet Taiwan 2
   - name: 🇨🇿泰国节点
     proxies:
       - 1.5X 🇹🇭 Thailand Bangkok
