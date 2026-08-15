@@ -180,7 +180,7 @@ proxies:
     uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
   - name: 🇰🇷 韩国 01
     type: vless
-    server: sayo7i.huatls.top
+    server: oo4ps6.huatls.top
     port: 32012
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     flow: xtls-rprx-vision
@@ -195,7 +195,7 @@ proxies:
     client-fingerprint: chrome
   - name: 🇺🇸 美国 AI
     type: vless
-    server: mhnbni.huatls.top
+    server: h6cgx6.huatls.top
     port: 32010
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     flow: xtls-rprx-vision
@@ -210,7 +210,7 @@ proxies:
     client-fingerprint: chrome
   - name: 🇯🇵 日本 AI
     type: vless
-    server: pik9o3.huatls.top
+    server: w2y7hz.huatls.top
     port: 32011
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     flow: xtls-rprx-vision
@@ -521,7 +521,7 @@ proxies:
     reality-opts:
       public-key: AhILoJxA86LB54Ogow_fXguB8vtFxBy_qp4fLUcIDm4
       short-id: 7121954f59d050
-    client-fingerprint: edge
+    client-fingerprint: chrome
     network: tcp
   - name: D新加坡2v-移动优化-1倍率
     type: vless
