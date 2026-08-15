@@ -178,170 +178,50 @@ proxies:
     server: gw.c1.can.gfw2500.com
     type: vmess
     uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
-  - name: "0地址: huahe.moe"
-    server: 2lutb5l2.luochacha.top
-    port: 1006
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
+  - name: 🇰🇷 韩国 01
+    type: vless
+    server: sayo7i.huatls.top
+    port: 32012
+    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: deb.debian.org
+    network: tcp
+    reality-opts:
+      public-key: 8RYHy5mKOfDYQ57qvW_JfzVUPYIYpeNo551dwI5j3Q0
+      short-id: ab8531d480d98d47
     client-fingerprint: chrome
-  - name: 0邮箱:huahecloud@gmail.com
-    server: 2lutb5l2.luochacha.top
-    port: 1006
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
+  - name: 🇺🇸 美国 AI
+    type: vless
+    server: mhnbni.huatls.top
+    port: 32010
+    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: deb.debian.org
+    network: tcp
+    reality-opts:
+      public-key: 8RYHy5mKOfDYQ57qvW_JfzVUPYIYpeNo551dwI5j3Q0
+      short-id: ab8531d480d98d47
     client-fingerprint: chrome
-  - name: 2香港
-    server: 2lutb5l2.luochacha.top
-    port: 1009
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
-    client-fingerprint: chrome
-  - name: 2香港 2
-    server: 2lutb5l2.luochacha.top
-    port: 1017
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
-    client-fingerprint: chrome
-  - name: 3 韩国
-    server: 2lutb5l2.luochacha.top
-    port: 1010
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
-    client-fingerprint: chrome
-  - name: 3台湾
-    server: 2lutb5l2.luochacha.top
-    port: 1014
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
-    client-fingerprint: chrome
-  - name: 3新加坡
-    server: 2lutb5l2.luochacha.top
-    port: 2027
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
-    client-fingerprint: chrome
-  - name: 3日本 1
-    server: 22dtgtr2.luochacha.top
-    port: 1005
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
-    client-fingerprint: chrome
-  - name: 3日本 2
-    server: 2lutb5l2.luochacha.top
-    port: 1013
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
-    client-fingerprint: chrome
-  - name: 3美国
-    server: 2qh9t7cus2.luochacha.top
-    port: 1012
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
-    client-fingerprint: chrome
-  - name: 3美国 2
-    server: 2qh9t7cus2.luochacha.top
-    port: 1002
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
-    client-fingerprint: chrome
-  - name: 🇨🇳 4非大陆专用-台湾
-    server: tw.polgade.com
-    port: 1051
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
-    client-fingerprint: chrome
-  - name: 🇯🇵 4非大陆专用-日本
-    server: jp.polgade.com
-    port: 1051
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
-    client-fingerprint: chrome
-  - name: 🇺🇸 4非大陆专用-美国
-    server: us.polgade.com
-    port: 1051
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
-    client-fingerprint: chrome
-  - name: 🇭🇰 4非大陆专用-香港
-    server: hk.polgade.com
-    port: 1051
-    type: ssr
-    cipher: aes-256-cfb
-    password: HUAHE
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 172737:9NvakJxRH8k0KQyo
-    obfs-param: aws.amazon.com
+  - name: 🇯🇵 日本 AI
+    type: vless
+    server: pik9o3.huatls.top
+    port: 32011
+    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: deb.debian.org
+    network: tcp
+    reality-opts:
+      public-key: 8RYHy5mKOfDYQ57qvW_JfzVUPYIYpeNo551dwI5j3Q0
+      short-id: ab8531d480d98d47
     client-fingerprint: chrome
   - name: 专线A1-美国1-3倍率
     type: ss
@@ -378,7 +258,7 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
-  - name: 专线A1-美国6-家宽住宅IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
+  - name: 专线A1-美国6-家宽住宅IP-适合AI-Claude等Tiktok数据好银行全解锁-4倍率
     type: ss
     server: pop.defuzhuanfa.com
     port: 18338
@@ -462,7 +342,7 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
-  - name: 专线A1-日本7-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+  - name: 专线A1-日本7-家宽IP-适合AI-Claude等Tiktok数据好-3倍率
     type: ss
     server: pop.defuzhuanfa.com
     port: 50589
@@ -553,6 +433,150 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
+  - name: D美国4v-双ISP家宽IP-适合AI-Claude等-3倍率
+    type: vless
+    server: us4-lisa.vxrelay.xyz
+    port: 7382
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: MKjZsbTmUgVbr4sglfD-L_9O4dkvoalPMxzZo9lYV20
+      short-id: f9e71729
+    client-fingerprint: chrome
+    network: tcp
+  - name: D美国6v-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
+    type: vless
+    server: us9new-ban-n3.vxrelay.xyz
+    port: 28428
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: ycoUQZ5ap-uYDlVnRYw4AQaGZEnaxPmqg1wrOt86sTM
+      short-id: a518aaa4
+    client-fingerprint: chrome
+    network: tcp
+  - name: D美国7v-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
+    type: vless
+    server: us9new-ban-n3.vxrelay.xyz
+    port: 40342
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: K_kYWfutDYTQp9bqpUpcfeaPLan8b4r0me7JvIzXKQU
+      short-id: b9c8cfd6b3d154
+    client-fingerprint: chrome
+    network: tcp
+  - name: D日本3v-网页视频浏览-1倍率
+    type: vless
+    server: jp3-vul.vxrelay.xyz
+    port: 443
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: VvIYi-NEXNpRPkNt3yVwPsIthVqO6ac8kBjWb_6XGUM
+      short-id: f2745450
+    client-fingerprint: chrome
+    network: tcp
+  - name: D日本4v-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+    type: vless
+    server: jp9-gomm-n2.vxrelay.xyz
+    port: 40607
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: AhILoJxA86LB54Ogow_fXguB8vtFxBy_qp4fLUcIDm4
+      short-id: 7121954f59d050
+    client-fingerprint: edge
+    network: tcp
+  - name: D新加坡2v-移动优化-1倍率
+    type: vless
+    server: sgp1-vul.vxrelay.xyz
+    port: 1723
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: www.lamer.com.sg
+    reality-opts:
+      public-key: Epsrvqaa059PJPjhw22XyvwvtbHceJBCHdABNJqULm4
+      short-id: cd7121d462
+    client-fingerprint: chrome
+    network: tcp
+  - name: D香港3v-3倍率-住宅家宽IP解锁NetflixTVB等
+    type: vless
+    server: hk3-lisa.vxrelay.xyz
+    port: 8443
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: gnB8nWz0Znv3sbMjBgwP11_aoTR7CmF3eVC4VciKEUc
+      short-id: ce0e0bab564e6e7d
+    client-fingerprint: chrome
+    network: tcp
+  - name: D香港5v-4倍率-三网优化-网页浏览
+    type: vless
+    server: hk5-lis.vxrelay.xyz
+    port: 8443
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: B13Tr-QJdrU3pQFsDYXpMZKyOfYL0FHMH9yUafWtXzE
+      short-id: 324b9747
+    client-fingerprint: chrome
+    network: tcp
   - name: 香港1-A-家宽IP视频优化
     server: hk1-lisa.vxrelay.xyz
     port: 443
@@ -619,7 +643,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 绍兴 南亚中转
     type: vmess
-    server: awssg.wmzcy.com
+    server: sgsgsg.wmzcy.com
     port: 16218
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -627,7 +651,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 绍兴 东亚中转
     type: vmess
-    server: awsjp2.wmzcy.com
+    server: jpjpjp.wmzcy.com
     port: 16218
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -635,7 +659,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 绍兴 负载中转
     type: vmess
-    server: global.ednovas.world
+    server: abc.ednovas.cloud
     port: 16218
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -651,7 +675,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 湖北 南亚中转
     type: vmess
-    server: awssg.wmzcy.com
+    server: sgsgsg.wmzcy.com
     port: 20037
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -659,7 +683,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 湖北 东亚中转
     type: vmess
-    server: awsjp2.wmzcy.com
+    server: jpjpjp.wmzcy.com
     port: 20037
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -667,72 +691,8 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 湖北 负载中转
     type: vmess
-    server: global.ednovas.world
+    server: abc.ednovas.cloud
     port: 20037
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 厦门
-    type: vmess
-    server: xiamen.ednovas.life
-    port: 22222
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 厦门 南亚中转
-    type: vmess
-    server: awssg.wmzcy.com
-    port: 56280
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 厦门 东亚中转
-    type: vmess
-    server: awsjp2.wmzcy.com
-    port: 56280
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 厦门 负载中转
-    type: vmess
-    server: global.ednovas.world
-    port: 56280
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 济南
-    type: vmess
-    server: jinan.ednovas.life
-    port: 22222
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 济南 南亚中转
-    type: vmess
-    server: awssg.wmzcy.com
-    port: 35853
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 济南 东亚中转
-    type: vmess
-    server: awsjp2.wmzcy.com
-    port: 35853
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 济南 负载中转
-    type: vmess
-    server: global.ednovas.world
-    port: 35853
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
     cipher: auto
@@ -747,7 +707,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 北京 南亚中转
     type: vmess
-    server: awssg.wmzcy.com
+    server: sgsgsg.wmzcy.com
     port: 64551
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -755,7 +715,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 北京 东亚中转
     type: vmess
-    server: awsjp2.wmzcy.com
+    server: jpjpjp.wmzcy.com
     port: 64551
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -763,7 +723,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 北京 负载中转
     type: vmess
-    server: global.ednovas.world
+    server: abc.ednovas.cloud
     port: 64551
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -779,7 +739,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 上海 南亚中转
     type: vmess
-    server: awssg.wmzcy.com
+    server: sgsgsg.wmzcy.com
     port: 56099
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -787,7 +747,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 上海 东亚中转
     type: vmess
-    server: awsjp2.wmzcy.com
+    server: jpjpjp.wmzcy.com
     port: 56099
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -795,7 +755,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 上海 负载中转
     type: vmess
-    server: global.ednovas.world
+    server: abc.ednovas.cloud
     port: 56099
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -811,7 +771,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 深圳 南亚中转
     type: vmess
-    server: awssg.wmzcy.com
+    server: sgsgsg.wmzcy.com
     port: 56100
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -819,7 +779,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 深圳 东亚中转
     type: vmess
-    server: awsjp2.wmzcy.com
+    server: jpjpjp.wmzcy.com
     port: 56100
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -827,16 +787,8 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 深圳 负载中转
     type: vmess
-    server: global.ednovas.world
+    server: abc.ednovas.cloud
     port: 56100
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 0.8X 🇨🇦 Canada Toronto
-    type: vmess
-    server: gcca.ednovas.org
-    port: 22222
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
     cipher: auto
@@ -1145,9 +1097,9 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: 0.7X 🇹🇷 Turkey Istanbul
+  - name: 0.7X 🇹🇷 Turkey
     type: vmess
-    server: hostigertr.ednovas.net
+    server: brnchosttr.ednovas.org
     port: 22222
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -1508,21 +1460,9 @@ proxy-groups:
   - name: 🚀 手动选择
     type: select
     proxies:
-      - "0地址:  huahe.moe"
-      - 0邮箱:huahecloud@gmail.com
-      - 🇭🇰 2香港
-      - 🇭🇰 2香港 2
-      - 🇰🇷 3 韩国
-      - 🇸🇬 3新加坡
-      - 🇯🇵 3日本 1
-      - 🇯🇵 3日本 2
-      - 🇺🇸 3美国
-      - 🇨🇳 3台湾
-      - 🇺🇸 3美国 2
-      - 🇯🇵 4非大陆专用-日本
-      - 🇺🇸 4非大陆专用-美国
-      - 🇭🇰 4非大陆专用-香港
-      - 🇨🇳 4非大陆专用-台湾
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 AI
+      - 🇺🇸 美国 AI
       - 回国节点超时正常，直接选择连接即可
       - 5.0X 🇨🇳 日志记录 绍兴
       - 5.0X 🇨🇳 日志记录 绍兴 南亚中转
@@ -1532,14 +1472,6 @@ proxy-groups:
       - 5.0X 🇨🇳 日志记录 湖北 南亚中转
       - 5.0X 🇨🇳 日志记录 湖北 东亚中转
       - 5.0X 🇨🇳 日志记录 湖北 负载中转
-      - 5.0X 🇨🇳 日志记录 厦门
-      - 5.0X 🇨🇳 日志记录 厦门 南亚中转
-      - 5.0X 🇨🇳 日志记录 厦门 东亚中转
-      - 5.0X 🇨🇳 日志记录 厦门 负载中转
-      - 5.0X 🇨🇳 日志记录 济南
-      - 5.0X 🇨🇳 日志记录 济南 南亚中转
-      - 5.0X 🇨🇳 日志记录 济南 东亚中转
-      - 5.0X 🇨🇳 日志记录 济南 负载中转
       - 5.0X 🇨🇳 日志记录 北京
       - 5.0X 🇨🇳 日志记录 北京 南亚中转
       - 5.0X 🇨🇳 日志记录 北京 东亚中转
@@ -1567,23 +1499,30 @@ proxy-groups:
       - 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率
       - 专线A1-日本5-家宽动态IP视频AI全解锁Tiktok数据好-3倍率
       - 专线A1-日本6-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
-      - 专线A1-日本7-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本7-家宽IP-适合AI-Claude等Tiktok数据好-3倍率
       - 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
       - 专线A1-日本9-4倍率-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本3v-网页视频浏览-1倍率
+      - D日本4v-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
       - 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
       - 专线A1-美国1-3倍率
       - 专线A1-美国2-三网优化3倍率
       - 专线A1-美国3-三网优化Y2B视频快-3倍率
       - 专线A1-美国4-家宽IP银行 视频全解锁-3倍率
       - 专线A1-美国5-家宽ChatGPT流媒体银行全解锁-3倍率
-      - 专线A1-美国6-家宽住宅IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
+      - 专线A1-美国6-家宽住宅IP-适合AI-Claude等Tiktok数据好银行全解锁-4倍率
       - 专线A1-美国7-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
       - 专线A1-美国7a-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
       - 专线A1-美国8-双ISP家宽IP-适合AI-Claude等-3倍率
       - 专线A1-美国9-双ISP家宽IP-适合AI-Claude等-3倍率
+      - D美国4v-双ISP家宽IP-适合AI-Claude等-3倍率
+      - D美国6v-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D美国7v-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
       - 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率
       - 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率
       - 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - D香港3v-3倍率-住宅家宽IP解锁NetflixTVB等
+      - D香港5v-4倍率-三网优化-网页浏览
       - 香港1-A-家宽IP视频优化
       - 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
@@ -1593,43 +1532,22 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "0地址:  huahe.moe"
-      - 0邮箱:huahecloud@gmail.com
-      - 🇭🇰 2香港
-      - 🇭🇰 2香港 2
-      - 🇰🇷 3 韩国
-      - 🇸🇬 3新加坡
-      - 🇯🇵 3日本 1
-      - 🇯🇵 3日本 2
-      - 🇺🇸 3美国
-      - 🇺🇸 3美国 2
-      - 🇯🇵 4非大陆专用-日本
-      - 🇺🇸 4非大陆专用-美国
-      - 🇭🇰 4非大陆专用-香港
-      - 🇨🇳 3台湾
-      - 🇨🇳 4非大陆专用-台湾
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 AI
+      - 🇺🇸 美国 AI
   - name: 自动选择2⚡️
     proxies:
-      - "0地址:  huahe.moe"
-      - 0邮箱:huahecloud@gmail.com
-      - 🇭🇰 2香港
-      - 🇭🇰 2香港 2
-      - 🇰🇷 3 韩国
-      - 🇨🇳 3台湾
-      - 🇸🇬 3新加坡
-      - 🇯🇵 3日本 1
-      - 🇯🇵 3日本 2
-      - 🇺🇸 3美国 2
-      - 🇺🇸 3美国
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 AI
+      - 🇺🇸 美国 AI
       - 永久流量
       - 香港一区[三线] [1.0倍消耗]
     type: url-test
     interval: 300
   - name: 📍精选测速
     proxies:
-      - 🇰🇷 3 韩国
-      - 🇯🇵 3日本 1
-      - 🇯🇵 3日本 2
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 AI
       - 永久流量
       - 香港一区[三线] [1.0倍消耗]
     type: url-test
@@ -1880,21 +1798,18 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: url-test
     proxies:
-      - 🇭🇰 2香港
-      - 🇭🇰 2香港 2
-      - 🇭🇰 4非大陆专用-香港
       - 永久流量
       - 香港一区[三线] [1.0倍消耗]
   - name: 🇭🇰香港选择
     proxies:
-      - 🇭🇰 2香港
-      - 🇭🇰 2香港 2
       - 永久流量
       - 香港住宅3倍
       - 香港一区[三线] [1.0倍消耗]
       - 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率
       - 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率
       - 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - D香港3v-3倍率-住宅家宽IP解锁NetflixTVB等
+      - D香港5v-4倍率-三网优化-网页浏览
       - 香港1-A-家宽IP视频优化
       - 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
@@ -1903,59 +1818,56 @@ proxy-groups:
   - name: 🇯🇵 日本测速
     type: url-test
     proxies:
-      - 🇯🇵 3日本 2
-      - 🇯🇵 3日本 1
-      - 🇯🇵 4非大陆专用-日本
+      - 🇯🇵 日本 AI
     interval: 300
   - name: 🇯🇵日本选择
     proxies:
-      - 🇯🇵 3日本 1
-      - 🇯🇵 3日本 2
-      - 🇯🇵 4非大陆专用-日本
+      - 🇯🇵 日本 AI
       - 专线A1-日本2-3倍率
       - 专线A1-日本3-流媒体全解锁3倍率
       - 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率
       - 专线A1-日本5-家宽动态IP视频AI全解锁Tiktok数据好-3倍率
       - 专线A1-日本6-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
-      - 专线A1-日本7-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本7-家宽IP-适合AI-Claude等Tiktok数据好-3倍率
       - 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
       - 专线A1-日本9-4倍率-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本3v-网页视频浏览-1倍率
+      - D日本4v-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
     type: select
   - name: 🇰🇷韩国测速
     proxies:
-      - 🇰🇷 3 韩国
+      - 🇰🇷 韩国 01
     type: url-test
     interval: 300
   - name: 🇰🇷韩国节点
     proxies:
-      - 🇰🇷 3 韩国
+      - 🇰🇷 韩国 01
     type: select
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇺🇸 3美国
-      - 🇺🇸 3美国 2
-      - 🇺🇸 4非大陆专用-美国
+      - 🇺🇸 美国 AI
       - 美国住宅5倍
       - 专线A1-美国1-3倍率
       - 专线A1-美国2-三网优化3倍率
       - 专线A1-美国3-三网优化Y2B视频快-3倍率
       - 专线A1-美国4-家宽IP银行 视频全解锁-3倍率
       - 专线A1-美国5-家宽ChatGPT流媒体银行全解锁-3倍率
-      - 专线A1-美国6-家宽住宅IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
+      - 专线A1-美国6-家宽住宅IP-适合AI-Claude等Tiktok数据好银行全解锁-4倍率
       - 专线A1-美国7-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
       - 专线A1-美国7a-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
       - 专线A1-美国8-双ISP家宽IP-适合AI-Claude等-3倍率
       - 专线A1-美国9-双ISP家宽IP-适合AI-Claude等-3倍率
+      - D美国4v-双ISP家宽IP-适合AI-Claude等-3倍率
+      - D美国6v-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D美国7v-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
-      - 🇸🇬 3新加坡
+      - DIRECT
   - name: 🇰🇵台湾节点
     type: select
     proxies:
-      - 🇨🇳 3台湾
-      - 🇨🇳 4非大陆专用-台湾
       - 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
   - name: 🇨🇿泰国节点
     proxies:
@@ -1964,15 +1876,8 @@ proxy-groups:
   - name: 🔀负载均衡
     proxies:
       - 永久流量
-      - 🇭🇰 2香港
-      - 🇭🇰 2香港 2
-      - 🇨🇳 3台湾
-      - 🇯🇵 3日本 1
-      - 🇯🇵 3日本 2
-      - 🇸🇬 3新加坡
-      - "0地址:  huahe.moe"
-      - 0邮箱:huahecloud@gmail.com
-      - 🇰🇷 3 韩国
+      - 🇯🇵 日本 AI
+      - 🇰🇷 韩国 01
     type: load-balance
     interval: 180
     strategy: consistent-hashing
@@ -1982,6 +1887,8 @@ proxy-groups:
     type: select
   - name: 🇨🇳回国节点
     proxies:
+      - 🇯🇵 日本 AI
+      - 🇺🇸 美国 AI
       - 回国节点超时正常，直接选择连接即可
       - 5.0X 🇨🇳 日志记录 绍兴
       - 5.0X 🇨🇳 日志记录 绍兴 南亚中转
@@ -1991,14 +1898,6 @@ proxy-groups:
       - 5.0X 🇨🇳 日志记录 湖北 南亚中转
       - 5.0X 🇨🇳 日志记录 湖北 东亚中转
       - 5.0X 🇨🇳 日志记录 湖北 负载中转
-      - 5.0X 🇨🇳 日志记录 厦门
-      - 5.0X 🇨🇳 日志记录 厦门 南亚中转
-      - 5.0X 🇨🇳 日志记录 厦门 东亚中转
-      - 5.0X 🇨🇳 日志记录 厦门 负载中转
-      - 5.0X 🇨🇳 日志记录 济南
-      - 5.0X 🇨🇳 日志记录 济南 南亚中转
-      - 5.0X 🇨🇳 日志记录 济南 东亚中转
-      - 5.0X 🇨🇳 日志记录 济南 负载中转
       - 5.0X 🇨🇳 日志记录 北京
       - 5.0X 🇨🇳 日志记录 北京 南亚中转
       - 5.0X 🇨🇳 日志记录 北京 东亚中转
@@ -2015,7 +1914,6 @@ proxy-groups:
   - name: novas其他国家
     type: select
     proxies:
-      - 0.8X 🇨🇦 Canada Toronto
       - 0.8X 🇨🇦 Canada 3
       - 3.0X 🇦🇬 Antigua and Barbuda
       - 0.5X 🇨🇷 Costa Rica San Jose
@@ -2054,7 +1952,7 @@ proxy-groups:
       - 0.6X 🇭🇺 Hungary Budapest
       - 0.5X 🇱🇹 Lithuania Vilnius
       - 0.5X 🇮🇱 Israel Roche Ain
-      - 0.7X 🇹🇷 Turkey Istanbul
+      - 0.7X 🇹🇷 Turkey
       - 1.0X 🇲🇩 Moldova Chisinau
       - 1.0 🇵🇱 Poland Warsaw
       - 0.2X 🇪🇪 Estonia Tallinn
@@ -2108,14 +2006,6 @@ proxy-groups:
       - 5.0X 🇨🇳 日志记录 湖北 南亚中转
       - 5.0X 🇨🇳 日志记录 湖北 东亚中转
       - 5.0X 🇨🇳 日志记录 湖北 负载中转
-      - 5.0X 🇨🇳 日志记录 厦门
-      - 5.0X 🇨🇳 日志记录 厦门 南亚中转
-      - 5.0X 🇨🇳 日志记录 厦门 东亚中转
-      - 5.0X 🇨🇳 日志记录 厦门 负载中转
-      - 5.0X 🇨🇳 日志记录 济南
-      - 5.0X 🇨🇳 日志记录 济南 南亚中转
-      - 5.0X 🇨🇳 日志记录 济南 东亚中转
-      - 5.0X 🇨🇳 日志记录 济南 负载中转
       - 5.0X 🇨🇳 日志记录 北京
       - 5.0X 🇨🇳 日志记录 北京 南亚中转
       - 5.0X 🇨🇳 日志记录 北京 东亚中转
@@ -2162,21 +2052,9 @@ proxy-groups:
       - DIRECT
   - name: battle.net
     proxies:
-      - 🇭🇰 2香港 2
-      - "0地址:  huahe.moe"
-      - 0邮箱:huahecloud@gmail.com
-      - 🇭🇰 2香港
-      - 🇰🇷 3 韩国
-      - 🇨🇳 3台湾
-      - 🇸🇬 3新加坡
-      - 🇯🇵 3日本 1
-      - 🇯🇵 3日本 2
-      - 🇺🇸 3美国
-      - 🇺🇸 3美国 2
-      - 🇨🇳 4非大陆专用-台湾
-      - 🇯🇵 4非大陆专用-日本
-      - 🇺🇸 4非大陆专用-美国
-      - 🇭🇰 4非大陆专用-香港
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 AI
+      - 🇺🇸 美国 AI
       - 永久流量
     type: select
 rules:
