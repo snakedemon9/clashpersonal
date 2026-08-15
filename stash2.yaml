@@ -180,7 +180,7 @@ proxies:
     uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
   - name: 🇰🇷 韩国 01
     type: vless
-    server: sayo7i.huatls.top
+    server: nyy357.huatls.top
     port: 32012
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     flow: xtls-rprx-vision
@@ -195,7 +195,7 @@ proxies:
     client-fingerprint: chrome
   - name: 🇺🇸 美国 AI
     type: vless
-    server: mhnbni.huatls.top
+    server: j242ez.huatls.top
     port: 32010
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     flow: xtls-rprx-vision
@@ -210,7 +210,7 @@ proxies:
     client-fingerprint: chrome
   - name: 🇯🇵 日本 AI
     type: vless
-    server: pik9o3.huatls.top
+    server: i9hxk4.huatls.top
     port: 32011
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     flow: xtls-rprx-vision
@@ -521,7 +521,7 @@ proxies:
     reality-opts:
       public-key: AhILoJxA86LB54Ogow_fXguB8vtFxBy_qp4fLUcIDm4
       short-id: 7121954f59d050
-    client-fingerprint: edge
+    client-fingerprint: ios
     network: tcp
   - name: D新加坡2v-移动优化-1倍率
     type: vless
@@ -1798,11 +1798,19 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: url-test
     proxies:
-      - 永久流量
       - 香港一区[三线] [1.0倍消耗]
+      - 香港住宅3倍
+      - 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - D香港3v-3倍率-住宅家宽IP解锁NetflixTVB等
+      - D香港5v-4倍率-三网优化-网页浏览
+      - 香港1-A-家宽IP视频优化
+      - 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
+      - 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
+      - 香港1-B
   - name: 🇭🇰香港选择
     proxies:
-      - 永久流量
       - 香港住宅3倍
       - 香港一区[三线] [1.0倍消耗]
       - 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率
@@ -1819,6 +1827,16 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇯🇵 日本 AI
+      - 专线A1-日本2-3倍率
+      - 专线A1-日本3-流媒体全解锁3倍率
+      - 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率
+      - 专线A1-日本5-家宽动态IP视频AI全解锁Tiktok数据好-3倍率
+      - 专线A1-日本6-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本7-家宽IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本9-4倍率-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本3v-网页视频浏览-1倍率
+      - D日本4v-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
     interval: 300
   - name: 🇯🇵日本选择
     proxies:
@@ -1837,11 +1855,13 @@ proxy-groups:
   - name: 🇰🇷韩国测速
     proxies:
       - 🇰🇷 韩国 01
+      - 专线A1-韩国1家宽IP全解锁-3倍率
     type: url-test
     interval: 300
   - name: 🇰🇷韩国节点
     proxies:
       - 🇰🇷 韩国 01
+      - 专线A1-韩国1家宽IP全解锁-3倍率
     type: select
   - name: 🇺🇲 美国节点
     type: select
@@ -1864,11 +1884,20 @@ proxy-groups:
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
-      - DIRECT
+      - 专线A1-新加坡1-3倍率
+      - 专线A1-新加坡2-3倍率
+      - 专线A1-新加坡3-3倍率
+      - D新加坡2v-移动优化-1倍率
+      - 0.5X 🇸🇬 Singapore 1
+      - 0.5X 🇸🇬 Singapore 2
+      - 1.0X 🇸🇬 Singapore 3
   - name: 🇰🇵台湾节点
     type: select
     proxies:
       - 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
+      - 3.0X 🇹🇼 Taiwan 1
+      - 1.0X 🇹🇼 Taiwan
+      - 0.5X 🇹🇼 Hinet Taiwan 2
   - name: 🇨🇿泰国节点
     proxies:
       - 1.5X 🇹🇭 Thailand Bangkok
