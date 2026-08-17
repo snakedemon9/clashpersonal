@@ -180,67 +180,67 @@ proxies:
     uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
   - name: 🇭🇰 香港 01
     type: anytls
-    server: n2nsit.huatls.top
+    server: a0h3qo.huatls.top
     port: 32001
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     client-fingerprint: chrome
     udp: true
-    sni: n2nsit.huatls.top
+    sni: a0h3qo.huatls.top
     alpn:
       - h2
       - http/1.1
     skip-cert-verify: false
   - name: 🇭🇰 香港 02
     type: anytls
-    server: valvzx.huatls.top
+    server: o971kk.huatls.top
     port: 32002
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     client-fingerprint: chrome
     udp: true
-    sni: valvzx.huatls.top
+    sni: o971kk.huatls.top
     alpn:
       - h2
       - http/1.1
     skip-cert-verify: false
   - name: 🇺🇸 美国 01
     type: anytls
-    server: n0nnkf.huatls.top
+    server: uv72mm.huatls.top
     port: 32003
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     client-fingerprint: chrome
     udp: true
-    sni: n0nnkf.huatls.top
+    sni: uv72mm.huatls.top
     alpn:
       - h2
       - http/1.1
     skip-cert-verify: false
   - name: 🇯🇵 日本 01
     type: anytls
-    server: xsxwdu.huatls.top
+    server: yrz9s8.huatls.top
     port: 32004
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     client-fingerprint: chrome
     udp: true
-    sni: xsxwdu.huatls.top
+    sni: yrz9s8.huatls.top
     alpn:
       - h2
       - http/1.1
     skip-cert-verify: false
   - name: 🇸🇬 新加坡 01
     type: anytls
-    server: w1zfz1.huatls.top
+    server: efns1a.huatls.top
     port: 32005
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     client-fingerprint: chrome
     udp: true
-    sni: w1zfz1.huatls.top
+    sni: efns1a.huatls.top
     alpn:
       - h2
       - http/1.1
     skip-cert-verify: false
   - name: 🇰🇷 韩国 01
     type: vless
-    server: r44q1q.huatls.top
+    server: ddx8io.huatls.top
     port: 32012
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     flow: xtls-rprx-vision
@@ -255,7 +255,7 @@ proxies:
     client-fingerprint: chrome
   - name: 🇺🇸 美国 AI
     type: vless
-    server: cjm0ry.huatls.top
+    server: twevww.huatls.top
     port: 32010
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     flow: xtls-rprx-vision
@@ -270,7 +270,7 @@ proxies:
     client-fingerprint: chrome
   - name: 🇯🇵 日本 AI
     type: vless
-    server: pycbov.huatls.top
+    server: tp5tdn.huatls.top
     port: 32011
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     flow: xtls-rprx-vision
@@ -285,11 +285,11 @@ proxies:
     client-fingerprint: chrome
   - name: 🇺🇸 直连 美国 0.1x
     type: tuic
-    server: m1h49p.2zi2js.huatls.top
+    server: o1ue08.2zi2js.huatls.top
     port: 57003
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    sni: m1h49p.2zi2js.huatls.top
+    sni: o1ue08.2zi2js.huatls.top
     disable-sni: false
     congestion-controller: bbr
     reduce-rtt: false
@@ -656,7 +656,7 @@ proxies:
     reality-opts:
       public-key: AhILoJxA86LB54Ogow_fXguB8vtFxBy_qp4fLUcIDm4
       short-id: 7121954f59d050
-    client-fingerprint: edge
+    client-fingerprint: qq
     network: tcp
   - name: D日本4-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
     type: anytls
@@ -810,6 +810,13 @@ proxies:
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
     sni: vn1.vxrelay.xyz
+  - name: D-伦敦1-YouTube视频带宽足-1倍率
+    type: anytls
+    server: lon1.vxrelay.xyz
+    port: 2533
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: lon3.vxrelay.xyz
   - name: D-荷兰1-YouTube视频带宽足-1倍率
     type: anytls
     server: ams1-dig.data-node.org
@@ -1702,13 +1709,13 @@ proxy-groups:
     proxies:
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
-      - 🇺🇸 美国 01
-      - 🇯🇵 日本 01
-      - 🇸🇬 新加坡 01
-      - 🇺🇸 美国 AI
-      - 🇯🇵 日本 AI
-      - 🇺🇸 直连 美国 0.1x
       - 🇰🇷 韩国 01
+      - 🇸🇬 新加坡 01
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 AI
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 AI
+      - 🇺🇸 直连 美国 0.1x
       - 回国节点超时正常，直接选择连接即可
       - 5.0X 🇨🇳 日志记录 绍兴
       - 5.0X 🇨🇳 日志记录 绍兴 南亚中转
@@ -1799,33 +1806,32 @@ proxy-groups:
     proxies:
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
-      - 🇺🇸 美国 01
-      - 🇯🇵 日本 01
-      - 🇸🇬 新加坡 01
-      - 🇺🇸 美国 AI
-      - 🇯🇵 日本 AI
-      - 🇺🇸 直连 美国 0.1x
       - 🇰🇷 韩国 01
+      - 🇸🇬 新加坡 01
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 AI
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 AI
+      - 🇺🇸 直连 美国 0.1x
   - name: 自动选择2⚡️
     proxies:
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
-      - 🇺🇸 美国 01
-      - 🇯🇵 日本 01
-      - 🇸🇬 新加坡 01
       - 🇰🇷 韩国 01
-      - 🇺🇸 美国 AI
+      - 🇸🇬 新加坡 01
+      - 🇯🇵 日本 01
       - 🇯🇵 日本 AI
-      - 🇺🇸 直连 美国 0.1x
+      - 🇺🇸 美国 AI
+      - 🇺🇸 美国 01
       - 永久流量
       - 香港一区[三线] [1.0倍消耗]
     type: url-test
     interval: 300
   - name: 📍精选测速
     proxies:
-      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 01
       - 🇯🇵 日本 AI
-      - 🇺🇸 直连 美国 0.1x
       - 永久流量
       - 香港一区[三线] [1.0倍消耗]
     type: url-test
@@ -2076,15 +2082,14 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: url-test
     proxies:
-      - 🇺🇸 美国 01
-      - 🇯🇵 日本 01
-      - 🇰🇷 韩国 01
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
       - 永久流量
       - 香港一区[三线] [1.0倍消耗]
   - name: 🇭🇰香港选择
     proxies:
-      - 🇺🇸 美国 01
-      - 🇯🇵 日本 01
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
       - 永久流量
       - 香港住宅3倍
       - 香港一区[三线] [1.0倍消耗]
@@ -2103,15 +2108,13 @@ proxy-groups:
   - name: 🇯🇵 日本测速
     type: url-test
     proxies:
-      - 🇺🇸 直连 美国 0.1x
       - 🇯🇵 日本 AI
       - 🇯🇵 日本 01
     interval: 300
   - name: 🇯🇵日本选择
     proxies:
-      - 🇯🇵 日本 AI
-      - 🇺🇸 直连 美国 0.1x
       - 🇯🇵 日本 01
+      - 🇯🇵 日本 AI
       - 专线A1-日本2-3倍率
       - 专线A1-日本3-流媒体全解锁3倍率
       - 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率
@@ -2133,19 +2136,19 @@ proxy-groups:
     type: select
   - name: 🇰🇷韩国测速
     proxies:
-      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
     type: url-test
     interval: 300
   - name: 🇰🇷韩国节点
     proxies:
-      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
     type: select
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇸🇬 新加坡 01
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 AI
+      - 🇺🇸 直连 美国 0.1x
       - 美国住宅5倍
       - 专线A1-美国1-3倍率
       - 专线A1-美国2-三网优化3倍率
@@ -2171,12 +2174,10 @@ proxy-groups:
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
-      - 🇺🇸 美国 AI
+      - 🇸🇬 新加坡 01
   - name: 🇰🇵台湾节点
     type: select
     proxies:
-      - 🇰🇷 韩国 01
-      - 🇺🇸 美国 01
       - 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
       - D台湾1-移动优化-流媒体全解锁TikTok优秀-4倍率
   - name: 🇨🇿泰国节点
@@ -2186,15 +2187,12 @@ proxy-groups:
   - name: 🔀负载均衡
     proxies:
       - 永久流量
-      - 🇺🇸 美国 01
-      - 🇯🇵 日本 01
-      - 🇰🇷 韩国 01
-      - 🇯🇵 日本 AI
-      - 🇺🇸 直连 美国 0.1x
-      - 🇺🇸 美国 AI
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 AI
       - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
     type: load-balance
     interval: 180
     strategy: consistent-hashing
@@ -2204,10 +2202,6 @@ proxy-groups:
     type: select
   - name: 🇨🇳回国节点
     proxies:
-      - 🇺🇸 美国 01
-      - 🇯🇵 日本 01
-      - 🇸🇬 新加坡 01
-      - 🇰🇷 韩国 01
       - 回国节点超时正常，直接选择连接即可
       - 5.0X 🇨🇳 日志记录 绍兴
       - 5.0X 🇨🇳 日志记录 绍兴 南亚中转
@@ -2371,14 +2365,14 @@ proxy-groups:
       - DIRECT
   - name: battle.net
     proxies:
-      - 🇯🇵 日本 01
-      - 🇭🇰 香港 01
       - 🇭🇰 香港 02
-      - 🇺🇸 美国 01
-      - 🇸🇬 新加坡 01
+      - 🇭🇰 香港 01
       - 🇰🇷 韩国 01
-      - 🇺🇸 美国 AI
+      - 🇸🇬 新加坡 01
+      - 🇯🇵 日本 01
       - 🇯🇵 日本 AI
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 AI
       - 🇺🇸 直连 美国 0.1x
       - 永久流量
     type: select
