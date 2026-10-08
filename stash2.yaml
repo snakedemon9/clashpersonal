@@ -872,14 +872,6 @@ proxies:
       short-id: 41fe56
     client-fingerprint: chrome
     network: tcp
-  - name: 回国节点超时正常，直接选择连接即可
-    type: vmess
-    server: 1.1.1.1
-    port: 443
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
   - name: 5.0X 🇨🇳 日志记录 绍兴
     type: vmess
     server: shaoxing.ednovas.life
@@ -890,7 +882,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 绍兴 南亚中转
     type: vmess
-    server: sgsgsg.wmzcy.com
+    server: sg.nmsl.sb
     port: 16218
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -898,48 +890,8 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 绍兴 东亚中转
     type: vmess
-    server: jpjpjp.wmzcy.com
+    server: jp.nmsl.sb
     port: 16218
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 绍兴 负载中转
-    type: vmess
-    server: abc.ednovas.cloud
-    port: 16218
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 湖北
-    type: vmess
-    server: hubei.ednovas.life
-    port: 22222
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 湖北 南亚中转
-    type: vmess
-    server: sgsgsg.wmzcy.com
-    port: 20037
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 湖北 东亚中转
-    type: vmess
-    server: jpjpjp.wmzcy.com
-    port: 20037
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 湖北 负载中转
-    type: vmess
-    server: abc.ednovas.cloud
-    port: 20037
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
     cipher: auto
@@ -954,7 +906,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 北京 南亚中转
     type: vmess
-    server: sgsgsg.wmzcy.com
+    server: sg.nmsl.sb
     port: 64551
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -962,15 +914,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 北京 东亚中转
     type: vmess
-    server: jpjpjp.wmzcy.com
-    port: 64551
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 北京 负载中转
-    type: vmess
-    server: abc.ednovas.cloud
+    server: jp.nmsl.sb
     port: 64551
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -986,7 +930,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 上海 南亚中转
     type: vmess
-    server: sgsgsg.wmzcy.com
+    server: sg.nmsl.sb
     port: 56099
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -994,15 +938,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 上海 东亚中转
     type: vmess
-    server: jpjpjp.wmzcy.com
-    port: 56099
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 上海 负载中转
-    type: vmess
-    server: abc.ednovas.cloud
+    server: jp.nmsl.sb
     port: 56099
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -1018,7 +954,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 深圳 南亚中转
     type: vmess
-    server: sgsgsg.wmzcy.com
+    server: sg.nmsl.sb
     port: 56100
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -1026,15 +962,7 @@ proxies:
     udp: true
   - name: 5.0X 🇨🇳 日志记录 深圳 东亚中转
     type: vmess
-    server: jpjpjp.wmzcy.com
-    port: 56100
-    uuid: b503be35-6ca2-4cff-994f-825f66acfec2
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: 5.0X 🇨🇳 日志记录 深圳 负载中转
-    type: vmess
-    server: abc.ednovas.cloud
+    server: jp.nmsl.sb
     port: 56100
     uuid: b503be35-6ca2-4cff-994f-825f66acfec2
     alterId: 0
@@ -1716,27 +1644,18 @@ proxy-groups:
       - 🇺🇸 美国 01
       - 🇺🇸 美国 AI
       - 🇺🇸 直连 美国 0.1x
-      - 回国节点超时正常，直接选择连接即可
       - 5.0X 🇨🇳 日志记录 绍兴
       - 5.0X 🇨🇳 日志记录 绍兴 南亚中转
       - 5.0X 🇨🇳 日志记录 绍兴 东亚中转
-      - 5.0X 🇨🇳 日志记录 绍兴 负载中转
-      - 5.0X 🇨🇳 日志记录 湖北
-      - 5.0X 🇨🇳 日志记录 湖北 南亚中转
-      - 5.0X 🇨🇳 日志记录 湖北 东亚中转
-      - 5.0X 🇨🇳 日志记录 湖北 负载中转
       - 5.0X 🇨🇳 日志记录 北京
       - 5.0X 🇨🇳 日志记录 北京 南亚中转
       - 5.0X 🇨🇳 日志记录 北京 东亚中转
-      - 5.0X 🇨🇳 日志记录 北京 负载中转
       - 5.0X 🇨🇳 日志记录 上海
       - 5.0X 🇨🇳 日志记录 上海 南亚中转
       - 5.0X 🇨🇳 日志记录 上海 东亚中转
-      - 5.0X 🇨🇳 日志记录 上海 负载中转
       - 5.0X 🇨🇳 日志记录 深圳
       - 5.0X 🇨🇳 日志记录 深圳 南亚中转
       - 5.0X 🇨🇳 日志记录 深圳 东亚中转
-      - 5.0X 🇨🇳 日志记录 深圳 负载中转
       - 永久流量
       - 🇯🇵 日本测速
       - 🇯🇵日本选择
@@ -2084,13 +2003,23 @@ proxy-groups:
     proxies:
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
-      - 永久流量
       - 香港一区[三线] [1.0倍消耗]
+      - 香港住宅3倍
+      - 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - D香港3v-3倍率-住宅家宽IP解锁NetflixTVB等
+      - D香港2-住宅家宽IP解锁NetflixTVB等-3倍率
+      - D香港4-5倍率CN2顶级优化-住宅家宽IP解锁NetflixTVB等
+      - D香港5v-4倍率-三网优化-网页浏览
+      - 香港1-A-家宽IP视频优化
+      - 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
+      - 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
+      - 香港1-B
   - name: 🇭🇰香港选择
     proxies:
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
-      - 永久流量
       - 香港住宅3倍
       - 香港一区[三线] [1.0倍消耗]
       - 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率
@@ -2110,6 +2039,24 @@ proxy-groups:
     proxies:
       - 🇯🇵 日本 AI
       - 🇯🇵 日本 01
+      - 专线A1-日本2-3倍率
+      - 专线A1-日本3-流媒体全解锁3倍率
+      - 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率
+      - 专线A1-日本5-家宽动态IP视频AI全解锁Tiktok数据好-3倍率
+      - 专线A1-日本6-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本7-家宽IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本9-4倍率-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本2-网页视频浏览-1倍率
+      - D日本3v-网页视频浏览-1倍率
+      - D日本4v-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本4-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本5-4倍率-动态家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本6-4倍率动-态家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本7-4.5倍率-家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本8-4倍率动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本9a-4倍率-三网顶级优化-延迟低带宽足
+      - D日本9-4倍率-三网顶级优化动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
     interval: 300
   - name: 🇯🇵日本选择
     proxies:
@@ -2137,11 +2084,15 @@ proxy-groups:
   - name: 🇰🇷韩国测速
     proxies:
       - 🇰🇷 韩国 01
+      - 专线A1-韩国1家宽IP全解锁-3倍率
+      - D韩国1-家宽住宅IP三网优化-流媒体全解锁TikTok优秀-1倍率
     type: url-test
     interval: 300
   - name: 🇰🇷韩国节点
     proxies:
       - 🇰🇷 韩国 01
+      - 专线A1-韩国1家宽IP全解锁-3倍率
+      - D韩国1-家宽住宅IP三网优化-流媒体全解锁TikTok优秀-1倍率
     type: select
   - name: 🇺🇲 美国节点
     type: select
@@ -2175,11 +2126,23 @@ proxy-groups:
     type: select
     proxies:
       - 🇸🇬 新加坡 01
+      - 专线A1-新加坡1-3倍率
+      - 专线A1-新加坡2-3倍率
+      - 专线A1-新加坡3-3倍率
+      - D新加坡1-移动优化-1倍率
+      - D新加坡2v-移动优化-1倍率
+      - D新加坡3-网页视频浏览-1倍率
+      - 0.5X 🇸🇬 Singapore 1
+      - 0.5X 🇸🇬 Singapore 2
+      - 1.0X 🇸🇬 Singapore 3
   - name: 🇰🇵台湾节点
     type: select
     proxies:
       - 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
       - D台湾1-移动优化-流媒体全解锁TikTok优秀-4倍率
+      - 3.0X 🇹🇼 Taiwan 1
+      - 1.0X 🇹🇼 Taiwan
+      - 0.5X 🇹🇼 Hinet Taiwan 2
   - name: 🇨🇿泰国节点
     proxies:
       - 1.5X 🇹🇭 Thailand Bangkok
@@ -2202,27 +2165,18 @@ proxy-groups:
     type: select
   - name: 🇨🇳回国节点
     proxies:
-      - 回国节点超时正常，直接选择连接即可
       - 5.0X 🇨🇳 日志记录 绍兴
       - 5.0X 🇨🇳 日志记录 绍兴 南亚中转
       - 5.0X 🇨🇳 日志记录 绍兴 东亚中转
-      - 5.0X 🇨🇳 日志记录 绍兴 负载中转
-      - 5.0X 🇨🇳 日志记录 湖北
-      - 5.0X 🇨🇳 日志记录 湖北 南亚中转
-      - 5.0X 🇨🇳 日志记录 湖北 东亚中转
-      - 5.0X 🇨🇳 日志记录 湖北 负载中转
       - 5.0X 🇨🇳 日志记录 北京
       - 5.0X 🇨🇳 日志记录 北京 南亚中转
       - 5.0X 🇨🇳 日志记录 北京 东亚中转
-      - 5.0X 🇨🇳 日志记录 北京 负载中转
       - 5.0X 🇨🇳 日志记录 上海
       - 5.0X 🇨🇳 日志记录 上海 南亚中转
       - 5.0X 🇨🇳 日志记录 上海 东亚中转
-      - 5.0X 🇨🇳 日志记录 上海 负载中转
       - 5.0X 🇨🇳 日志记录 深圳
       - 5.0X 🇨🇳 日志记录 深圳 南亚中转
       - 5.0X 🇨🇳 日志记录 深圳 东亚中转
-      - 5.0X 🇨🇳 日志记录 深圳 负载中转
     type: select
   - name: novas其他国家
     type: select
@@ -2310,27 +2264,18 @@ proxy-groups:
   - name: novas
     type: select
     proxies:
-      - 回国节点超时正常，直接选择连接即可
       - 5.0X 🇨🇳 日志记录 绍兴
       - 5.0X 🇨🇳 日志记录 绍兴 南亚中转
       - 5.0X 🇨🇳 日志记录 绍兴 东亚中转
-      - 5.0X 🇨🇳 日志记录 绍兴 负载中转
-      - 5.0X 🇨🇳 日志记录 湖北
-      - 5.0X 🇨🇳 日志记录 湖北 南亚中转
-      - 5.0X 🇨🇳 日志记录 湖北 东亚中转
-      - 5.0X 🇨🇳 日志记录 湖北 负载中转
       - 5.0X 🇨🇳 日志记录 北京
       - 5.0X 🇨🇳 日志记录 北京 南亚中转
       - 5.0X 🇨🇳 日志记录 北京 东亚中转
-      - 5.0X 🇨🇳 日志记录 北京 负载中转
       - 5.0X 🇨🇳 日志记录 上海
       - 5.0X 🇨🇳 日志记录 上海 南亚中转
       - 5.0X 🇨🇳 日志记录 上海 东亚中转
-      - 5.0X 🇨🇳 日志记录 上海 负载中转
       - 5.0X 🇨🇳 日志记录 深圳
       - 5.0X 🇨🇳 日志记录 深圳 南亚中转
       - 5.0X 🇨🇳 日志记录 深圳 东亚中转
-      - 5.0X 🇨🇳 日志记录 深圳 负载中转
   - name: 🌏其他国家
     proxies:
       - DIRECT
