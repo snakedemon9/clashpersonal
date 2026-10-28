@@ -295,583 +295,6 @@ proxies:
     reduce-rtt: false
     alpn:
       - h3
-  - name: 专线A1-美国1-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 25429
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-美国2-三网优化3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 50155
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-美国3-三网优化Y2B视频快-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 51467
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-美国4-家宽IP银行 视频全解锁-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 56512
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-美国5-家宽ChatGPT流媒体银行全解锁-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 21386
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-美国6-家宽住宅IP-适合AI-Claude等Tiktok数据好银行全解锁-4倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 18338
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-美国7-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 57008
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-美国7a-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 12993
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-美国8-双ISP家宽IP-适合AI-Claude等-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 8135
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-美国9-双ISP家宽IP-适合AI-Claude等-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 31539
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-加拿大1-极纯家宽IP-Claude稳定流媒体全解锁-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 62284
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 13599
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-日本2-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 42721
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-日本3-流媒体全解锁3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 58490
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 8641
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-日本5-家宽动态IP视频AI全解锁Tiktok数据好-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 8291
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-日本6-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 8890
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-日本7-家宽IP-适合AI-Claude等Tiktok数据好-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 50589
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 15687
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-日本9-4倍率-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
-    type: ss
-    server: pop.vxrelay.xyz
-    port: 17091
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-新加坡1-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 35058
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-新加坡2-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 57598
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-新加坡3-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 37923
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-韩国1家宽IP全解锁-3倍率
-    type: ss
-    server: pop.vxrelay.xyz
-    port: 26881
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-越南1家宽住宅IP全解锁-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 24308
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率
-    type: ss
-    server: pop.defuzhuanfa.com
-    port: 27502
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率
-    type: ss
-    server: pop.vxrelay.xyz
-    port: 49642
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率
-    type: ss
-    server: pop.vxrelay.xyz
-    port: 6740
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-伦敦3-解锁BBC iPlayer极纯家宽IP流媒体全解锁-3倍率
-    type: ss
-    server: pop.vxrelay.xyz
-    port: 29110
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: 专线A1-荷兰1-3倍率
-    type: ss
-    server: pop.vxrelay.xyz
-    port: 23639
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: D美国1-网页-视频浏览-2倍率
-    type: anytls
-    server: us1-dig.data-node.org
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us1-dig.data-node.org
-  - name: D美国2-网页-视频浏览-1倍率
-    type: anytls
-    server: us2-dig.data-node.org
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us2.vxrelay.xyz
-  - name: D美国3-网页-视频浏览-1倍率
-    type: anytls
-    server: us3-vul.vxrelay.xyz
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us3.vxrelay.xyz
-  - name: D美国4v-双ISP家宽IP-适合AI-Claude等-3倍率
-    type: vless
-    server: us4-lisa.vxrelay.xyz
-    port: 7382
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: MKjZsbTmUgVbr4sglfD-L_9O4dkvoalPMxzZo9lYV20
-      short-id: f9e71729
-    client-fingerprint: chrome
-    network: tcp
-  - name: D美国5-4倍率-双ISP家宽IP适合AI-Claude等Tiktok数据好银行全解锁
-    type: anytls
-    server: us9new-ban-n3.vxrelay.xyz
-    port: 40778
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us5.vxrelay.xyz
-  - name: D美国6v-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
-    type: vless
-    server: us9new-ban-n3.vxrelay.xyz
-    port: 28428
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: ycoUQZ5ap-uYDlVnRYw4AQaGZEnaxPmqg1wrOt86sTM
-      short-id: a518aaa4
-    client-fingerprint: chrome
-    network: tcp
-  - name: D美国7v-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
-    type: vless
-    server: us9new-ban-n3.vxrelay.xyz
-    port: 40342
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: K_kYWfutDYTQp9bqpUpcfeaPLan8b4r0me7JvIzXKQU
-      short-id: b9c8cfd6b3d154
-    client-fingerprint: chrome
-    network: tcp
-  - name: D美国7a-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
-    type: anytls
-    server: us9new-ban-n3.vxrelay.xyz
-    port: 12076
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us7a.vxrelay.xyz
-  - name: D美国8-3倍率-双ISP家宽IP适合AI-Claude等Tiktok数据好银行全解锁
-    type: anytls
-    server: us8new-lis.vxrelay.xyz
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us8.vxrelay.xyz
-  - name: D美国9-4倍率-双ISP家宽IP适合AI-Claude等Tiktok数据好银行全解锁
-    type: anytls
-    server: us9new-ban-n3.vxrelay.xyz
-    port: 37275
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us9.vxrelay.xyz
-  - name: D美国9a-4倍率-CN2GIA中美三网顶级-网页浏览视频
-    type: anytls
-    server: us9new-ban-n3.vxrelay.xyz
-    port: 2325
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us9.vxrelay.xyz
-  - name: D日本2-网页视频浏览-1倍率
-    type: anytls
-    server: jp2-linode.vxrelay.xyz
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp2.vxrelay.xyz
-  - name: D日本3v-网页视频浏览-1倍率
-    type: vless
-    server: jp3-vul.vxrelay.xyz
-    port: 443
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: VvIYi-NEXNpRPkNt3yVwPsIthVqO6ac8kBjWb_6XGUM
-      short-id: f2745450
-    client-fingerprint: chrome
-    network: tcp
-  - name: D日本4v-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
-    type: vless
-    server: jp9-gomm-n2.vxrelay.xyz
-    port: 40607
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: AhILoJxA86LB54Ogow_fXguB8vtFxBy_qp4fLUcIDm4
-      short-id: 7121954f59d050
-    client-fingerprint: qq
-    network: tcp
-  - name: D日本4-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
-    type: anytls
-    server: jp9-gomm-n2.vxrelay.xyz
-    port: 36177
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp4.vxrelay.xyz
-  - name: D日本5-4倍率-动态家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
-    type: anytls
-    server: jp9-gomm-n2.vxrelay.xyz
-    port: 51109
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp5.vxrelay.xyz
-  - name: D日本6-4倍率动-态家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
-    type: anytls
-    server: jp9-gomm-n2.vxrelay.xyz
-    port: 34045
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp6.vxrelay.xyz
-  - name: D日本7-4.5倍率-家宽IP适合AI-Claude等Tiktok数据好银行全解锁
-    type: anytls
-    server: jp9-gomm-n2.vxrelay.xyz
-    port: 39119
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp7.vxrelay.xyz
-  - name: D日本8-4倍率动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
-    type: anytls
-    server: jp9-gomm-n2.vxrelay.xyz
-    port: 26620
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp8.vxrelay.xyz
-  - name: D日本9a-4倍率-三网顶级优化-延迟低带宽足
-    type: anytls
-    server: jp9-gomm-n2.vxrelay.xyz
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp9.vxrelay.xyz
-  - name: D日本9-4倍率-三网顶级优化动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
-    type: anytls
-    server: jp9-gomm-n2.vxrelay.xyz
-    port: 10991
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp9.vxrelay.xyz
-  - name: D新加坡1-移动优化-1倍率
-    type: anytls
-    server: sgp2-dig.data-node.org
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: sgp1.vxrelay.xyz
-  - name: D新加坡2v-移动优化-1倍率
-    type: vless
-    server: sgp1-vul.vxrelay.xyz
-    port: 1723
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: www.lamer.com.sg
-    reality-opts:
-      public-key: Epsrvqaa059PJPjhw22XyvwvtbHceJBCHdABNJqULm4
-      short-id: cd7121d462
-    client-fingerprint: chrome
-    network: tcp
-  - name: D新加坡3-网页视频浏览-1倍率
-    type: anytls
-    server: sgp3-lin.vxrelay.xyz
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: sgp3.vxrelay.xyz
-  - name: D香港3v-3倍率-住宅家宽IP解锁NetflixTVB等
-    type: vless
-    server: hk3-lisa.vxrelay.xyz
-    port: 8443
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: gnB8nWz0Znv3sbMjBgwP11_aoTR7CmF3eVC4VciKEUc
-      short-id: ce0e0bab564e6e7d
-    client-fingerprint: chrome
-    network: tcp
-  - name: D香港2-住宅家宽IP解锁NetflixTVB等-3倍率
-    type: anytls
-    server: hk2-lisa.vxrelay.xyz
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: hk2-lisa.vxrelay.xyz
-  - name: D香港4-5倍率CN2顶级优化-住宅家宽IP解锁NetflixTVB等
-    type: anytls
-    server: s1-hkcn2-3.vxrelay.xyz
-    port: 18950
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: hk4.vxrelay.xyz
-  - name: D香港5v-4倍率-三网优化-网页浏览
-    type: vless
-    server: hk5-lis.vxrelay.xyz
-    port: 8443
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: B13Tr-QJdrU3pQFsDYXpMZKyOfYL0FHMH9yUafWtXzE
-      short-id: 324b9747
-    client-fingerprint: chrome
-    network: tcp
-  - name: D台湾1-移动优化-流媒体全解锁TikTok优秀-4倍率
-    type: anytls
-    server: jp9-gomm-n2.vxrelay.xyz
-    port: 34318
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: tw1.vxrelay.xyz
-  - name: D韩国1-家宽住宅IP三网优化-流媒体全解锁TikTok优秀-1倍率
-    type: anytls
-    server: kr1-lisa.vxrelay.xyz
-    port: 2523
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: kr1-lisa.vxrelay.xyz
-  - name: D越南1-家宽住宅IP-流媒体全解锁TikTok优秀-1倍率
-    type: anytls
-    server: vn1-lis.vxrelay.xyz
-    port: 2523
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: vn1.vxrelay.xyz
-  - name: D-伦敦1-YouTube视频带宽足-1倍率
-    type: anytls
-    server: lon1.vxrelay.xyz
-    port: 2533
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: lon3.vxrelay.xyz
-  - name: D-荷兰1-YouTube视频带宽足-1倍率
-    type: anytls
-    server: ams1-dig.data-node.org
-    port: 2533
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: ams1-dig.data-node.org
-  - name: 香港1-A-家宽IP视频优化
-    server: hk1-lisa.vxrelay.xyz
-    port: 443
-    sni: hk1-lisa.vxrelay.xyz
-    up: null
-    down: null
-    skip-cert-verify: false
-    hop-interval: 30
-    type: hysteria2
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-  - name: 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
-    server: hk2-lisa.vxrelay.xyz
-    port: 443
-    sni: hk2-lisa.vxrelay.xyz
-    up: null
-    down: null
-    skip-cert-verify: false
-    hop-interval: 30
-    type: hysteria2
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-  - name: 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
-    server: hk4-lisa.vxrelay.xyz
-    port: 443
-    sni: hk4.vxrelay.xyz
-    up: null
-    down: null
-    skip-cert-verify: false
-    hop-interval: 30
-    type: hysteria2
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-  - name: 香港1-B
-    type: vless
-    server: 210.0.244.51
-    port: 443
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: true
-    servername: www.apple.com
-    reality-opts:
-      public-key: SP6vmf1e63Bq4ioIMuXQr5ueD332dXwNjOn1TuhueyE
-      short-id: 41fe56
-    client-fingerprint: chrome
-    network: tcp
   - name: 5.0X 🇨🇳 日志记录 绍兴
     type: vmess
     server: shaoxing.ednovas.life
@@ -1608,6 +1031,705 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
+  - name: 专线A1-美国1-4倍率
+    type: ss
+    server: df.668fx.com
+    port: 25429
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-美国2-三网优化4倍率
+    type: ss
+    server: df.668fx.com
+    port: 50155
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-美国3-三网优化Y2B视频快-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 51467
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-美国4-家宽IP银行 视频全解锁-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 56512
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-美国5-家宽ChatGPT流媒体银行全解锁-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 29988
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-美国6-家宽住宅IP-适合AI-Claude等Tiktok数据好银行全解锁-4倍率
+    type: ss
+    server: df.668fx.com
+    port: 18338
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-美国7-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 57008
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-美国7a-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 12993
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-美国8-双ISP家宽IP-适合AI-Claude等-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 8135
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-美国9-双ISP家宽IP-适合AI-Claude等-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 31539
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-加拿大1-极纯家宽IP-Claude稳定流媒体全解锁-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 62284
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-台湾1-流媒体全解锁TikTok优秀-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 13599
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-台湾2-hinet住宅家宽-全解锁-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 45819
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-日本2-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 42721
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-日本3-流媒体全解锁3倍率
+    type: ss
+    server: df.668fx.com
+    port: 58490
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 8641
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-日本5-家宽动态IP视频AI全解锁Tiktok数据好-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 8291
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-日本6-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 8890
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-日本7-家宽IP-适合AI-Claude等Tiktok数据好-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 50589
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 15687
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-日本9-4倍率-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+    type: ss
+    server: df.668fx.com
+    port: 17091
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-新加坡1-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 35058
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-新加坡2-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 57598
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-新加坡3-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 37923
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-韩国1家宽IP全解锁-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 25997
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-越南1家宽住宅IP全解锁-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 24308
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 27502
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: D香港5-4倍率-三网优化-网页浏览
+    type: anytls
+    server: hk5-lis.vxrelay.xyz
+    port: 1656
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: hk5.vxrelay.xyz
+  - name: 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 49642
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 6740
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-伦敦3-解锁BBC iPlayer极纯家宽IP流媒体全解锁-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 29110
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-荷兰1-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 23639
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-德国1-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 5139
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: 专线A1-菲律宾1-3倍率
+    type: ss
+    server: df.668fx.com
+    port: 55311
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: D美国1-网页-视频浏览-2倍率
+    type: anytls
+    server: us1-dig.data-node.org
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: us1-dig.data-node.org
+  - name: D美国2-网页-视频浏览-1倍率
+    type: anytls
+    server: us2-dig.data-node.org
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: us2.vxrelay.xyz
+  - name: D美国3-网页-视频浏览-1倍率
+    type: anytls
+    server: us3-vul.vxrelay.xyz
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: us3.vxrelay.xyz
+  - name: D美国4v-双ISP家宽IP-适合AI-Claude等-3倍率
+    type: vless
+    server: us4-lisa.vxrelay.xyz
+    port: 7388
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: MKjZsbTmUgVbr4sglfD-L_9O4dkvoalPMxzZo9lYV20
+      short-id: f9e71729
+    client-fingerprint: chrome
+    network: tcp
+  - name: D美国5-4倍率-双ISP家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+    type: anytls
+    server: us9new-ban-n6.vxrelay.xyz
+    port: 40778
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: us5.vxrelay.xyz
+  - name: D美国6v-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
+    type: vless
+    server: us9new-ban-n6.vxrelay.xyz
+    port: 28428
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: ycoUQZ5ap-uYDlVnRYw4AQaGZEnaxPmqg1wrOt86sTM
+      short-id: a518aaa4
+    client-fingerprint: chrome
+    network: tcp
+  - name: D美国7v-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
+    type: vless
+    server: us9new-ban-n4.vxrelay.xyz
+    port: 40342
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: K_kYWfutDYTQp9bqpUpcfeaPLan8b4r0me7JvIzXKQU
+      short-id: b9c8cfd6b3d154
+    client-fingerprint: chrome
+    network: tcp
+  - name: D美国7a-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
+    type: anytls
+    server: us9new-ban-n6.vxrelay.xyz
+    port: 12076
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: us7a.vxrelay.xyz
+  - name: D美国8-3倍率-双ISP家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+    type: anytls
+    server: us8new-lis.vxrelay.xyz
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: us8.vxrelay.xyz
+  - name: D美国9-4倍率-双ISP家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+    type: anytls
+    server: us9new-ban-n6.vxrelay.xyz
+    port: 37275
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: us9.vxrelay.xyz
+  - name: D美国9a-4倍率-CN2GIA中美三网顶级-网页浏览视频
+    type: vless
+    server: us9new-ban-n6.vxrelay.xyz
+    port: 2358
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: jh3OL0Xb_jqlYBKYkI7c0f3T6fsk9BOAVKR22J2EVl4
+      short-id: "2895300545e2"
+    network: tcp
+  - name: D日本2-网页视频浏览-1倍率
+    type: anytls
+    server: jp2-linode.vxrelay.xyz
+    port: 2222
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp2.vxrelay.xyz
+  - name: D日本3v-网页视频浏览-1倍率
+    type: vless
+    server: jp3-vul.vxrelay.xyz
+    port: 443
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: VvIYi-NEXNpRPkNt3yVwPsIthVqO6ac8kBjWb_6XGUM
+      short-id: f2745450
+    client-fingerprint: chrome
+    network: tcp
+  - name: D日本4v-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+    type: vless
+    server: jp9-gomm-n3.vxrelay.xyz
+    port: 40607
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: AhILoJxA86LB54Ogow_fXguB8vtFxBy_qp4fLUcIDm4
+      short-id: 7121954f59d050
+    client-fingerprint: safari
+    network: tcp
+  - name: D日本4-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+    type: anytls
+    server: jp9-gomm-n3.vxrelay.xyz
+    port: 36177
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp4.vxrelay.xyz
+  - name: D日本5-4倍率-动态家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+    type: anytls
+    server: jp9-gomm-n2.vxrelay.xyz
+    port: 51109
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp5.vxrelay.xyz
+  - name: D日本6-4倍率动-态家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+    type: anytls
+    server: jp9-gomm-n3.vxrelay.xyz
+    port: 34045
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp6.vxrelay.xyz
+  - name: D日本7-4.5倍率-家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+    type: anytls
+    server: jp9-gomm-n3.vxrelay.xyz
+    port: 39119
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp7.vxrelay.xyz
+  - name: D日本8-4倍率动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+    type: anytls
+    server: jp9-gomm-n3.vxrelay.xyz
+    port: 26620
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp8.vxrelay.xyz
+  - name: D日本9a-4倍率-三网顶级优化-延迟低带宽足
+    type: anytls
+    server: jp9-gomm-n3.vxrelay.xyz
+    port: 2678
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp9.vxrelay.xyz
+  - name: D日本9-4倍率-三网顶级优化动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+    type: anytls
+    server: jp9-gomm-n3.vxrelay.xyz
+    port: 10991
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp9.vxrelay.xyz
+  - name: D新加坡1-移动优化-4倍率
+    type: anytls
+    server: sgp2-dig.data-node.org
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: sgp1.vxrelay.xyz
+  - name: D新加坡2v-移动优化-1倍率
+    type: vless
+    server: sgp1-vul.vxrelay.xyz
+    port: 1723
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: www.lamer.com.sg
+    reality-opts:
+      public-key: Epsrvqaa059PJPjhw22XyvwvtbHceJBCHdABNJqULm4
+      short-id: cd7121d462
+    client-fingerprint: chrome
+    network: tcp
+  - name: D新加坡3-网页视频浏览-1倍率
+    type: anytls
+    server: sgp3-lin.vxrelay.xyz
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: sgp3.vxrelay.xyz
+  - name: D香港3v-3倍率-住宅家宽IP解锁NetflixTVB等
+    type: vless
+    server: hk3-lisa.vxrelay.xyz
+    port: 8443
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: gnB8nWz0Znv3sbMjBgwP11_aoTR7CmF3eVC4VciKEUc
+      short-id: ce0e0bab564e6e7d
+    client-fingerprint: chrome
+    network: tcp
+  - name: D香港2-住宅家宽IP解锁NetflixTVB等-3倍率
+    type: anytls
+    server: hk2-lisa.vxrelay.xyz
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: hk2-lisa.vxrelay.xyz
+  - name: D香港4-5倍率CN2顶级优化-住宅家宽IP解锁NetflixTVB等
+    type: anytls
+    server: hk4-lisa.vxrelay.xyz
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: hk4.vxrelay.xyz
+  - name: D香港5v-4倍率-三网优化-网页浏览
+    type: vless
+    server: hk5-lis.vxrelay.xyz
+    port: 2074
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: HLzdBxdD3KSFTp2BBdRJ8LWm3cF5MaUUZxqWV07lOHw
+      short-id: 324b9747
+    client-fingerprint: chrome
+    network: tcp
+  - name: D台湾1-移动优化-流媒体全解锁TikTok优秀-4倍率
+    type: anytls
+    server: jp9-gomm-n2.vxrelay.xyz
+    port: 34318
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: tw1.vxrelay.xyz
+  - name: D台湾2v-hinet住宅家宽-全解锁-4倍率
+    type: vless
+    server: jp9-gomm-n2.vxrelay.xyz
+    port: 34318
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: lo_Oq_xCuKeDwua0mPHX8BwKs2qV1WOAA0tWM7Kc5AM
+      short-id: b128c808f36d04
+    client-fingerprint: chrome
+    network: tcp
+  - name: D韩国1-家宽住宅IP三网优化-流媒体全解锁TikTok优秀-1倍率
+    type: anytls
+    server: kr1-lisa.vxrelay.xyz
+    port: 2523
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: kr1-lisa.vxrelay.xyz
+  - name: D越南1-家宽住宅IP-流媒体全解锁TikTok优秀-1倍率
+    type: anytls
+    server: vn1-lis.vxrelay.xyz
+    port: 2523
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: vn1.vxrelay.xyz
+  - name: D-伦敦1-YouTube视频带宽足-1倍率
+    type: anytls
+    server: lon1.vxrelay.xyz
+    port: 2533
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: lon3.vxrelay.xyz
+  - name: D德国1-Ai/流媒体全解锁-跨境电商-2倍率
+    type: anytls
+    server: de1-v2.vxrelay.xyz
+    port: 2222
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: de1.vxrelay.xyz
+  - name: D德国1v-Ai/流媒体全解锁-跨境电商-2倍率
+    type: vless
+    server: de1-v2.vxrelay.xyz
+    port: 3333
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: 4qZD5B75ZxFHmey_OaIPiQIEwVLafRjbowO_m4efeGQ
+      short-id: f612cc003f8b
+    network: tcp
+  - name: D菲律宾1v-Ai/流媒体全解锁-跨境电商-3倍率
+    type: vless
+    server: ph1.vxrelay.xyz
+    port: 2335
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: IlUg8TFm0GtU05D3sp9brgsY4H9scqwSlAk0e1ZlEwQ
+      short-id: 4b966ff1b2f5
+    network: tcp
+  - name: D菲律宾1-Ai/流媒体全解锁-跨境电商-2倍率
+    type: anytls
+    server: ph1.vxrelay.xyz
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: ph1.vxrelay.xyz
+  - name: D荷兰1-YouTube视频带宽足-1倍率
+    type: anytls
+    server: ams1-dig.data-node.org
+    port: 2533
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: ams1-dig.data-node.org
+  - name: 以色列1-B
+    type: vless
+    server: isr1-vul.vxrelay.xyz
+    port: 443
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: www.bing.com
+    reality-opts:
+      public-key: NJ4w-uWI3Ncwc-RS7ZP3a1-2g2KTeSRSbn4t7Z5usA4
+      short-id: 296444e1bd7f2f
+    client-fingerprint: chrome
+    network: tcp
+  - name: 香港1-A-家宽IP视频优化
+    server: hk1-lisa.vxrelay.xyz
+    port: 443
+    sni: hk1-lisa.vxrelay.xyz
+    up: null
+    down: null
+    skip-cert-verify: false
+    hop-interval: 30
+    type: hysteria2
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+  - name: 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
+    server: hk2-lisa.vxrelay.xyz
+    port: 443
+    sni: hk2-lisa.vxrelay.xyz
+    up: null
+    down: null
+    skip-cert-verify: false
+    hop-interval: 30
+    type: hysteria2
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+  - name: 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
+    server: hk4-lisa.vxrelay.xyz
+    port: 443
+    sni: hk4.vxrelay.xyz
+    up: null
+    down: null
+    skip-cert-verify: false
+    hop-interval: 30
+    type: hysteria2
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+  - name: 香港1-B
+    type: vless
+    server: 210.0.244.51
+    port: 443
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: true
+    servername: www.apple.com
+    reality-opts:
+      public-key: SP6vmf1e63Bq4ioIMuXQr5ueD332dXwNjOn1TuhueyE
+      short-id: 41fe56
+    client-fingerprint: chrome
+    network: tcp
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -1684,10 +1806,12 @@ proxy-groups:
       - D日本8-4倍率动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
       - D日本9a-4倍率-三网顶级优化-延迟低带宽足
       - D日本9-4倍率-三网顶级优化动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
-      - 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
+      - 专线A1-台湾1-流媒体全解锁TikTok优秀-3倍率
+      - 专线A1-台湾2-hinet住宅家宽-全解锁-3倍率
       - D台湾1-移动优化-流媒体全解锁TikTok优秀-4倍率
-      - 专线A1-美国1-3倍率
-      - 专线A1-美国2-三网优化3倍率
+      - D台湾2v-hinet住宅家宽-全解锁-4倍率
+      - 专线A1-美国1-4倍率
+      - 专线A1-美国2-三网优化4倍率
       - 专线A1-美国3-三网优化Y2B视频快-3倍率
       - 专线A1-美国4-家宽IP银行 视频全解锁-3倍率
       - 专线A1-美国5-家宽ChatGPT流媒体银行全解锁-3倍率
@@ -2016,6 +2140,7 @@ proxy-groups:
       - 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港1-B
+      - D香港5-4倍率-三网优化-网页浏览
   - name: 🇭🇰香港选择
     proxies:
       - 🇭🇰 香港 01
@@ -2033,6 +2158,7 @@ proxy-groups:
       - 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
       - 香港1-B
+      - D香港5-4倍率-三网优化-网页浏览
     type: select
   - name: 🇯🇵 日本测速
     type: url-test
@@ -2101,8 +2227,8 @@ proxy-groups:
       - 🇺🇸 美国 AI
       - 🇺🇸 直连 美国 0.1x
       - 美国住宅5倍
-      - 专线A1-美国1-3倍率
-      - 专线A1-美国2-三网优化3倍率
+      - 专线A1-美国1-4倍率
+      - 专线A1-美国2-三网优化4倍率
       - 专线A1-美国3-三网优化Y2B视频快-3倍率
       - 专线A1-美国4-家宽IP银行 视频全解锁-3倍率
       - 专线A1-美国5-家宽ChatGPT流媒体银行全解锁-3倍率
@@ -2129,7 +2255,7 @@ proxy-groups:
       - 专线A1-新加坡1-3倍率
       - 专线A1-新加坡2-3倍率
       - 专线A1-新加坡3-3倍率
-      - D新加坡1-移动优化-1倍率
+      - D新加坡1-移动优化-4倍率
       - D新加坡2v-移动优化-1倍率
       - D新加坡3-网页视频浏览-1倍率
       - 0.5X 🇸🇬 Singapore 1
@@ -2138,8 +2264,10 @@ proxy-groups:
   - name: 🇰🇵台湾节点
     type: select
     proxies:
-      - 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率
+      - 专线A1-台湾1-流媒体全解锁TikTok优秀-3倍率
+      - 专线A1-台湾2-hinet住宅家宽-全解锁-3倍率
       - D台湾1-移动优化-流媒体全解锁TikTok优秀-4倍率
+      - D台湾2v-hinet住宅家宽-全解锁-4倍率
       - 3.0X 🇹🇼 Taiwan 1
       - 1.0X 🇹🇼 Taiwan
       - 0.5X 🇹🇼 Hinet Taiwan 2
