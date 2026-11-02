@@ -180,7 +180,7 @@ proxies:
     uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
   - name: 🇭🇰 香港 01
     type: vless
-    server: c5oj1g.huatls.top
+    server: ltnaz0.huatls.top
     port: 31001
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -196,7 +196,7 @@ proxies:
       short-id: b5298981c79a7fc5
   - name: 🇺🇸 美国 01
     type: vless
-    server: vcaa6j.huatls.top
+    server: h59mc1.huatls.top
     port: 31002
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -212,7 +212,7 @@ proxies:
       short-id: f9a74935edc6d437
   - name: 🇺🇸 美国 02
     type: vless
-    server: rpspyr.huatls.top
+    server: pownmt.huatls.top
     port: 32010
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -228,7 +228,7 @@ proxies:
       short-id: ab8531d480d98d47
   - name: 🇯🇵 日本 01
     type: vless
-    server: gesk81.huatls.top
+    server: irwryf.huatls.top
     port: 31003
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -244,7 +244,7 @@ proxies:
       short-id: 3890633dbe322fe3
   - name: 🇯🇵 日本 02
     type: vless
-    server: v01xhi.huatls.top
+    server: ycen26.huatls.top
     port: 32011
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -260,7 +260,7 @@ proxies:
       short-id: ab8531d480d98d47
   - name: 🇸🇬 新加坡 01
     type: vless
-    server: a5mi3o.huatls.top
+    server: bndbou.huatls.top
     port: 31004
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -276,7 +276,7 @@ proxies:
       short-id: aa079ab318ee814d
   - name: 🇰🇷 韩国 01
     type: vless
-    server: g9fmtg.huatls.top
+    server: a2vwg6.huatls.top
     port: 32012
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -292,11 +292,11 @@ proxies:
       short-id: ab8531d480d98d47
   - name: 🇺🇸 直连 美国 01 0.1x
     type: tuic
-    server: j91upt.2zi2js.huatls.top
+    server: c72l6k.2zi2js.huatls.top
     port: 57003
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    sni: j91upt.2zi2js.huatls.top
+    sni: c72l6k.2zi2js.huatls.top
     disable-sni: false
     congestion-controller: bbr
     reduce-rtt: false
@@ -304,11 +304,11 @@ proxies:
       - h3
   - name: 🇯🇵 直连 日本 01 0.1x
     type: tuic
-    server: wy802g.11jps.huatls.top
+    server: qypqy2.11jps.huatls.top
     port: 57003
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    sni: wy802g.11jps.huatls.top
+    sni: qypqy2.11jps.huatls.top
     disable-sni: false
     congestion-controller: bbr
     reduce-rtt: false
@@ -734,7 +734,7 @@ proxies:
     reality-opts:
       public-key: AhILoJxA86LB54Ogow_fXguB8vtFxBy_qp4fLUcIDm4
       short-id: 7121954f59d050
-    client-fingerprint: ios
+    client-fingerprint: edge
     network: tcp
   - name: D日本4-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
     type: anytls
@@ -2419,6 +2419,85 @@ proxy-groups:
       - 5.0X 🇨🇳 日志记录 深圳 东亚中转
       - 5.0X 🇨🇳 日志记录 深圳 香港中转
     type: select
+  - name: vv
+    type: select
+    proxies:
+      - 专线A1-美国1-4倍率
+      - 专线A1-美国2-三网优化4倍率
+      - 专线A1-美国3-三网优化Y2B视频快-3倍率
+      - 专线A1-美国4-家宽IP银行 视频全解锁-3倍率
+      - 专线A1-美国5-家宽ChatGPT流媒体银行全解锁-3倍率
+      - 专线A1-美国6-家宽住宅IP-适合AI-Claude等Tiktok数据好银行全解锁-4倍率
+      - 专线A1-美国7-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
+      - 专线A1-美国7a-家宽静态IP-适合AI-Claude等Tiktok数据好银行全解锁-3倍率
+      - 专线A1-美国8-双ISP家宽IP-适合AI-Claude等-3倍率
+      - 专线A1-美国9-双ISP家宽IP-适合AI-Claude等-3倍率
+      - 专线A1-加拿大1-极纯家宽IP-Claude稳定流媒体全解锁-3倍率
+      - 专线A1-台湾2-hinet住宅家宽-全解锁-3倍率
+      - 专线A1-台湾1-流媒体全解锁TikTok优秀-3倍率
+      - 专线A1-日本2-3倍率
+      - 专线A1-日本3-流媒体全解锁3倍率
+      - 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率
+      - 专线A1-日本5-家宽动态IP视频AI全解锁Tiktok数据好-3倍率
+      - 专线A1-日本6-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本7-家宽IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本8-家宽动态IP-适合AI-Claude等Tiktok数据好-3倍率
+      - 专线A1-日本9-4倍率-动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - 专线A1-新加坡1-3倍率
+      - 专线A1-新加坡2-3倍率
+      - 专线A1-新加坡3-3倍率
+      - 专线A1-韩国1家宽IP全解锁-3倍率
+      - 专线A1-越南1家宽住宅IP全解锁-3倍率
+      - D香港5-4倍率-三网优化-网页浏览
+      - 专线A1-香港2-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率
+      - 专线A1-伦敦3-解锁BBC iPlayer极纯家宽IP流媒体全解锁-3倍率
+      - 专线A1-荷兰1-3倍率
+      - 专线A1-德国1-3倍率
+      - 专线A1-菲律宾1-3倍率
+      - D美国1-网页-视频浏览-2倍率
+      - D美国2-网页-视频浏览-1倍率
+      - D美国3-网页-视频浏览-1倍率
+      - D美国4v-双ISP家宽IP-适合AI-Claude等-3倍率
+      - D美国5-4倍率-双ISP家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D美国6v-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D美国7v-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D美国7a-5倍率-家宽住宅IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D美国8-3倍率-双ISP家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D美国9-4倍率-双ISP家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D美国9a-4倍率-CN2GIA中美三网顶级-网页浏览视频
+      - D日本2-网页视频浏览-1倍率
+      - D日本3v-网页视频浏览-1倍率
+      - D日本4v-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本4-4.5倍率-双ISP家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本5-4倍率-动态家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本6-4倍率动-态家宽IP-适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本7-4.5倍率-家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本8-4倍率动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D日本9a-4倍率-三网顶级优化-延迟低带宽足
+      - D日本9-4倍率-三网顶级优化动态家宽IP适合AI-Claude等Tiktok数据好银行全解锁
+      - D新加坡1-移动优化-4倍率
+      - D新加坡2v-移动优化-1倍率
+      - D新加坡3-网页视频浏览-1倍率
+      - D香港3v-3倍率-住宅家宽IP解锁NetflixTVB等
+      - D香港2-住宅家宽IP解锁NetflixTVB等-3倍率
+      - D香港4-5倍率CN2顶级优化-住宅家宽IP解锁NetflixTVB等
+      - D香港5v-4倍率-三网优化-网页浏览
+      - D台湾1-移动优化-流媒体全解锁TikTok优秀-4倍率
+      - D台湾2v-hinet住宅家宽-全解锁-4倍率
+      - D韩国1-家宽住宅IP三网优化-流媒体全解锁TikTok优秀-1倍率
+      - D越南1-家宽住宅IP-流媒体全解锁TikTok优秀-1倍率
+      - D-伦敦1-YouTube视频带宽足-1倍率
+      - D德国1-Ai/流媒体全解锁-跨境电商-2倍率
+      - D德国1v-Ai/流媒体全解锁-跨境电商-2倍率
+      - D菲律宾1v-Ai/流媒体全解锁-跨境电商-3倍率
+      - D菲律宾1-Ai/流媒体全解锁-跨境电商-2倍率
+      - D荷兰1-YouTube视频带宽足-1倍率
+      - 香港1-A-家宽IP视频优化
+      - 香港2-A-极纯家宽IP-支持Cityline流媒体全解锁
+      - 香港4-A-极纯家宽IP-支持Cityline流媒体全解锁
+      - 香港1-B
   - name: novas其他国家
     type: select
     proxies:
