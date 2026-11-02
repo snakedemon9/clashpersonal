@@ -180,7 +180,7 @@ proxies:
     uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
   - name: 🇭🇰 香港 01
     type: vless
-    server: j37rtn.huatls.top
+    server: dnfb7l.huatls.top
     port: 31001
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -196,7 +196,7 @@ proxies:
       short-id: b5298981c79a7fc5
   - name: 🇺🇸 美国 01
     type: vless
-    server: r8wz8n.huatls.top
+    server: pu5ux2.huatls.top
     port: 31002
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -212,7 +212,7 @@ proxies:
       short-id: f9a74935edc6d437
   - name: 🇺🇸 美国 02
     type: vless
-    server: n28u2n.huatls.top
+    server: eckxzs.huatls.top
     port: 32010
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -228,7 +228,7 @@ proxies:
       short-id: ab8531d480d98d47
   - name: 🇯🇵 日本 01
     type: vless
-    server: mf2zdr.huatls.top
+    server: ek4y4f.huatls.top
     port: 31003
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -244,7 +244,7 @@ proxies:
       short-id: 3890633dbe322fe3
   - name: 🇯🇵 日本 02
     type: vless
-    server: e1fcjs.huatls.top
+    server: ecfe8r.huatls.top
     port: 32011
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -260,7 +260,7 @@ proxies:
       short-id: ab8531d480d98d47
   - name: 🇸🇬 新加坡 01
     type: vless
-    server: bpe0bx.huatls.top
+    server: nggdav.huatls.top
     port: 31004
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -276,7 +276,7 @@ proxies:
       short-id: aa079ab318ee814d
   - name: 🇰🇷 韩国 01
     type: vless
-    server: byth4r.huatls.top
+    server: vebbnc.huatls.top
     port: 32012
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -292,11 +292,11 @@ proxies:
       short-id: ab8531d480d98d47
   - name: 🇺🇸 直连 美国 01 0.1x
     type: tuic
-    server: ibwmec.2zi2js.huatls.top
+    server: tr01y9.2zi2js.huatls.top
     port: 57003
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    sni: ibwmec.2zi2js.huatls.top
+    sni: tr01y9.2zi2js.huatls.top
     disable-sni: false
     congestion-controller: bbr
     reduce-rtt: false
@@ -304,11 +304,11 @@ proxies:
       - h3
   - name: 🇯🇵 直连 日本 01 0.1x
     type: tuic
-    server: egkz9p.11jps.huatls.top
+    server: kbhqt4.11jps.huatls.top
     port: 57003
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    sni: egkz9p.11jps.huatls.top
+    sni: kbhqt4.11jps.huatls.top
     disable-sni: false
     congestion-controller: bbr
     reduce-rtt: false
@@ -734,7 +734,7 @@ proxies:
     reality-opts:
       public-key: AhILoJxA86LB54Ogow_fXguB8vtFxBy_qp4fLUcIDm4
       short-id: 7121954f59d050
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     network: tcp
   - name: VV 4.5x 日本4 AI Claude 家宽 双ISP
     type: anytls
@@ -1841,18 +1841,11 @@ proxy-groups:
       - 🇨🇿泰国节点
       - 📍精选测速
       - vv
+      - Huahe选择
+      - Huahe测速
   - name: 🚀 手动选择
     type: select
     proxies:
-      - 🇭🇰 香港 01
-      - 🇺🇸 美国 01
-      - 🇰🇷 韩国 01
-      - 🇸🇬 新加坡 01
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇺🇸 美国 02
-      - 🇯🇵 直连 日本 01 0.1x
-      - 🇺🇸 直连 美国 01 0.1x
       - 5.0X 🇨🇳 日志记录 绍兴
       - 5.0X 🇨🇳 日志记录 绍兴 南亚中转
       - 5.0X 🇨🇳 日志记录 绍兴 东亚中转
@@ -1938,38 +1931,23 @@ proxy-groups:
       - VV 香港2 家宽
       - VV 香港4 家宽
       - VV 香港1
-      - 🇺🇸 直连 美国 02 0.1x
       - vv
+      - Huahe选择
+      - Huahe测速
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港 01
-      - 🇺🇸 美国 01
-      - 🇰🇷 韩国 01
-      - 🇸🇬 新加坡 01
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇺🇸 美国 02
+      - DIRECT
   - name: 自动选择2⚡️
     proxies:
-      - 🇭🇰 香港 01
-      - 🇺🇸 美国 01
-      - 🇰🇷 韩国 01
-      - 🇸🇬 新加坡 01
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇺🇸 美国 02
       - 永久流量
       - 香港一区[三线] [1.0倍消耗]
     type: url-test
     interval: 300
   - name: 📍精选测速
     proxies:
-      - 🇰🇷 韩国 01
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
       - 永久流量
       - 香港一区[三线] [1.0倍消耗]
     type: url-test
@@ -2248,7 +2226,6 @@ proxy-groups:
       - VV 香港2 家宽
       - VV 香港4 家宽
       - VV 香港1
-      - 🇭🇰 香港 01
   - name: 🇭🇰香港选择
     proxies:
       - 永久流量
@@ -2266,7 +2243,6 @@ proxy-groups:
       - VV 香港2 家宽
       - VV 香港4 家宽
       - VV 香港1
-      - 🇭🇰 香港 01
     type: select
   - name: 🇯🇵 日本测速
     type: url-test
@@ -2289,8 +2265,6 @@ proxy-groups:
       - VV 4x 日本8 AI Claude 家宽
       - VV 4x 日本9a
       - VV 4x 日本9 AI Claude 家宽
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
     interval: 300
   - name: 🇯🇵日本选择
     proxies:
@@ -2312,22 +2286,17 @@ proxy-groups:
       - VV 4x 日本8 AI Claude 家宽
       - VV 4x 日本9a
       - VV 4x 日本9 AI Claude 家宽
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇯🇵 直连 日本 01 0.1x
     type: select
   - name: 🇰🇷韩国测速
     proxies:
       - VV 3x 韩国1 A1 家宽
       - VV 1x 韩国1 家宽
-      - 🇰🇷 韩国 01
     type: url-test
     interval: 300
   - name: 🇰🇷韩国节点
     proxies:
       - VV 3x 韩国1 A1 家宽
       - VV 1x 韩国1 家宽
-      - 🇰🇷 韩国 01
     type: select
   - name: 🇺🇲 美国节点
     type: select
@@ -2354,10 +2323,6 @@ proxy-groups:
       - VV 3x 美国8 AI Claude 家宽 双ISP
       - VV 4x 美国9 AI Claude 家宽 双ISP
       - VV 4x 美国9a
-      - 🇺🇸 美国 01
-      - 🇺🇸 美国 02
-      - 🇺🇸 直连 美国 01 0.1x
-      - 🇺🇸 直连 美国 02 0.1x
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
@@ -2367,7 +2332,6 @@ proxy-groups:
       - VV 4x 新加坡1
       - VV 1x 新加坡2v
       - VV 1x 新加坡3
-      - 🇸🇬 新加坡 01
   - name: 🇰🇵台湾节点
     type: select
     proxies:
@@ -2382,12 +2346,6 @@ proxy-groups:
   - name: 🔀负载均衡
     proxies:
       - 永久流量
-      - 🇭🇰 香港 01
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇸🇬 新加坡 01
-      - 🇺🇸 美国 01
-      - 🇰🇷 韩国 01
     type: load-balance
     interval: 180
     strategy: consistent-hashing
@@ -2639,17 +2597,34 @@ proxy-groups:
       - vv
   - name: battle.net
     proxies:
-      - 🇭🇰 香港 01
-      - 🇺🇸 美国 01
-      - 🇰🇷 韩国 01
-      - 🇸🇬 新加坡 01
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇺🇸 美国 02
-      - 🇯🇵 直连 日本 01 0.1x
-      - 🇺🇸 直连 美国 01 0.1x
       - 永久流量
     type: select
+  - name: Huahe选择
+    type: select
+    proxies:
+      - 🇭🇰 香港 01
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
+      - 🇺🇸 直连 美国 01 0.1x
+      - 🇯🇵 直连 日本 01 0.1x
+      - 🇺🇸 直连 美国 02 0.1x
+  - name: Huahe测速
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 香港 01
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
 rules:
   - DOMAIN-SUFFIX,dss.map.fastly.net,🐼disney
   - DOMAIN-SUFFIX,alphacdn.net,🐼disney
