@@ -180,7 +180,7 @@ proxies:
     uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
   - name: 🇭🇰 香港 01
     type: vless
-    server: dnfb7l.huatls.top
+    server: nns3d6.huatls.top
     port: 31001
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -196,7 +196,7 @@ proxies:
       short-id: b5298981c79a7fc5
   - name: 🇺🇸 美国 01
     type: vless
-    server: pu5ux2.huatls.top
+    server: l3a4ry.huatls.top
     port: 31002
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -212,7 +212,7 @@ proxies:
       short-id: f9a74935edc6d437
   - name: 🇺🇸 美国 02
     type: vless
-    server: eckxzs.huatls.top
+    server: u2lj3w.huatls.top
     port: 32010
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -228,7 +228,7 @@ proxies:
       short-id: ab8531d480d98d47
   - name: 🇯🇵 日本 01
     type: vless
-    server: ek4y4f.huatls.top
+    server: gwwvhm.huatls.top
     port: 31003
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -244,7 +244,7 @@ proxies:
       short-id: 3890633dbe322fe3
   - name: 🇯🇵 日本 02
     type: vless
-    server: ecfe8r.huatls.top
+    server: ervtm9.huatls.top
     port: 32011
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -260,7 +260,7 @@ proxies:
       short-id: ab8531d480d98d47
   - name: 🇸🇬 新加坡 01
     type: vless
-    server: nggdav.huatls.top
+    server: tlnnu1.huatls.top
     port: 31004
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -276,7 +276,7 @@ proxies:
       short-id: aa079ab318ee814d
   - name: 🇰🇷 韩国 01
     type: vless
-    server: vebbnc.huatls.top
+    server: d0mkur.huatls.top
     port: 32012
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -292,11 +292,11 @@ proxies:
       short-id: ab8531d480d98d47
   - name: 🇺🇸 直连 美国 01 0.1x
     type: tuic
-    server: tr01y9.2zi2js.huatls.top
+    server: ay19gp.2zi2js.huatls.top
     port: 57003
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    sni: tr01y9.2zi2js.huatls.top
+    sni: ay19gp.2zi2js.huatls.top
     disable-sni: false
     congestion-controller: bbr
     reduce-rtt: false
@@ -304,11 +304,11 @@ proxies:
       - h3
   - name: 🇯🇵 直连 日本 01 0.1x
     type: tuic
-    server: kbhqt4.11jps.huatls.top
+    server: pilxtv.11jps.huatls.top
     port: 57003
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    sni: kbhqt4.11jps.huatls.top
+    sni: pilxtv.11jps.huatls.top
     disable-sni: false
     congestion-controller: bbr
     reduce-rtt: false
@@ -734,7 +734,7 @@ proxies:
     reality-opts:
       public-key: AhILoJxA86LB54Ogow_fXguB8vtFxBy_qp4fLUcIDm4
       short-id: 7121954f59d050
-    client-fingerprint: chrome
+    client-fingerprint: edge
     network: tcp
   - name: VV 4.5x 日本4 AI Claude 家宽 双ISP
     type: anytls
@@ -1843,6 +1843,8 @@ proxy-groups:
       - vv
       - Huahe选择
       - Huahe测速
+      - novas其他国家
+      - novas
   - name: 🚀 手动选择
     type: select
     proxies:
@@ -1934,6 +1936,20 @@ proxy-groups:
       - vv
       - Huahe选择
       - Huahe测速
+      - ♻️ 自动选择
+      - 自动选择2⚡️
+      - 📍精选测速
+      - 💫其他节点
+      - 🇭🇰 香港节点
+      - 🇭🇰香港选择
+      - 🇺🇲 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇰🇵台湾节点
+      - 🇨🇿泰国节点
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - 🌏其他国家
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -1974,6 +1990,15 @@ proxy-groups:
       - 永久流量
       - 香港住宅3倍
       - vv
+      - 🇭🇰香港选择
+      - 🇯🇵日本选择
+      - 🇰🇷韩国测速
+      - 🇨🇿泰国节点
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - Huahe选择
+      - Huahe测速
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -1996,6 +2021,13 @@ proxy-groups:
       - 🇯🇵日本选择
       - 🇰🇷韩国测速
       - vv
+      - 🇨🇿泰国节点
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
   - name: 🤖 ChatGPT
     type: select
     proxies:
@@ -2023,6 +2055,11 @@ proxy-groups:
       - 香港住宅3倍
       - 美国住宅5倍
       - vv
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - Huahe选择
+      - Huahe测速
   - name: 📹 Youtube
     type: select
     proxies:
@@ -2046,6 +2083,13 @@ proxy-groups:
       - 🔀负载均衡
       - 📍精选测速
       - vv
+      - 🇨🇿泰国节点
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
   - name: 🎥 Netflix
     type: select
     proxies:
@@ -2070,6 +2114,13 @@ proxy-groups:
       - 💫其他节点
       - 🐟 其他网站
       - vv
+      - 📍精选测速
+      - 🇨🇿泰国节点
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - Huahe选择
+      - Huahe测速
   - name: 🐼disney
     proxies:
       - 🚀 全局设置
@@ -2094,6 +2145,16 @@ proxy-groups:
       - DIRECT
       - REJECT
       - vv
+      - 💫其他节点
+      - 🇨🇿泰国节点
+      - 🔀负载均衡
+      - 🍀huaheban
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
     type: select
   - name: 🐟 其他网站
     type: select
@@ -2114,6 +2175,16 @@ proxy-groups:
       - 🇰🇷韩国节点
       - 🇰🇷韩国测速
       - vv
+      - 自动选择2⚡️
+      - 📍精选测速
+      - 💫其他节点
+      - 🔀负载均衡
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -2130,6 +2201,19 @@ proxy-groups:
       - DIRECT
       - 🔀负载均衡
       - vv
+      - 📍精选测速
+      - 💫其他节点
+      - 🇭🇰香港选择
+      - 🇯🇵日本选择
+      - 🇰🇷韩国测速
+      - 🇨🇿泰国节点
+      - 🍀huaheban
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -2140,6 +2224,24 @@ proxy-groups:
       - 🇯🇵 日本测速
       - 🚀 手动选择
       - vv
+      - ♻️ 自动选择
+      - 自动选择2⚡️
+      - 📍精选测速
+      - 💫其他节点
+      - 🇭🇰香港选择
+      - 🇯🇵日本选择
+      - 🇰🇷韩国测速
+      - 🇰🇷韩国节点
+      - 🇺🇲 美国节点
+      - 🇨🇿泰国节点
+      - 🔀负载均衡
+      - 🍀huaheban
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
   - name: 🌏 出海媒体
     type: select
     proxies:
@@ -2151,6 +2253,23 @@ proxy-groups:
       - 🚀 手动选择
       - 🇰🇷韩国节点
       - vv
+      - ♻️ 自动选择
+      - 自动选择2⚡️
+      - 📍精选测速
+      - 💫其他节点
+      - 🇭🇰香港选择
+      - 🇯🇵日本选择
+      - 🇰🇷韩国测速
+      - 🇺🇲 美国节点
+      - 🇨🇿泰国节点
+      - 🔀负载均衡
+      - 🍀huaheban
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -2164,6 +2283,22 @@ proxy-groups:
       - DIRECT
       - 🇰🇷韩国节点
       - vv
+      - ♻️ 自动选择
+      - 自动选择2⚡️
+      - 📍精选测速
+      - 💫其他节点
+      - 🇭🇰香港选择
+      - 🇯🇵日本选择
+      - 🇰🇷韩国测速
+      - 🇨🇿泰国节点
+      - 🔀负载均衡
+      - 🍀huaheban
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
   - name: 🎮 国际游戏
     type: select
     proxies:
@@ -2177,6 +2312,22 @@ proxy-groups:
       - DIRECT
       - 🇰🇷韩国节点
       - vv
+      - ♻️ 自动选择
+      - 自动选择2⚡️
+      - 📍精选测速
+      - 💫其他节点
+      - 🇭🇰香港选择
+      - 🇯🇵日本选择
+      - 🇰🇷韩国测速
+      - 🇨🇿泰国节点
+      - 🔀负载均衡
+      - 🍀huaheban
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
   - name: 🎶 网易音乐
     type: select
     proxies:
@@ -2190,6 +2341,24 @@ proxy-groups:
       - 🍀huaheban
       - 🌏其他国家
       - vv
+      - 自动选择2⚡️
+      - 📍精选测速
+      - 🇭🇰 香港节点
+      - 🇭🇰香港选择
+      - 🇯🇵 日本测速
+      - 🇯🇵日本选择
+      - 🇰🇷韩国测速
+      - 🇰🇷韩国节点
+      - 🇺🇲 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇰🇵台湾节点
+      - 🇨🇿泰国节点
+      - 🔀负载均衡
+      - novas其他国家
+      - novas
+      - Huahe选择
+      - Huahe测速
+      - 🚀 手动选择
   - name: 🎯 国内网络
     type: select
     proxies:
@@ -2202,6 +2371,23 @@ proxy-groups:
       - 🇯🇵 日本测速
       - 🇺🇲 美国节点
       - vv
+      - 自动选择2⚡️
+      - 📍精选测速
+      - 💫其他节点
+      - 🇭🇰香港选择
+      - 🇯🇵日本选择
+      - 🇰🇷韩国测速
+      - 🇸🇬 新加坡节点
+      - 🇰🇵台湾节点
+      - 🇨🇿泰国节点
+      - 🔀负载均衡
+      - 🍀huaheban
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
   - name: 💫其他节点
     proxies:
       - 永久流量
@@ -2570,6 +2756,29 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
+      - ♻️ 自动选择
+      - 自动选择2⚡️
+      - 📍精选测速
+      - 💫其他节点
+      - 🇭🇰 香港节点
+      - 🇭🇰香港选择
+      - 🇯🇵 日本测速
+      - 🇯🇵日本选择
+      - 🇰🇷韩国测速
+      - 🇰🇷韩国节点
+      - 🇺🇲 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇰🇵台湾节点
+      - 🇨🇿泰国节点
+      - 🔀负载均衡
+      - 🍀huaheban
+      - 🇨🇳回国节点
+      - vv
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -2582,11 +2791,51 @@ proxy-groups:
       - 🚀 手动选择
       - DIRECT
       - vv
+      - ♻️ 自动选择
+      - 自动选择2⚡️
+      - 📍精选测速
+      - 💫其他节点
+      - 🇭🇰香港选择
+      - 🇯🇵日本选择
+      - 🇰🇷韩国测速
+      - 🇰🇷韩国节点
+      - 🇨🇿泰国节点
+      - 🔀负载均衡
+      - 🍀huaheban
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
   - name: 🍃 应用净化
     type: select
     proxies:
       - REJECT
       - DIRECT
+      - ♻️ 自动选择
+      - 自动选择2⚡️
+      - 📍精选测速
+      - 💫其他节点
+      - 🇭🇰 香港节点
+      - 🇭🇰香港选择
+      - 🇯🇵 日本测速
+      - 🇯🇵日本选择
+      - 🇰🇷韩国测速
+      - 🇰🇷韩国节点
+      - 🇺🇲 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇰🇵台湾节点
+      - 🇨🇿泰国节点
+      - 🔀负载均衡
+      - 🍀huaheban
+      - 🇨🇳回国节点
+      - vv
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
   - name: 📺 巴哈姆特
     type: select
     proxies:
@@ -2595,9 +2844,54 @@ proxy-groups:
       - 🚀 手动选择
       - DIRECT
       - vv
+      - ♻️ 自动选择
+      - 自动选择2⚡️
+      - 📍精选测速
+      - 💫其他节点
+      - 🇭🇰 香港节点
+      - 🇭🇰香港选择
+      - 🇯🇵 日本测速
+      - 🇯🇵日本选择
+      - 🇰🇷韩国测速
+      - 🇰🇷韩国节点
+      - 🇺🇲 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇨🇿泰国节点
+      - 🔀负载均衡
+      - 🍀huaheban
+      - 🇨🇳回国节点
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
   - name: battle.net
     proxies:
       - 永久流量
+      - ♻️ 自动选择
+      - 自动选择2⚡️
+      - 📍精选测速
+      - 💫其他节点
+      - 🇭🇰 香港节点
+      - 🇭🇰香港选择
+      - 🇯🇵 日本测速
+      - 🇯🇵日本选择
+      - 🇰🇷韩国测速
+      - 🇰🇷韩国节点
+      - 🇺🇲 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇰🇵台湾节点
+      - 🇨🇿泰国节点
+      - 🔀负载均衡
+      - 🍀huaheban
+      - 🇨🇳回国节点
+      - vv
+      - novas其他国家
+      - novas
+      - 🌏其他国家
+      - Huahe选择
+      - Huahe测速
+      - 🚀 手动选择
     type: select
   - name: Huahe选择
     type: select
