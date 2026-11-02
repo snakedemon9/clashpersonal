@@ -180,7 +180,7 @@ proxies:
     uuid: 8c1df59e-5c6f-4933-aa08-8a1610667f5b
   - name: 🇭🇰 香港 01
     type: vless
-    server: dnfb7l.huatls.top
+    server: e14zdt.huatls.top
     port: 31001
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -196,7 +196,7 @@ proxies:
       short-id: b5298981c79a7fc5
   - name: 🇺🇸 美国 01
     type: vless
-    server: pu5ux2.huatls.top
+    server: wj3klc.huatls.top
     port: 31002
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -212,7 +212,7 @@ proxies:
       short-id: f9a74935edc6d437
   - name: 🇺🇸 美国 02
     type: vless
-    server: eckxzs.huatls.top
+    server: bxplgw.huatls.top
     port: 32010
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -228,7 +228,7 @@ proxies:
       short-id: ab8531d480d98d47
   - name: 🇯🇵 日本 01
     type: vless
-    server: ek4y4f.huatls.top
+    server: yrgzhu.huatls.top
     port: 31003
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -244,7 +244,7 @@ proxies:
       short-id: 3890633dbe322fe3
   - name: 🇯🇵 日本 02
     type: vless
-    server: ecfe8r.huatls.top
+    server: hltfhe.huatls.top
     port: 32011
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -260,7 +260,7 @@ proxies:
       short-id: ab8531d480d98d47
   - name: 🇸🇬 新加坡 01
     type: vless
-    server: nggdav.huatls.top
+    server: agvmsa.huatls.top
     port: 31004
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -276,7 +276,7 @@ proxies:
       short-id: aa079ab318ee814d
   - name: 🇰🇷 韩国 01
     type: vless
-    server: vebbnc.huatls.top
+    server: eqj05u.huatls.top
     port: 32012
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -292,11 +292,11 @@ proxies:
       short-id: ab8531d480d98d47
   - name: 🇺🇸 直连 美国 01 0.1x
     type: tuic
-    server: tr01y9.2zi2js.huatls.top
+    server: ehkly6.2zi2js.huatls.top
     port: 57003
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    sni: tr01y9.2zi2js.huatls.top
+    sni: ehkly6.2zi2js.huatls.top
     disable-sni: false
     congestion-controller: bbr
     reduce-rtt: false
@@ -304,11 +304,11 @@ proxies:
       - h3
   - name: 🇯🇵 直连 日本 01 0.1x
     type: tuic
-    server: kbhqt4.11jps.huatls.top
+    server: mneuux.11jps.huatls.top
     port: 57003
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    sni: kbhqt4.11jps.huatls.top
+    sni: mneuux.11jps.huatls.top
     disable-sni: false
     congestion-controller: bbr
     reduce-rtt: false
@@ -734,7 +734,7 @@ proxies:
     reality-opts:
       public-key: AhILoJxA86LB54Ogow_fXguB8vtFxBy_qp4fLUcIDm4
       short-id: 7121954f59d050
-    client-fingerprint: chrome
+    client-fingerprint: safari
     network: tcp
   - name: VV 4.5x 日本4 AI Claude 家宽 双ISP
     type: anytls
@@ -2212,7 +2212,6 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: url-test
     proxies:
-      - 永久流量
       - 香港一区[三线] [1.0倍消耗]
       - VV 4x 香港5
       - VV 3x 香港2 A1 家宽
@@ -2226,9 +2225,14 @@ proxy-groups:
       - VV 香港2 家宽
       - VV 香港4 家宽
       - VV 香港1
+      - 香港住宅3倍
+      - 5.0X 🇨🇳 日志记录 绍兴 香港中转
+      - 5.0X 🇨🇳 日志记录 广州 香港中转
+      - 5.0X 🇨🇳 日志记录 杭州 香港中转
+      - 5.0X 🇨🇳 日志记录 上海 香港中转
+      - 5.0X 🇨🇳 日志记录 深圳 香港中转
   - name: 🇭🇰香港选择
     proxies:
-      - 永久流量
       - 香港住宅3倍
       - 香港一区[三线] [1.0倍消耗]
       - VV 4x 香港5
@@ -2243,6 +2247,11 @@ proxy-groups:
       - VV 香港2 家宽
       - VV 香港4 家宽
       - VV 香港1
+      - 5.0X 🇨🇳 日志记录 绍兴 香港中转
+      - 5.0X 🇨🇳 日志记录 广州 香港中转
+      - 5.0X 🇨🇳 日志记录 杭州 香港中转
+      - 5.0X 🇨🇳 日志记录 上海 香港中转
+      - 5.0X 🇨🇳 日志记录 深圳 香港中转
     type: select
   - name: 🇯🇵 日本测速
     type: url-test
@@ -2332,6 +2341,9 @@ proxy-groups:
       - VV 4x 新加坡1
       - VV 1x 新加坡2v
       - VV 1x 新加坡3
+      - 0.5X 🇸🇬 Singapore 1
+      - 0.5X 🇸🇬 Singapore 2
+      - 1.0X 🇸🇬 Singapore 3
   - name: 🇰🇵台湾节点
     type: select
     proxies:
@@ -2339,6 +2351,9 @@ proxy-groups:
       - VV 3x 台湾1 A1
       - VV 4x 台湾1
       - VV 4x 台湾2v 家宽
+      - 3.0X 🇹🇼 Taiwan 1
+      - 1.0X 🇹🇼 Taiwan
+      - 0.5X 🇹🇼 Hinet Taiwan 2
   - name: 🇨🇿泰国节点
     proxies:
       - 1.5X 🇹🇭 Thailand Bangkok
