@@ -1,686 +1,5 @@
 #port: 23457
 proxies:
-  - name: VV 4x 美国1 A1
-    type: ss
-    server: df.668fx.com
-    port: 25429
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 4x 美国2 A1
-    type: ss
-    server: df.668fx.com
-    port: 50155
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 美国3 A1
-    type: ss
-    server: df.668fx.com
-    port: 51467
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 美国4 A1 家宽
-    type: ss
-    server: df.668fx.com
-    port: 56512
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 美国5 A1 家宽
-    type: ss
-    server: df.668fx.com
-    port: 29988
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 4x 美国6 A1 AI Claude 家宽
-    type: ss
-    server: df.668fx.com
-    port: 18338
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 美国7 A1 AI Claude 家宽 静态
-    type: ss
-    server: df.668fx.com
-    port: 57008
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 美国7a A1 AI Claude 家宽 静态
-    type: ss
-    server: df.668fx.com
-    port: 12993
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 美国8 A1 AI Claude 家宽 双ISP
-    type: ss
-    server: df.668fx.com
-    port: 8135
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 美国9 A1 AI Claude 家宽 双ISP
-    type: ss
-    server: df.668fx.com
-    port: 31539
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 加拿大1 A1 Claude 家宽
-    type: ss
-    server: df.668fx.com
-    port: 62284
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 台湾2 A1 家宽
-    type: ss
-    server: df.668fx.com
-    port: 45819
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 台湾1 A1
-    type: ss
-    server: df.668fx.com
-    port: 13599
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 日本2 A1
-    type: ss
-    server: df.668fx.com
-    port: 42721
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 日本3 A1
-    type: ss
-    server: df.668fx.com
-    port: 58490
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 日本4 A1 AI 家宽
-    type: ss
-    server: df.668fx.com
-    port: 8641
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 日本5 A1 AI 家宽
-    type: ss
-    server: df.668fx.com
-    port: 8291
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 日本6 A1 AI Claude 家宽
-    type: ss
-    server: df.668fx.com
-    port: 8890
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 日本7 A1 AI Claude 家宽
-    type: ss
-    server: df.668fx.com
-    port: 50589
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 日本8 A1 AI Claude 家宽
-    type: ss
-    server: df.668fx.com
-    port: 15687
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 4x 日本9 A1 AI Claude 家宽
-    type: ss
-    server: df.668fx.com
-    port: 17091
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 新加坡1 A1
-    type: ss
-    server: df.668fx.com
-    port: 35058
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 新加坡2 A1
-    type: ss
-    server: df.668fx.com
-    port: 57598
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 新加坡3 A1
-    type: ss
-    server: df.668fx.com
-    port: 37923
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 韩国1 A1 家宽
-    type: ss
-    server: df.668fx.com
-    port: 25997
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 越南1 A1 家宽
-    type: ss
-    server: df.668fx.com
-    port: 24308
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 4x 香港5
-    type: anytls
-    server: hk5-lis.vxrelay.xyz
-    port: 1656
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: hk5.vxrelay.xyz
-  - name: VV 3x 香港2 A1 家宽
-    type: ss
-    server: df.668fx.com
-    port: 27502
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 香港3 A1 家宽
-    type: ss
-    server: df.668fx.com
-    port: 49642
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 香港4 A1 家宽
-    type: ss
-    server: df.668fx.com
-    port: 6740
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 专线A1-伦敦3-解锁BBC iPl A1 家宽
-    type: ss
-    server: df.668fx.com
-    port: 29110
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 专线A1-荷兰1-3倍率 A1
-    type: ss
-    server: df.668fx.com
-    port: 23639
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 德国1 A1
-    type: ss
-    server: df.668fx.com
-    port: 5139
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 3x 专线A1-菲律宾1-3倍率 A1
-    type: ss
-    server: df.668fx.com
-    port: 55311
-    cipher: chacha20-ietf-poly1305
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-  - name: VV 2x 美国1
-    type: anytls
-    server: us1-dig.data-node.org
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us1-dig.data-node.org
-  - name: VV 1x 美国2
-    type: anytls
-    server: us2-dig.data-node.org
-    port: 2358
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us2.vxrelay.xyz
-  - name: VV 1x 美国3
-    type: anytls
-    server: us3-vul.vxrelay.xyz
-    port: 2388
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us3.vxrelay.xyz
-  - name: VV 3x 美国4v AI Claude 家宽 双ISP
-    type: vless
-    server: us4-lisa.vxrelay.xyz
-    port: 6862
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: MKjZsbTmUgVbr4sglfD-L_9O4dkvoalPMxzZo9lYV20
-      short-id: f9e71729
-    client-fingerprint: chrome
-    network: tcp
-  - name: VV 4x 美国5 AI Claude 家宽 双ISP
-    type: anytls
-    server: us9new-ban-n6.vxrelay.xyz
-    port: 40778
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us5.vxrelay.xyz
-  - name: VV 5x 美国6v AI Claude 家宽
-    type: vless
-    server: us9new-ban-n6.vxrelay.xyz
-    port: 28428
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: ycoUQZ5ap-uYDlVnRYw4AQaGZEnaxPmqg1wrOt86sTM
-      short-id: a518aaa4
-    client-fingerprint: chrome
-    network: tcp
-  - name: VV 5x 美国7v AI Claude 家宽
-    type: vless
-    server: us9new-ban-n4.vxrelay.xyz
-    port: 40342
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: K_kYWfutDYTQp9bqpUpcfeaPLan8b4r0me7JvIzXKQU
-      short-id: b9c8cfd6b3d154
-    client-fingerprint: chrome
-    network: tcp
-  - name: VV 5x 美国7a AI Claude 家宽
-    type: anytls
-    server: us9new-ban-n6.vxrelay.xyz
-    port: 12076
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us7a.vxrelay.xyz
-  - name: VV 3x 美国8 AI Claude 家宽 双ISP
-    type: anytls
-    server: us8new-lis.vxrelay.xyz
-    port: 2383
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us8.vxrelay.xyz
-  - name: VV 4x 美国9 AI Claude 家宽 双ISP
-    type: anytls
-    server: us9new-ban-n6.vxrelay.xyz
-    port: 37275
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: us9.vxrelay.xyz
-  - name: VV 4x 美国9a
-    type: vless
-    server: us9new-ban-n6.vxrelay.xyz
-    port: 2358
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: jh3OL0Xb_jqlYBKYkI7c0f3T6fsk9BOAVKR22J2EVl4
-      short-id: "2895300545e2"
-    network: tcp
-  - name: VV 1x 日本2
-    type: anytls
-    server: jp2-linode.vxrelay.xyz
-    port: 2222
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp2.vxrelay.xyz
-  - name: VV 1x 日本3v
-    type: vless
-    server: jp3-vul.vxrelay.xyz
-    port: 443
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: VvIYi-NEXNpRPkNt3yVwPsIthVqO6ac8kBjWb_6XGUM
-      short-id: f2745450
-    client-fingerprint: chrome
-    network: tcp
-  - name: VV 4.5x 日本4v AI Claude 家宽 双ISP
-    type: vless
-    server: jp9-gomm-n3.vxrelay.xyz
-    port: 40607
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: AhILoJxA86LB54Ogow_fXguB8vtFxBy_qp4fLUcIDm4
-      short-id: 7121954f59d050
-    client-fingerprint: edge
-    network: tcp
-  - name: VV 4.5x 日本4 AI Claude 家宽 双ISP
-    type: anytls
-    server: jp9-gomm-n3.vxrelay.xyz
-    port: 36177
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp4.vxrelay.xyz
-  - name: VV 4x 日本5 AI Claude 家宽
-    type: anytls
-    server: jp9-gomm-n2.vxrelay.xyz
-    port: 51109
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp5.vxrelay.xyz
-  - name: VV 4x 日本6 AI Claude 家宽
-    type: anytls
-    server: jp9-gomm-n3.vxrelay.xyz
-    port: 34045
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp6.vxrelay.xyz
-  - name: VV 4.5x 日本7 AI Claude 家宽
-    type: anytls
-    server: jp9-gomm-n3.vxrelay.xyz
-    port: 39119
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp7.vxrelay.xyz
-  - name: VV 4x 日本8 AI Claude 家宽
-    type: anytls
-    server: jp9-gomm-n3.vxrelay.xyz
-    port: 26620
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp8.vxrelay.xyz
-  - name: VV 4x 日本9a
-    type: anytls
-    server: jp9-gomm-n3.vxrelay.xyz
-    port: 2678
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp9.vxrelay.xyz
-  - name: VV 4x 日本9 AI Claude 家宽
-    type: anytls
-    server: jp9-gomm-n3.vxrelay.xyz
-    port: 10991
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: jp9.vxrelay.xyz
-  - name: VV 4x 新加坡1
-    type: anytls
-    server: sgp2-dig.data-node.org
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: sgp1.vxrelay.xyz
-  - name: VV 1x 新加坡2v
-    type: vless
-    server: sgp1-vul.vxrelay.xyz
-    port: 1723
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: www.lamer.com.sg
-    reality-opts:
-      public-key: Epsrvqaa059PJPjhw22XyvwvtbHceJBCHdABNJqULm4
-      short-id: cd7121d462
-    client-fingerprint: chrome
-    network: tcp
-  - name: VV 1x 新加坡3
-    type: anytls
-    server: sgp3-lin.vxrelay.xyz
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: sgp3.vxrelay.xyz
-  - name: VV 3x 香港3v 家宽
-    type: vless
-    server: hk3-lisa.vxrelay.xyz
-    port: 8664
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: gnB8nWz0Znv3sbMjBgwP11_aoTR7CmF3eVC4VciKEUc
-      short-id: ce0e0bab564e6e7d
-    client-fingerprint: chrome
-    network: tcp
-  - name: VV 3x 香港2 家宽
-    type: anytls
-    server: hk2-lisa.vxrelay.xyz
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: hk2-lisa.vxrelay.xyz
-  - name: VV 5x 香港4 家宽
-    type: anytls
-    server: hk4-lisa.vxrelay.xyz
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: hk4.vxrelay.xyz
-  - name: VV 4x 香港5v
-    type: vless
-    server: hk5-lis.vxrelay.xyz
-    port: 2074
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: HLzdBxdD3KSFTp2BBdRJ8LWm3cF5MaUUZxqWV07lOHw
-      short-id: 324b9747
-    client-fingerprint: chrome
-    network: tcp
-  - name: VV 4x 台湾1
-    type: anytls
-    server: jp9-gomm-n2.vxrelay.xyz
-    port: 34318
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: tw1.vxrelay.xyz
-  - name: VV 4x 台湾2v 家宽
-    type: vless
-    server: jp9-gomm-n2.vxrelay.xyz
-    port: 34318
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: lo_Oq_xCuKeDwua0mPHX8BwKs2qV1WOAA0tWM7Kc5AM
-      short-id: b128c808f36d04
-    client-fingerprint: chrome
-    network: tcp
-  - name: VV 1x 韩国1 家宽
-    type: anytls
-    server: kr1-lisa.vxrelay.xyz
-    port: 2523
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: kr1-lisa.vxrelay.xyz
-  - name: VV 1x 越南1 家宽
-    type: anytls
-    server: vn1-lis.vxrelay.xyz
-    port: 2523
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: vn1.vxrelay.xyz
-  - name: VV 1x D-伦敦1-YouTube视频带宽足
-    type: anytls
-    server: lon1.vxrelay.xyz
-    port: 2533
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: lon3.vxrelay.xyz
-  - name: VV 2x 德国1 AI
-    type: anytls
-    server: de1-v2.vxrelay.xyz
-    port: 22222
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: de1.vxrelay.xyz
-  - name: VV 2x 德国1v AI
-    type: vless
-    server: de1-v2.vxrelay.xyz
-    port: 30568
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: 4qZD5B75ZxFHmey_OaIPiQIEwVLafRjbowO_m4efeGQ
-      short-id: f612cc003f8b
-    network: tcp
-  - name: VV 3x D菲律宾1v-Ai/流媒体全解锁-跨 AI
-    type: vless
-    server: ph1.vxrelay.xyz
-    port: 2338
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: false
-    servername: download-porter.hoyoverse.com
-    reality-opts:
-      public-key: IlUg8TFm0GtU05D3sp9brgsY4H9scqwSlAk0e1ZlEwQ
-      short-id: 4b966ff1b2f5
-    network: tcp
-  - name: VV 2x D菲律宾1-Ai/流媒体全解锁-跨境 AI
-    type: anytls
-    server: ph1.vxrelay.xyz
-    port: 2353
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: ph1.vxrelay.xyz
-  - name: VV 1x D荷兰1-YouTube视频带宽足-
-    type: anytls
-    server: ams1-dig.data-node.org
-    port: 2533
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-    udp: true
-    sni: ams1-dig.data-node.org
-  - name: VV 香港1 家宽
-    server: hk1-lisa.vxrelay.xyz
-    port: 443
-    sni: hk1-lisa.vxrelay.xyz
-    up: null
-    down: null
-    skip-cert-verify: false
-    hop-interval: 30
-    type: hysteria2
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-  - name: VV 香港2 家宽
-    server: hk2-lisa.vxrelay.xyz
-    port: 443
-    sni: hk2-lisa.vxrelay.xyz
-    up: null
-    down: null
-    skip-cert-verify: false
-    hop-interval: 30
-    type: hysteria2
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-  - name: VV 香港4 家宽
-    server: hk4-lisa.vxrelay.xyz
-    port: 443
-    sni: hk4.vxrelay.xyz
-    up: null
-    down: null
-    skip-cert-verify: false
-    hop-interval: 30
-    type: hysteria2
-    password: 89d88975-49e7-44f0-a6cb-00084230c229
-  - name: VV 香港1
-    type: vless
-    server: 210.0.244.51
-    port: 443
-    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    encryption: none
-    tls: true
-    skip-cert-verify: true
-    servername: www.apple.com
-    reality-opts:
-      public-key: SP6vmf1e63Bq4ioIMuXQr5ueD332dXwNjOn1TuhueyE
-      short-id: 41fe56
-    client-fingerprint: chrome
-    network: tcp
   - name: "zhuge Traffic: 0 GB / 100 GB"
     server: aliyun-gz.linkcubecloud.com
     port: 8100
@@ -2030,6 +1349,687 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
+  - name: VV 4x 美国1 A1
+    type: ss
+    server: df.668fx.com
+    port: 25429
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 美国2 A1
+    type: ss
+    server: df.668fx.com
+    port: 50155
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 美国3 A1
+    type: ss
+    server: df.668fx.com
+    port: 51467
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 美国4 A1 家宽
+    type: ss
+    server: df.668fx.com
+    port: 56512
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 美国5 A1 家宽
+    type: ss
+    server: df.668fx.com
+    port: 29988
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 美国6 A1 AI Claude 家宽
+    type: ss
+    server: df.668fx.com
+    port: 18338
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 美国7 A1 AI Claude 家宽 静态
+    type: ss
+    server: df.668fx.com
+    port: 57008
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 美国7a A1 AI Claude 家宽 静态
+    type: ss
+    server: df.668fx.com
+    port: 12993
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 美国8 A1 AI Claude 家宽 双ISP
+    type: ss
+    server: df.668fx.com
+    port: 8135
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 美国9 A1 AI Claude 家宽 双ISP
+    type: ss
+    server: df.668fx.com
+    port: 31539
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 加拿大1 A1 Claude 家宽
+    type: ss
+    server: df.668fx.com
+    port: 62284
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 台湾2 A1 家宽
+    type: ss
+    server: df.668fx.com
+    port: 45819
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 台湾1 A1
+    type: ss
+    server: df.668fx.com
+    port: 13599
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 日本2 A1
+    type: ss
+    server: df.668fx.com
+    port: 42721
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 日本3 A1
+    type: ss
+    server: df.668fx.com
+    port: 58490
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 日本4 A1 AI 家宽
+    type: ss
+    server: df.668fx.com
+    port: 8641
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 日本5 A1 AI 家宽
+    type: ss
+    server: df.668fx.com
+    port: 8291
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 日本6 A1 AI Claude 家宽
+    type: ss
+    server: df.668fx.com
+    port: 8890
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 日本7 A1 AI Claude 家宽
+    type: ss
+    server: df.668fx.com
+    port: 50589
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 日本8 A1 AI Claude 家宽
+    type: ss
+    server: df.668fx.com
+    port: 15687
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 日本9 A1 AI Claude 家宽
+    type: ss
+    server: df.668fx.com
+    port: 17091
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 新加坡1 A1
+    type: ss
+    server: df.668fx.com
+    port: 35058
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 新加坡2 A1
+    type: ss
+    server: df.668fx.com
+    port: 57598
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 新加坡3 A1
+    type: ss
+    server: df.668fx.com
+    port: 37923
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 韩国1 A1 家宽
+    type: ss
+    server: df.668fx.com
+    port: 25997
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 越南1 A1 家宽
+    type: ss
+    server: df.668fx.com
+    port: 24308
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 香港5
+    type: anytls
+    server: hk5-lis.vxrelay.xyz
+    port: 1656
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: hk5.vxrelay.xyz
+  - name: VV 4x 香港2 A1 家宽
+    type: ss
+    server: df.668fx.com
+    port: 27502
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 香港3 A1 家宽
+    type: ss
+    server: df.668fx.com
+    port: 49642
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 香港4 A1 家宽
+    type: ss
+    server: df.668fx.com
+    port: 6740
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 专线A1-伦敦3-解锁BBC iPl A1 家宽
+    type: ss
+    server: df.668fx.com
+    port: 29110
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 专线A1-荷兰1-4倍率 A1
+    type: ss
+    server: df.668fx.com
+    port: 23639
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 德国1 A1
+    type: ss
+    server: df.668fx.com
+    port: 5139
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 4x 专线A1-菲律宾1-4倍率 A1
+    type: ss
+    server: df.668fx.com
+    port: 55311
+    cipher: chacha20-ietf-poly1305
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+  - name: VV 2x 美国1
+    type: anytls
+    server: us1-dig.data-node.org
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: us1-dig.data-node.org
+  - name: VV 1x 美国2
+    type: anytls
+    server: us2-dig.data-node.org
+    port: 2358
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: us2.vxrelay.xyz
+  - name: VV 1x 美国3
+    type: anytls
+    server: us3-vul.vxrelay.xyz
+    port: 2388
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: us3.vxrelay.xyz
+  - name: VV 3x 美国4v AI Claude 家宽 双ISP
+    type: vless
+    server: us4-lisa.vxrelay.xyz
+    port: 6862
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: MKjZsbTmUgVbr4sglfD-L_9O4dkvoalPMxzZo9lYV20
+      short-id: f9e71729
+    client-fingerprint: chrome
+    network: tcp
+  - name: VV 4x 美国5 AI Claude 家宽 双ISP
+    type: anytls
+    server: us9new-ban-n6.vxrelay.xyz
+    port: 40778
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: us5.vxrelay.xyz
+  - name: VV 5x 美国6v AI Claude 家宽
+    type: vless
+    server: us9new-ban-n6.vxrelay.xyz
+    port: 28428
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: ycoUQZ5ap-uYDlVnRYw4AQaGZEnaxPmqg1wrOt86sTM
+      short-id: a518aaa4
+    client-fingerprint: chrome
+    network: tcp
+  - name: VV 5x 美国7v AI Claude 家宽
+    type: vless
+    server: us9new-ban-n4.vxrelay.xyz
+    port: 40342
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: K_kYWfutDYTQp9bqpUpcfeaPLan8b4r0me7JvIzXKQU
+      short-id: b9c8cfd6b3d154
+    client-fingerprint: chrome
+    network: tcp
+  - name: VV 5x 美国7a AI Claude 家宽
+    type: anytls
+    server: us9new-ban-n6.vxrelay.xyz
+    port: 12076
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: us7a.vxrelay.xyz
+  - name: VV 3x 美国8 AI Claude 家宽 双ISP
+    type: anytls
+    server: us8new-lis.vxrelay.xyz
+    port: 2383
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: us8.vxrelay.xyz
+  - name: VV 4x 美国9 AI Claude 家宽 双ISP
+    type: anytls
+    server: us9new-ban-n6.vxrelay.xyz
+    port: 37275
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: us9.vxrelay.xyz
+  - name: VV 4x 美国9a
+    type: vless
+    server: us9new-ban-n6.vxrelay.xyz
+    port: 2358
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: jh3OL0Xb_jqlYBKYkI7c0f3T6fsk9BOAVKR22J2EVl4
+      short-id: "2895300545e2"
+    network: tcp
+  - name: VV 1x 日本2
+    type: anytls
+    server: jp2-linode.vxrelay.xyz
+    port: 2222
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp2.vxrelay.xyz
+  - name: VV 1x 日本3v
+    type: vless
+    server: jp3-vul.vxrelay.xyz
+    port: 443
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: VvIYi-NEXNpRPkNt3yVwPsIthVqO6ac8kBjWb_6XGUM
+      short-id: f2745450
+    client-fingerprint: chrome
+    network: tcp
+  - name: VV 4.5x 日本4v AI Claude 家宽 双ISP
+    type: vless
+    server: jp9-gomm-n3.vxrelay.xyz
+    port: 40607
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: AhILoJxA86LB54Ogow_fXguB8vtFxBy_qp4fLUcIDm4
+      short-id: 7121954f59d050
+    client-fingerprint: qq
+    network: tcp
+  - name: VV 4.5x 日本4 AI Claude 家宽 双ISP
+    type: anytls
+    server: jp9-gomm-n3.vxrelay.xyz
+    port: 36177
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp4.vxrelay.xyz
+  - name: VV 4x 日本5 AI Claude 家宽
+    type: anytls
+    server: jp9-gomm-n2.vxrelay.xyz
+    port: 51109
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp5.vxrelay.xyz
+  - name: VV 4x 日本6 AI Claude 家宽
+    type: anytls
+    server: jp9-gomm-n3.vxrelay.xyz
+    port: 34045
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp6.vxrelay.xyz
+  - name: VV 4.5x 日本7 AI Claude 家宽
+    type: anytls
+    server: jp9-gomm-n3.vxrelay.xyz
+    port: 39119
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp7.vxrelay.xyz
+  - name: VV 4x 日本8 AI Claude 家宽
+    type: anytls
+    server: jp9-gomm-n3.vxrelay.xyz
+    port: 26620
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp8.vxrelay.xyz
+  - name: VV 4x 日本9a
+    type: anytls
+    server: jp9-gomm-n3.vxrelay.xyz
+    port: 2678
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp9.vxrelay.xyz
+  - name: VV 4x 日本9 AI Claude 家宽
+    type: anytls
+    server: jp9-gomm-n3.vxrelay.xyz
+    port: 10991
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: jp9.vxrelay.xyz
+  - name: VV 4x 新加坡1
+    type: anytls
+    server: sgp2-dig.data-node.org
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: sgp1.vxrelay.xyz
+  - name: VV 1x 新加坡2v
+    type: vless
+    server: sgp1-vul.vxrelay.xyz
+    port: 1723
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: www.lamer.com.sg
+    reality-opts:
+      public-key: Epsrvqaa059PJPjhw22XyvwvtbHceJBCHdABNJqULm4
+      short-id: cd7121d462
+    client-fingerprint: chrome
+    network: tcp
+  - name: VV 1x 新加坡3
+    type: anytls
+    server: sgp3-lin.vxrelay.xyz
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: sgp3.vxrelay.xyz
+  - name: VV 3x 香港3v 家宽
+    type: vless
+    server: hk3-lisa.vxrelay.xyz
+    port: 8664
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: gnB8nWz0Znv3sbMjBgwP11_aoTR7CmF3eVC4VciKEUc
+      short-id: ce0e0bab564e6e7d
+    client-fingerprint: chrome
+    network: tcp
+  - name: VV 3x 香港2 家宽
+    type: anytls
+    server: hk2-lisa.vxrelay.xyz
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: hk2-lisa.vxrelay.xyz
+  - name: VV 5x 香港4 家宽
+    type: anytls
+    server: hk4-lisa.vxrelay.xyz
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: hk4.vxrelay.xyz
+  - name: VV 4x 香港5v
+    type: vless
+    server: hk5-lis.vxrelay.xyz
+    port: 2074
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: HLzdBxdD3KSFTp2BBdRJ8LWm3cF5MaUUZxqWV07lOHw
+      short-id: 324b9747
+    client-fingerprint: chrome
+    network: tcp
+  - name: VV 4x 台湾1
+    type: anytls
+    server: jp9-gomm-n2.vxrelay.xyz
+    port: 34318
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: tw1.vxrelay.xyz
+  - name: VV 4x 台湾2v 家宽
+    type: vless
+    server: jp9-gomm-n2.vxrelay.xyz
+    port: 34318
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: lo_Oq_xCuKeDwua0mPHX8BwKs2qV1WOAA0tWM7Kc5AM
+      short-id: b128c808f36d04
+    client-fingerprint: chrome
+    network: tcp
+  - name: VV 1x 韩国1 家宽
+    type: anytls
+    server: kr1-lisa.vxrelay.xyz
+    port: 2523
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: kr1-lisa.vxrelay.xyz
+  - name: VV 1x 越南1 家宽
+    type: anytls
+    server: vn1-lis.vxrelay.xyz
+    port: 2523
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: vn1.vxrelay.xyz
+  - name: VV 3x 英国1
+    type: anytls
+    server: lon1.vxrelay.xyz
+    port: 2533
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: lon3.vxrelay.xyz
+  - name: VV 2x 德国1 AI
+    type: anytls
+    server: de1-v2.vxrelay.xyz
+    port: 22222
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: de1.vxrelay.xyz
+  - name: VV 2x 德国1v AI
+    type: vless
+    server: de1-v2.vxrelay.xyz
+    port: 30568
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: 4qZD5B75ZxFHmey_OaIPiQIEwVLafRjbowO_m4efeGQ
+      short-id: f612cc003f8b
+    network: tcp
+  - name: VV 3x D菲律宾1v-Ai/流媒体全解锁-跨 AI
+    type: vless
+    server: ph1.vxrelay.xyz
+    port: 2338
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: false
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: IlUg8TFm0GtU05D3sp9brgsY4H9scqwSlAk0e1ZlEwQ
+      short-id: 4b966ff1b2f5
+    network: tcp
+  - name: VV 2x D菲律宾1-Ai/流媒体全解锁-跨境 AI
+    type: anytls
+    server: ph1.vxrelay.xyz
+    port: 2353
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: ph1.vxrelay.xyz
+  - name: VV 1x D荷兰1-YouTube视频带宽足-
+    type: anytls
+    server: ams1-dig.data-node.org
+    port: 2533
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+    udp: true
+    sni: ams1-dig.data-node.org
+  - name: VV 香港1 家宽
+    server: hk1-lisa.vxrelay.xyz
+    port: 443
+    sni: hk1-lisa.vxrelay.xyz
+    up: null
+    down: null
+    skip-cert-verify: false
+    hop-interval: 30
+    type: hysteria2
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+  - name: VV 香港2 家宽
+    server: hk2-lisa.vxrelay.xyz
+    port: 443
+    sni: hk2-lisa.vxrelay.xyz
+    up: null
+    down: null
+    skip-cert-verify: false
+    hop-interval: 30
+    type: hysteria2
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+  - name: VV 香港4 家宽
+    server: hk4-lisa.vxrelay.xyz
+    port: 443
+    sni: hk4.vxrelay.xyz
+    up: null
+    down: null
+    skip-cert-verify: false
+    hop-interval: 30
+    type: hysteria2
+    password: 89d88975-49e7-44f0-a6cb-00084230c229
+  - name: VV 香港1
+    type: vless
+    server: 210.0.244.51
+    port: 443
+    uuid: 89d88975-49e7-44f0-a6cb-00084230c229
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    encryption: none
+    tls: true
+    skip-cert-verify: true
+    servername: www.apple.com
+    reality-opts:
+      public-key: SP6vmf1e63Bq4ioIMuXQr5ueD332dXwNjOn1TuhueyE
+      short-id: 41fe56
+    client-fingerprint: chrome
+    network: tcp
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -2091,13 +2091,13 @@ proxy-groups:
       - 🇰🇷韩国节点
       - 🍀huaheban
       - 🔀负载均衡
-      - VV 3x 日本2 A1
-      - VV 3x 日本3 A1
-      - VV 3x 日本4 A1 AI 家宽
-      - VV 3x 日本5 A1 AI 家宽
-      - VV 3x 日本6 A1 AI Claude 家宽
-      - VV 3x 日本7 A1 AI Claude 家宽
-      - VV 3x 日本8 A1 AI Claude 家宽
+      - VV 4x 日本2 A1
+      - VV 4x 日本3 A1
+      - VV 4x 日本4 A1 AI 家宽
+      - VV 4x 日本5 A1 AI 家宽
+      - VV 4x 日本6 A1 AI Claude 家宽
+      - VV 4x 日本7 A1 AI Claude 家宽
+      - VV 4x 日本8 A1 AI Claude 家宽
       - VV 4x 日本9 A1 AI Claude 家宽
       - VV 1x 日本2
       - VV 1x 日本3v
@@ -2109,20 +2109,20 @@ proxy-groups:
       - VV 4x 日本8 AI Claude 家宽
       - VV 4x 日本9a
       - VV 4x 日本9 AI Claude 家宽
-      - VV 3x 台湾2 A1 家宽
-      - VV 3x 台湾1 A1
+      - VV 4x 台湾2 A1 家宽
+      - VV 4x 台湾1 A1
       - VV 4x 台湾1
       - VV 4x 台湾2v 家宽
       - VV 4x 美国1 A1
       - VV 4x 美国2 A1
-      - VV 3x 美国3 A1
-      - VV 3x 美国4 A1 家宽
-      - VV 3x 美国5 A1 家宽
+      - VV 4x 美国3 A1
+      - VV 4x 美国4 A1 家宽
+      - VV 4x 美国5 A1 家宽
       - VV 4x 美国6 A1 AI Claude 家宽
-      - VV 3x 美国7 A1 AI Claude 家宽 静态
-      - VV 3x 美国7a A1 AI Claude 家宽 静态
-      - VV 3x 美国8 A1 AI Claude 家宽 双ISP
-      - VV 3x 美国9 A1 AI Claude 家宽 双ISP
+      - VV 4x 美国7 A1 AI Claude 家宽 静态
+      - VV 4x 美国7a A1 AI Claude 家宽 静态
+      - VV 4x 美国8 A1 AI Claude 家宽 双ISP
+      - VV 4x 美国9 A1 AI Claude 家宽 双ISP
       - VV 2x 美国1
       - VV 1x 美国2
       - VV 1x 美国3
@@ -2135,9 +2135,9 @@ proxy-groups:
       - VV 4x 美国9 AI Claude 家宽 双ISP
       - VV 4x 美国9a
       - VV 4x 香港5
-      - VV 3x 香港2 A1 家宽
-      - VV 3x 香港3 A1 家宽
-      - VV 3x 香港4 A1 家宽
+      - VV 4x 香港2 A1 家宽
+      - VV 4x 香港3 A1 家宽
+      - VV 4x 香港4 A1 家宽
       - VV 3x 香港3v 家宽
       - VV 3x 香港2 家宽
       - VV 5x 香港4 家宽
@@ -2189,34 +2189,65 @@ proxy-groups:
       - VV 香港1
   - name: 自动选择2⚡️
     proxies:
-      - VV 3x 台湾2 A1 家宽
-      - VV 3x 台湾1 A1
-      - VV 3x 日本2 A1
-      - VV 3x 日本3 A1
-      - VV 3x 日本4 A1 AI 家宽
-      - VV 3x 日本5 A1 AI 家宽
-      - VV 3x 新加坡1 A1
-      - VV 3x 新加坡2 A1
-      - VV 3x 新加坡3 A1
-      - VV 3x 韩国1 A1 家宽
-      - VV 3x 香港2 A1 家宽
-      - VV 3x 香港3 A1 家宽
-      - VV 3x 香港4 A1 家宽
+      - VV 4x 台湾2 A1 家宽
+      - VV 4x 台湾1 A1
+      - VV 4x 台湾1
+      - VV 4x 台湾2v 家宽
+      - VV 4x 日本2 A1
+      - VV 4x 日本3 A1
+      - VV 4x 日本4 A1 AI 家宽
+      - VV 4x 日本5 A1 AI 家宽
+      - VV 4x 日本6 A1 AI Claude 家宽
+      - VV 4x 日本7 A1 AI Claude 家宽
+      - VV 4x 日本8 A1 AI Claude 家宽
+      - VV 4x 日本9 A1 AI Claude 家宽
+      - VV 1x 日本2
+      - VV 1x 日本3v
+      - VV 4.5x 日本4v AI Claude 家宽 双ISP
+      - VV 4.5x 日本4 AI Claude 家宽 双ISP
+      - VV 4x 日本5 AI Claude 家宽
+      - VV 4x 日本6 AI Claude 家宽
+      - VV 4.5x 日本7 AI Claude 家宽
+      - VV 4x 日本8 AI Claude 家宽
+      - VV 4x 日本9a
+      - VV 4x 日本9 AI Claude 家宽
+      - VV 4x 新加坡1 A1
+      - VV 4x 新加坡2 A1
+      - VV 4x 新加坡3 A1
+      - VV 4x 新加坡1
+      - VV 1x 新加坡2v
+      - VV 1x 新加坡3
+      - VV 4x 韩国1 A1 家宽
+      - VV 1x 韩国1 家宽
+      - VV 4x 香港5
+      - VV 4x 香港2 A1 家宽
+      - VV 4x 香港3 A1 家宽
+      - VV 4x 香港4 A1 家宽
       - VV 3x 香港3v 家宽
       - VV 3x 香港2 家宽
+      - VV 5x 香港4 家宽
+      - VV 4x 香港5v
+      - VV 香港1 家宽
+      - VV 香港2 家宽
+      - VV 香港4 家宽
+      - VV 香港1
     type: url-test
     interval: 300
   - name: 📍精选测速
     proxies:
-      - VV 3x 美国7 A1 AI Claude 家宽 静态
-      - VV 3x 美国7a A1 AI Claude 家宽 静态
-      - VV 3x 美国8 A1 AI Claude 家宽 双ISP
-      - VV 3x 美国9 A1 AI Claude 家宽 双ISP
-      - VV 3x 加拿大1 A1 Claude 家宽
-      - VV 3x 日本6 A1 AI Claude 家宽
-      - VV 3x 日本7 A1 AI Claude 家宽
-      - VV 3x 日本8 A1 AI Claude 家宽
-      - VV 4x 日本9 A1 AI Claude 家宽
+      - VV 4x 美国1 A1
+      - VV 4x 美国2 A1
+      - VV 4x 美国3 A1
+      - VV 4x 美国4 A1 家宽
+      - VV 4x 美国5 A1 家宽
+      - VV 4x 美国6 A1 AI Claude 家宽
+      - VV 4x 美国7 A1 AI Claude 家宽 静态
+      - VV 4x 美国7a A1 AI Claude 家宽 静态
+      - VV 4x 美国8 A1 AI Claude 家宽 双ISP
+      - VV 4x 美国9 A1 AI Claude 家宽 双ISP
+      - VV 2x 美国1
+      - VV 1x 美国2
+      - VV 1x 美国3
       - VV 3x 美国4v AI Claude 家宽 双ISP
       - VV 4x 美国5 AI Claude 家宽 双ISP
       - VV 5x 美国6v AI Claude 家宽
@@ -2224,12 +2255,25 @@ proxy-groups:
       - VV 5x 美国7a AI Claude 家宽
       - VV 3x 美国8 AI Claude 家宽 双ISP
       - VV 4x 美国9 AI Claude 家宽 双ISP
+      - VV 4x 美国9a
+      - VV 4x 加拿大1 A1 Claude 家宽
+      - VV 4x 日本2 A1
+      - VV 4x 日本3 A1
+      - VV 4x 日本4 A1 AI 家宽
+      - VV 4x 日本5 A1 AI 家宽
+      - VV 4x 日本6 A1 AI Claude 家宽
+      - VV 4x 日本7 A1 AI Claude 家宽
+      - VV 4x 日本8 A1 AI Claude 家宽
+      - VV 4x 日本9 A1 AI Claude 家宽
+      - VV 1x 日本2
+      - VV 1x 日本3v
       - VV 4.5x 日本4v AI Claude 家宽 双ISP
       - VV 4.5x 日本4 AI Claude 家宽 双ISP
       - VV 4x 日本5 AI Claude 家宽
       - VV 4x 日本6 AI Claude 家宽
       - VV 4.5x 日本7 AI Claude 家宽
       - VV 4x 日本8 AI Claude 家宽
+      - VV 4x 日本9a
       - VV 4x 日本9 AI Claude 家宽
     type: url-test
     interval: 180
@@ -2704,11 +2748,14 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: url-test
     proxies:
-      - VV 3x 香港2 A1 家宽
-      - VV 3x 香港3 A1 家宽
-      - VV 3x 香港4 A1 家宽
+      - VV 4x 香港5
+      - VV 4x 香港2 A1 家宽
+      - VV 4x 香港3 A1 家宽
+      - VV 4x 香港4 A1 家宽
       - VV 3x 香港3v 家宽
       - VV 3x 香港2 家宽
+      - VV 5x 香港4 家宽
+      - VV 4x 香港5v
       - VV 香港1 家宽
       - VV 香港2 家宽
       - VV 香港4 家宽
@@ -2716,9 +2763,9 @@ proxy-groups:
   - name: 🇭🇰香港选择
     proxies:
       - VV 4x 香港5
-      - VV 3x 香港2 A1 家宽
-      - VV 3x 香港3 A1 家宽
-      - VV 3x 香港4 A1 家宽
+      - VV 4x 香港2 A1 家宽
+      - VV 4x 香港3 A1 家宽
+      - VV 4x 香港4 A1 家宽
       - VV 3x 香港3v 家宽
       - VV 3x 香港2 家宽
       - VV 5x 香港4 家宽
@@ -2731,25 +2778,34 @@ proxy-groups:
   - name: 🇯🇵 日本测速
     type: url-test
     proxies:
-      - VV 3x 日本2 A1
-      - VV 3x 日本3 A1
-      - VV 3x 日本4 A1 AI 家宽
-      - VV 3x 日本5 A1 AI 家宽
-      - VV 3x 日本6 A1 AI Claude 家宽
-      - VV 3x 日本7 A1 AI Claude 家宽
-      - VV 3x 日本8 A1 AI Claude 家宽
+      - VV 4x 日本2 A1
+      - VV 4x 日本3 A1
+      - VV 4x 日本4 A1 AI 家宽
+      - VV 4x 日本5 A1 AI 家宽
+      - VV 4x 日本6 A1 AI Claude 家宽
+      - VV 4x 日本7 A1 AI Claude 家宽
+      - VV 4x 日本8 A1 AI Claude 家宽
+      - VV 4x 日本9 A1 AI Claude 家宽
       - VV 1x 日本2
       - VV 1x 日本3v
+      - VV 4.5x 日本4v AI Claude 家宽 双ISP
+      - VV 4.5x 日本4 AI Claude 家宽 双ISP
+      - VV 4x 日本5 AI Claude 家宽
+      - VV 4x 日本6 AI Claude 家宽
+      - VV 4.5x 日本7 AI Claude 家宽
+      - VV 4x 日本8 AI Claude 家宽
+      - VV 4x 日本9a
+      - VV 4x 日本9 AI Claude 家宽
     interval: 300
   - name: 🇯🇵日本选择
     proxies:
-      - VV 3x 日本2 A1
-      - VV 3x 日本3 A1
-      - VV 3x 日本4 A1 AI 家宽
-      - VV 3x 日本5 A1 AI 家宽
-      - VV 3x 日本6 A1 AI Claude 家宽
-      - VV 3x 日本7 A1 AI Claude 家宽
-      - VV 3x 日本8 A1 AI Claude 家宽
+      - VV 4x 日本2 A1
+      - VV 4x 日本3 A1
+      - VV 4x 日本4 A1 AI 家宽
+      - VV 4x 日本5 A1 AI 家宽
+      - VV 4x 日本6 A1 AI Claude 家宽
+      - VV 4x 日本7 A1 AI Claude 家宽
+      - VV 4x 日本8 A1 AI Claude 家宽
       - VV 4x 日本9 A1 AI Claude 家宽
       - VV 1x 日本2
       - VV 1x 日本3v
@@ -2764,14 +2820,14 @@ proxy-groups:
     type: select
   - name: 🇰🇷韩国测速
     proxies:
-      - VV 3x 韩国1 A1 家宽
+      - VV 4x 韩国1 A1 家宽
       - VV 1x 韩国1 家宽
       - 🇰🇷 韩国 01
     type: url-test
     interval: 300
   - name: 🇰🇷韩国节点
     proxies:
-      - VV 3x 韩国1 A1 家宽
+      - VV 4x 韩国1 A1 家宽
       - VV 1x 韩国1 家宽
       - 🇰🇷 韩国 01
     type: select
@@ -2780,14 +2836,14 @@ proxy-groups:
     proxies:
       - VV 4x 美国1 A1
       - VV 4x 美国2 A1
-      - VV 3x 美国3 A1
-      - VV 3x 美国4 A1 家宽
-      - VV 3x 美国5 A1 家宽
+      - VV 4x 美国3 A1
+      - VV 4x 美国4 A1 家宽
+      - VV 4x 美国5 A1 家宽
       - VV 4x 美国6 A1 AI Claude 家宽
-      - VV 3x 美国7 A1 AI Claude 家宽 静态
-      - VV 3x 美国7a A1 AI Claude 家宽 静态
-      - VV 3x 美国8 A1 AI Claude 家宽 双ISP
-      - VV 3x 美国9 A1 AI Claude 家宽 双ISP
+      - VV 4x 美国7 A1 AI Claude 家宽 静态
+      - VV 4x 美国7a A1 AI Claude 家宽 静态
+      - VV 4x 美国8 A1 AI Claude 家宽 双ISP
+      - VV 4x 美国9 A1 AI Claude 家宽 双ISP
       - VV 2x 美国1
       - VV 1x 美国2
       - VV 1x 美国3
@@ -2802,17 +2858,17 @@ proxy-groups:
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
-      - VV 3x 新加坡1 A1
-      - VV 3x 新加坡2 A1
-      - VV 3x 新加坡3 A1
+      - VV 4x 新加坡1 A1
+      - VV 4x 新加坡2 A1
+      - VV 4x 新加坡3 A1
       - VV 4x 新加坡1
       - VV 1x 新加坡2v
       - VV 1x 新加坡3
   - name: 🇰🇵台湾节点
     type: select
     proxies:
-      - VV 3x 台湾2 A1 家宽
-      - VV 3x 台湾1 A1
+      - VV 4x 台湾2 A1 家宽
+      - VV 4x 台湾1 A1
       - VV 4x 台湾1
       - VV 4x 台湾2v 家宽
   - name: 🇨🇿泰国节点
@@ -2845,17 +2901,19 @@ proxy-groups:
     strategy: consistent-hashing
   - name: 🍀huaheban
     proxies:
-      - VV 3x 加拿大1 A1 Claude 家宽
-      - VV 3x 越南1 A1 家宽
-      - VV 3x 德国1 A1
-      - VV 3x 专线A1-菲律宾1-3倍率 A1
-      - VV 1x D-伦敦1-YouTube视频带宽足
+      - VV 4x 加拿大1 A1 Claude 家宽
+      - VV 4x 越南1 A1 家宽
+      - VV 1x 越南1 家宽
+      - VV 4x 专线A1-伦敦3-解锁BBC iPl A1 家宽
+      - VV 4x 专线A1-荷兰1-4倍率 A1
+      - VV 4x 德国1 A1
+      - VV 4x 专线A1-菲律宾1-4倍率 A1
+      - VV 3x 英国1
+      - VV 2x 德国1 AI
+      - VV 2x 德国1v AI
       - VV 3x D菲律宾1v-Ai/流媒体全解锁-跨 AI
       - VV 2x D菲律宾1-Ai/流媒体全解锁-跨境 AI
       - VV 1x D荷兰1-YouTube视频带宽足-
-      - VV 2x 德国1v AI
-      - VV 2x 德国1 AI
-      - VV 1x 越南1 家宽
     type: select
   - name: 🇨🇳回国节点
     proxies:
@@ -2886,38 +2944,38 @@ proxy-groups:
     proxies:
       - VV 4x 美国1 A1
       - VV 4x 美国2 A1
-      - VV 3x 美国3 A1
-      - VV 3x 美国4 A1 家宽
-      - VV 3x 美国5 A1 家宽
+      - VV 4x 美国3 A1
+      - VV 4x 美国4 A1 家宽
+      - VV 4x 美国5 A1 家宽
       - VV 4x 美国6 A1 AI Claude 家宽
-      - VV 3x 美国7 A1 AI Claude 家宽 静态
-      - VV 3x 美国7a A1 AI Claude 家宽 静态
-      - VV 3x 美国8 A1 AI Claude 家宽 双ISP
-      - VV 3x 美国9 A1 AI Claude 家宽 双ISP
-      - VV 3x 加拿大1 A1 Claude 家宽
-      - VV 3x 台湾2 A1 家宽
-      - VV 3x 台湾1 A1
-      - VV 3x 日本2 A1
-      - VV 3x 日本3 A1
-      - VV 3x 日本4 A1 AI 家宽
-      - VV 3x 日本5 A1 AI 家宽
-      - VV 3x 日本6 A1 AI Claude 家宽
-      - VV 3x 日本7 A1 AI Claude 家宽
-      - VV 3x 日本8 A1 AI Claude 家宽
+      - VV 4x 美国7 A1 AI Claude 家宽 静态
+      - VV 4x 美国7a A1 AI Claude 家宽 静态
+      - VV 4x 美国8 A1 AI Claude 家宽 双ISP
+      - VV 4x 美国9 A1 AI Claude 家宽 双ISP
+      - VV 4x 加拿大1 A1 Claude 家宽
+      - VV 4x 台湾2 A1 家宽
+      - VV 4x 台湾1 A1
+      - VV 4x 日本2 A1
+      - VV 4x 日本3 A1
+      - VV 4x 日本4 A1 AI 家宽
+      - VV 4x 日本5 A1 AI 家宽
+      - VV 4x 日本6 A1 AI Claude 家宽
+      - VV 4x 日本7 A1 AI Claude 家宽
+      - VV 4x 日本8 A1 AI Claude 家宽
       - VV 4x 日本9 A1 AI Claude 家宽
-      - VV 3x 新加坡1 A1
-      - VV 3x 新加坡2 A1
-      - VV 3x 新加坡3 A1
-      - VV 3x 韩国1 A1 家宽
-      - VV 3x 越南1 A1 家宽
+      - VV 4x 新加坡1 A1
+      - VV 4x 新加坡2 A1
+      - VV 4x 新加坡3 A1
+      - VV 4x 韩国1 A1 家宽
+      - VV 4x 越南1 A1 家宽
       - VV 4x 香港5
-      - VV 3x 香港2 A1 家宽
-      - VV 3x 香港3 A1 家宽
-      - VV 3x 香港4 A1 家宽
-      - VV 3x 专线A1-伦敦3-解锁BBC iPl A1 家宽
-      - VV 3x 专线A1-荷兰1-3倍率 A1
-      - VV 3x 德国1 A1
-      - VV 3x 专线A1-菲律宾1-3倍率 A1
+      - VV 4x 香港2 A1 家宽
+      - VV 4x 香港3 A1 家宽
+      - VV 4x 香港4 A1 家宽
+      - VV 4x 专线A1-伦敦3-解锁BBC iPl A1 家宽
+      - VV 4x 专线A1-荷兰1-4倍率 A1
+      - VV 4x 德国1 A1
+      - VV 4x 专线A1-菲律宾1-4倍率 A1
       - VV 2x 美国1
       - VV 1x 美国2
       - VV 1x 美国3
@@ -2950,7 +3008,7 @@ proxy-groups:
       - VV 4x 台湾2v 家宽
       - VV 1x 韩国1 家宽
       - VV 1x 越南1 家宽
-      - VV 1x D-伦敦1-YouTube视频带宽足
+      - VV 3x 英国1
       - VV 2x 德国1 AI
       - VV 2x 德国1v AI
       - VV 3x D菲律宾1v-Ai/流媒体全解锁-跨 AI
