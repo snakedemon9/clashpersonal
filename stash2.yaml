@@ -5629,7 +5629,7 @@ rules:
   - "DOMAIN-SUFFIX,channelnewsasia.com,🚀 全局设置"
   - "DOMAIN-SUFFIX,chaoex.com,🚀 全局设置"
   - "DOMAIN-SUFFIX,chapm25.com,🚀 全局设置"
-  - "DOMAIN-SUFFIX,chatgpt.com,🚀 全局设置"
+  - "DOMAIN-SUFFIX,chatgpt.com,🤖 ChatGPT"
   - "DOMAIN-SUFFIX,chatnook.com,🚀 全局设置"
   - "DOMAIN-SUFFIX,chaturbate.com,🚀 全局设置"
   - "DOMAIN-SUFFIX,checkgfw.com,🚀 全局设置"
