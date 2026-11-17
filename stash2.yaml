@@ -1,6 +1,6 @@
 #port: 23457
 proxies:
-  - name: "zhuge Traffic: 0 GB / 100 GB"
+  - name: "link Traffic: 0 GB / 100 GB"
     server: aliyun-gz.linkcubecloud.com
     port: 8100
     type: trojan
@@ -8,7 +8,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: "zhuge Expire: 2026-12-06"
+  - name: "link Expire: 2026-12-06"
     server: aliyun-gz.linkcubecloud.com
     port: 8100
     type: trojan
@@ -16,7 +16,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇭🇰 HKG 香港 01
+  - name: "link 🇭🇰 HKG 香港 01"
     server: aliyun-gz.linkcubecloud.com
     port: 8100
     type: trojan
@@ -24,7 +24,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇭🇰 HKG 香港 02
+  - name: "link 🇭🇰 HKG 香港 02"
     server: aliyun-gz.linkcubecloud.com
     port: 8103
     type: trojan
@@ -32,7 +32,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇭🇰 HKG 香港 03
+  - name: "link 🇭🇰 HKG 香港 03"
     server: aliyun-gz.linkcubecloud.com
     port: 8101
     type: trojan
@@ -40,7 +40,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇭🇰 HKG 香港 04
+  - name: "link 🇭🇰 HKG 香港 04"
     server: aliyun-gz.linkcubecloud.com
     port: 8102
     type: trojan
@@ -48,7 +48,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇭🇰 HKG 香港 05
+  - name: "link 🇭🇰 HKG 香港 05"
     server: aliyun-gz.linkcubecloud.com
     port: 8104
     type: trojan
@@ -56,7 +56,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇭🇰 HKG 香港 06
+  - name: "link 🇭🇰 HKG 香港 06"
     server: aliyun-gz.linkcubecloud.com
     port: 8107
     type: trojan
@@ -64,7 +64,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇭🇰 HKG 香港 07
+  - name: "link 🇭🇰 HKG 香港 07"
     server: aliyun-gz.linkcubecloud.com
     port: 8105
     type: trojan
@@ -72,7 +72,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇭🇰 HKG 香港 08
+  - name: "link 🇭🇰 HKG 香港 08"
     server: aliyun-gz.linkcubecloud.com
     port: 8106
     type: trojan
@@ -80,7 +80,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇯🇵 JPN 日本 01
+  - name: "link 🇯🇵 JPN 日本 01"
     server: aliyun-sh.linkcubecloud.com
     port: 8200
     type: trojan
@@ -88,7 +88,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇯🇵 JPN 日本 02
+  - name: "link 🇯🇵 JPN 日本 02"
     server: aliyun-sh.linkcubecloud.com
     port: 8203
     type: trojan
@@ -96,7 +96,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇯🇵 JPN 日本 03
+  - name: "link 🇯🇵 JPN 日本 03"
     server: aliyun-sh.linkcubecloud.com
     port: 8201
     type: trojan
@@ -104,7 +104,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇯🇵 JPN 日本 04
+  - name: "link 🇯🇵 JPN 日本 04"
     server: aliyun-sh.linkcubecloud.com
     port: 8202
     type: trojan
@@ -112,7 +112,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇯🇵 JPN 日本 05
+  - name: "link 🇯🇵 JPN 日本 05"
     server: aliyun-sh.linkcubecloud.com
     port: 8204
     type: trojan
@@ -120,7 +120,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇯🇵 JPN 日本 06
+  - name: "link 🇯🇵 JPN 日本 06"
     server: aliyun-sh.linkcubecloud.com
     port: 8207
     type: trojan
@@ -128,7 +128,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇯🇵 JPN 日本 07
+  - name: "link 🇯🇵 JPN 日本 07"
     server: aliyun-sh.linkcubecloud.com
     port: 8205
     type: trojan
@@ -136,7 +136,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇯🇵 JPN 日本 08
+  - name: "link 🇯🇵 JPN 日本 08"
     server: aliyun-sh.linkcubecloud.com
     port: 8206
     type: trojan
@@ -144,7 +144,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇸🇬 SGP 狮城 01
+  - name: "link 🇸🇬 SGP 狮城 01"
     server: aliyun-gz.linkcubecloud.com
     port: 8304
     type: trojan
@@ -152,7 +152,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇸🇬 SGP 狮城 02
+  - name: "link 🇸🇬 SGP 狮城 02"
     server: aliyun-gz.linkcubecloud.com
     port: 8301
     type: trojan
@@ -160,7 +160,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇸🇬 SGP 狮城 03
+  - name: "link 🇸🇬 SGP 狮城 03"
     server: aliyun-gz.linkcubecloud.com
     port: 8305
     type: trojan
@@ -168,7 +168,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇸🇬 SGP 狮城 04
+  - name: "link 🇸🇬 SGP 狮城 04"
     server: aliyun-gz.linkcubecloud.com
     port: 8306
     type: trojan
@@ -176,7 +176,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇸🇬 SGP 狮城 05
+  - name: "link 🇸🇬 SGP 狮城 05"
     server: aliyun-gz.linkcubecloud.com
     port: 8302
     type: trojan
@@ -184,7 +184,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇸🇬 SGP 狮城 06
+  - name: "link 🇸🇬 SGP 狮城 06"
     server: aliyun-gz.linkcubecloud.com
     port: 8303
     type: trojan
@@ -192,7 +192,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇸🇬 SGP 狮城 07
+  - name: "link 🇸🇬 SGP 狮城 07"
     server: aliyun-gz.linkcubecloud.com
     port: 8300
     type: trojan
@@ -200,7 +200,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇸🇬 SGP 狮城 08
+  - name: "link 🇸🇬 SGP 狮城 08"
     server: aliyun-gz.linkcubecloud.com
     port: 8307
     type: trojan
@@ -208,7 +208,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇨🇳 TWN 台湾 01
+  - name: "link 🇨🇳 TWN 台湾 01"
     server: aliyun-gz.linkcubecloud.com
     port: 8400
     type: trojan
@@ -216,7 +216,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇨🇳 TWN 台湾 02
+  - name: "link 🇨🇳 TWN 台湾 02"
     server: aliyun-gz.linkcubecloud.com
     port: 8401
     type: trojan
@@ -224,7 +224,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇺🇸 USA 美国 01
+  - name: "link 🇺🇸 USA 美国 01"
     server: aliyun-sh.linkcubecloud.com
     port: 8500
     type: trojan
@@ -232,7 +232,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇺🇸 USA 美国 02
+  - name: "link 🇺🇸 USA 美国 02"
     server: aliyun-sh.linkcubecloud.com
     port: 8503
     type: trojan
@@ -240,7 +240,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇺🇸 USA 美国 03
+  - name: "link 🇺🇸 USA 美国 03"
     server: aliyun-sh.linkcubecloud.com
     port: 8501
     type: trojan
@@ -248,7 +248,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇺🇸 USA 美国 04
+  - name: "link 🇺🇸 USA 美国 04"
     server: aliyun-sh.linkcubecloud.com
     port: 8502
     type: trojan
@@ -256,7 +256,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇺🇸 USA 美国 05
+  - name: "link 🇺🇸 USA 美国 05"
     server: aliyun-sh.linkcubecloud.com
     port: 8504
     type: trojan
@@ -264,7 +264,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇺🇸 USA 美国 06
+  - name: "link 🇺🇸 USA 美国 06"
     server: aliyun-sh.linkcubecloud.com
     port: 8507
     type: trojan
@@ -272,7 +272,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇺🇸 USA 美国 07
+  - name: "link 🇺🇸 USA 美国 07"
     server: aliyun-sh.linkcubecloud.com
     port: 8505
     type: trojan
@@ -280,7 +280,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇺🇸 USA 美国 08
+  - name: "link 🇺🇸 USA 美国 08"
     server: aliyun-sh.linkcubecloud.com
     port: 8506
     type: trojan
@@ -288,7 +288,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇬🇧 GBR 英国 01
+  - name: "link 🇬🇧 GBR 英国 01"
     server: aliyun-bj.linkcubecloud.com
     port: 8600
     type: trojan
@@ -296,7 +296,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇬🇧 GBR 英国 02
+  - name: "link 🇬🇧 GBR 英国 02"
     server: aliyun-bj.linkcubecloud.com
     port: 8601
     type: trojan
@@ -304,7 +304,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇩🇪 DEU 德国 01
+  - name: "link 🇩🇪 DEU 德国 01"
     server: aliyun-bj.linkcubecloud.com
     port: 8602
     type: trojan
@@ -312,7 +312,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇩🇪 DEU 德国 02
+  - name: "link 🇩🇪 DEU 德国 02"
     server: aliyun-bj.linkcubecloud.com
     port: 8603
     type: trojan
@@ -320,7 +320,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇳🇱 NLD 荷兰 01
+  - name: "link 🇳🇱 NLD 荷兰 01"
     server: aliyun-bj.linkcubecloud.com
     port: 8604
     type: trojan
@@ -328,7 +328,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇳🇱 NLD 荷兰 02
+  - name: "link 🇳🇱 NLD 荷兰 02"
     server: aliyun-bj.linkcubecloud.com
     port: 8605
     type: trojan
@@ -336,7 +336,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇦🇷 ARG 阿根廷 01
+  - name: "link 🇦🇷 ARG 阿根廷 01"
     server: aliyun-sh.linkcubecloud.com
     port: 8606
     type: trojan
@@ -344,7 +344,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇧🇷 BRA 巴西 01
+  - name: "link 🇧🇷 BRA 巴西 01"
     server: aliyun-sh.linkcubecloud.com
     port: 8607
     type: trojan
@@ -352,7 +352,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇰🇷 KOR 韩国 01
+  - name: "link 🇰🇷 KOR 韩国 01"
     server: aliyun-sh.linkcubecloud.com
     port: 8608
     type: trojan
@@ -360,7 +360,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇰🇷 KOR 韩国 02
+  - name: "link 🇰🇷 KOR 韩国 02"
     server: aliyun-sh.linkcubecloud.com
     port: 8609
     type: trojan
@@ -368,7 +368,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇦🇺 AUS 澳洲 01
+  - name: "link 🇦🇺 AUS 澳洲 01"
     server: aliyun-gz.linkcubecloud.com
     port: 8610
     type: trojan
@@ -376,7 +376,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇮🇳 IND 印度 01
+  - name: "link 🇮🇳 IND 印度 01"
     server: aliyun-gz.linkcubecloud.com
     port: 8611
     type: trojan
@@ -384,7 +384,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇨🇦 CAN 加拿大 01
+  - name: "link 🇨🇦 CAN 加拿大 01"
     server: aliyun-sh.linkcubecloud.com
     port: 8612
     type: trojan
@@ -392,7 +392,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇷🇺 RUS 俄罗斯 01
+  - name: "link 🇷🇺 RUS 俄罗斯 01"
     server: aliyun-bj.linkcubecloud.com
     port: 8613
     type: trojan
@@ -400,7 +400,7 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: zhuge 🇹🇷 TUR 土耳其 01
+  - name: "link 🇹🇷 TUR 土耳其 01"
     server: aliyun-bj.linkcubecloud.com
     port: 8614
     type: trojan
@@ -2280,57 +2280,57 @@ proxy-groups:
   - name: 自动选择3
     type: url-test
     proxies:
-      - "zhuge Traffic: 0 GB / 100 GB"
-      - "zhuge Expire: 2026-12-06"
-      - zhuge 🇭🇰 HKG 香港 01
-      - zhuge 🇭🇰 HKG 香港 02
-      - zhuge 🇭🇰 HKG 香港 03
-      - zhuge 🇭🇰 HKG 香港 04
-      - zhuge 🇭🇰 HKG 香港 05
-      - zhuge 🇭🇰 HKG 香港 06
-      - zhuge 🇭🇰 HKG 香港 07
-      - zhuge 🇭🇰 HKG 香港 08
-      - zhuge 🇯🇵 JPN 日本 01
-      - zhuge 🇯🇵 JPN 日本 02
-      - zhuge 🇯🇵 JPN 日本 03
-      - zhuge 🇯🇵 JPN 日本 04
-      - zhuge 🇯🇵 JPN 日本 05
-      - zhuge 🇯🇵 JPN 日本 06
-      - zhuge 🇯🇵 JPN 日本 07
-      - zhuge 🇯🇵 JPN 日本 08
-      - zhuge 🇸🇬 SGP 狮城 01
-      - zhuge 🇸🇬 SGP 狮城 02
-      - zhuge 🇸🇬 SGP 狮城 03
-      - zhuge 🇸🇬 SGP 狮城 04
-      - zhuge 🇸🇬 SGP 狮城 05
-      - zhuge 🇸🇬 SGP 狮城 06
-      - zhuge 🇸🇬 SGP 狮城 07
-      - zhuge 🇸🇬 SGP 狮城 08
-      - zhuge 🇨🇳 TWN 台湾 01
-      - zhuge 🇨🇳 TWN 台湾 02
-      - zhuge 🇺🇸 USA 美国 01
-      - zhuge 🇺🇸 USA 美国 02
-      - zhuge 🇺🇸 USA 美国 03
-      - zhuge 🇺🇸 USA 美国 04
-      - zhuge 🇺🇸 USA 美国 05
-      - zhuge 🇺🇸 USA 美国 06
-      - zhuge 🇺🇸 USA 美国 07
-      - zhuge 🇺🇸 USA 美国 08
-      - zhuge 🇬🇧 GBR 英国 01
-      - zhuge 🇬🇧 GBR 英国 02
-      - zhuge 🇩🇪 DEU 德国 01
-      - zhuge 🇩🇪 DEU 德国 02
-      - zhuge 🇳🇱 NLD 荷兰 01
-      - zhuge 🇳🇱 NLD 荷兰 02
-      - zhuge 🇦🇷 ARG 阿根廷 01
-      - zhuge 🇧🇷 BRA 巴西 01
-      - zhuge 🇰🇷 KOR 韩国 01
-      - zhuge 🇰🇷 KOR 韩国 02
-      - zhuge 🇦🇺 AUS 澳洲 01
-      - zhuge 🇮🇳 IND 印度 01
-      - zhuge 🇨🇦 CAN 加拿大 01
-      - zhuge 🇷🇺 RUS 俄罗斯 01
-      - zhuge 🇹🇷 TUR 土耳其 01
+      - "link Traffic: 0 GB / 100 GB"
+      - "link Expire: 2026-12-06"
+      - "link 🇭🇰 HKG 香港 01"
+      - "link 🇭🇰 HKG 香港 02"
+      - "link 🇭🇰 HKG 香港 03"
+      - "link 🇭🇰 HKG 香港 04"
+      - "link 🇭🇰 HKG 香港 05"
+      - "link 🇭🇰 HKG 香港 06"
+      - "link 🇭🇰 HKG 香港 07"
+      - "link 🇭🇰 HKG 香港 08"
+      - "link 🇯🇵 JPN 日本 01"
+      - "link 🇯🇵 JPN 日本 02"
+      - "link 🇯🇵 JPN 日本 03"
+      - "link 🇯🇵 JPN 日本 04"
+      - "link 🇯🇵 JPN 日本 05"
+      - "link 🇯🇵 JPN 日本 06"
+      - "link 🇯🇵 JPN 日本 07"
+      - "link 🇯🇵 JPN 日本 08"
+      - "link 🇸🇬 SGP 狮城 01"
+      - "link 🇸🇬 SGP 狮城 02"
+      - "link 🇸🇬 SGP 狮城 03"
+      - "link 🇸🇬 SGP 狮城 04"
+      - "link 🇸🇬 SGP 狮城 05"
+      - "link 🇸🇬 SGP 狮城 06"
+      - "link 🇸🇬 SGP 狮城 07"
+      - "link 🇸🇬 SGP 狮城 08"
+      - "link 🇨🇳 TWN 台湾 01"
+      - "link 🇨🇳 TWN 台湾 02"
+      - "link 🇺🇸 USA 美国 01"
+      - "link 🇺🇸 USA 美国 02"
+      - "link 🇺🇸 USA 美国 03"
+      - "link 🇺🇸 USA 美国 04"
+      - "link 🇺🇸 USA 美国 05"
+      - "link 🇺🇸 USA 美国 06"
+      - "link 🇺🇸 USA 美国 07"
+      - "link 🇺🇸 USA 美国 08"
+      - "link 🇬🇧 GBR 英国 01"
+      - "link 🇬🇧 GBR 英国 02"
+      - "link 🇩🇪 DEU 德国 01"
+      - "link 🇩🇪 DEU 德国 02"
+      - "link 🇳🇱 NLD 荷兰 01"
+      - "link 🇳🇱 NLD 荷兰 02"
+      - "link 🇦🇷 ARG 阿根廷 01"
+      - "link 🇧🇷 BRA 巴西 01"
+      - "link 🇰🇷 KOR 韩国 01"
+      - "link 🇰🇷 KOR 韩国 02"
+      - "link 🇦🇺 AUS 澳洲 01"
+      - "link 🇮🇳 IND 印度 01"
+      - "link 🇨🇦 CAN 加拿大 01"
+      - "link 🇷🇺 RUS 俄罗斯 01"
+      - "link 🇹🇷 TUR 土耳其 01"
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -2338,57 +2338,57 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择3
-      - "zhuge Traffic: 0 GB / 100 GB"
-      - "zhuge Expire: 2026-12-06"
-      - zhuge 🇭🇰 HKG 香港 01
-      - zhuge 🇭🇰 HKG 香港 02
-      - zhuge 🇭🇰 HKG 香港 03
-      - zhuge 🇭🇰 HKG 香港 04
-      - zhuge 🇭🇰 HKG 香港 05
-      - zhuge 🇭🇰 HKG 香港 06
-      - zhuge 🇭🇰 HKG 香港 07
-      - zhuge 🇭🇰 HKG 香港 08
-      - zhuge 🇯🇵 JPN 日本 01
-      - zhuge 🇯🇵 JPN 日本 02
-      - zhuge 🇯🇵 JPN 日本 03
-      - zhuge 🇯🇵 JPN 日本 04
-      - zhuge 🇯🇵 JPN 日本 05
-      - zhuge 🇯🇵 JPN 日本 06
-      - zhuge 🇯🇵 JPN 日本 07
-      - zhuge 🇯🇵 JPN 日本 08
-      - zhuge 🇸🇬 SGP 狮城 01
-      - zhuge 🇸🇬 SGP 狮城 02
-      - zhuge 🇸🇬 SGP 狮城 03
-      - zhuge 🇸🇬 SGP 狮城 04
-      - zhuge 🇸🇬 SGP 狮城 05
-      - zhuge 🇸🇬 SGP 狮城 06
-      - zhuge 🇸🇬 SGP 狮城 07
-      - zhuge 🇸🇬 SGP 狮城 08
-      - zhuge 🇨🇳 TWN 台湾 01
-      - zhuge 🇨🇳 TWN 台湾 02
-      - zhuge 🇺🇸 USA 美国 01
-      - zhuge 🇺🇸 USA 美国 02
-      - zhuge 🇺🇸 USA 美国 03
-      - zhuge 🇺🇸 USA 美国 04
-      - zhuge 🇺🇸 USA 美国 05
-      - zhuge 🇺🇸 USA 美国 06
-      - zhuge 🇺🇸 USA 美国 07
-      - zhuge 🇺🇸 USA 美国 08
-      - zhuge 🇬🇧 GBR 英国 01
-      - zhuge 🇬🇧 GBR 英国 02
-      - zhuge 🇩🇪 DEU 德国 01
-      - zhuge 🇩🇪 DEU 德国 02
-      - zhuge 🇳🇱 NLD 荷兰 01
-      - zhuge 🇳🇱 NLD 荷兰 02
-      - zhuge 🇦🇷 ARG 阿根廷 01
-      - zhuge 🇧🇷 BRA 巴西 01
-      - zhuge 🇰🇷 KOR 韩国 01
-      - zhuge 🇰🇷 KOR 韩国 02
-      - zhuge 🇦🇺 AUS 澳洲 01
-      - zhuge 🇮🇳 IND 印度 01
-      - zhuge 🇨🇦 CAN 加拿大 01
-      - zhuge 🇷🇺 RUS 俄罗斯 01
-      - zhuge 🇹🇷 TUR 土耳其 01
+      - "link Traffic: 0 GB / 100 GB"
+      - "link Expire: 2026-12-06"
+      - "link 🇭🇰 HKG 香港 01"
+      - "link 🇭🇰 HKG 香港 02"
+      - "link 🇭🇰 HKG 香港 03"
+      - "link 🇭🇰 HKG 香港 04"
+      - "link 🇭🇰 HKG 香港 05"
+      - "link 🇭🇰 HKG 香港 06"
+      - "link 🇭🇰 HKG 香港 07"
+      - "link 🇭🇰 HKG 香港 08"
+      - "link 🇯🇵 JPN 日本 01"
+      - "link 🇯🇵 JPN 日本 02"
+      - "link 🇯🇵 JPN 日本 03"
+      - "link 🇯🇵 JPN 日本 04"
+      - "link 🇯🇵 JPN 日本 05"
+      - "link 🇯🇵 JPN 日本 06"
+      - "link 🇯🇵 JPN 日本 07"
+      - "link 🇯🇵 JPN 日本 08"
+      - "link 🇸🇬 SGP 狮城 01"
+      - "link 🇸🇬 SGP 狮城 02"
+      - "link 🇸🇬 SGP 狮城 03"
+      - "link 🇸🇬 SGP 狮城 04"
+      - "link 🇸🇬 SGP 狮城 05"
+      - "link 🇸🇬 SGP 狮城 06"
+      - "link 🇸🇬 SGP 狮城 07"
+      - "link 🇸🇬 SGP 狮城 08"
+      - "link 🇨🇳 TWN 台湾 01"
+      - "link 🇨🇳 TWN 台湾 02"
+      - "link 🇺🇸 USA 美国 01"
+      - "link 🇺🇸 USA 美国 02"
+      - "link 🇺🇸 USA 美国 03"
+      - "link 🇺🇸 USA 美国 04"
+      - "link 🇺🇸 USA 美国 05"
+      - "link 🇺🇸 USA 美国 06"
+      - "link 🇺🇸 USA 美国 07"
+      - "link 🇺🇸 USA 美国 08"
+      - "link 🇬🇧 GBR 英国 01"
+      - "link 🇬🇧 GBR 英国 02"
+      - "link 🇩🇪 DEU 德国 01"
+      - "link 🇩🇪 DEU 德国 02"
+      - "link 🇳🇱 NLD 荷兰 01"
+      - "link 🇳🇱 NLD 荷兰 02"
+      - "link 🇦🇷 ARG 阿根廷 01"
+      - "link 🇧🇷 BRA 巴西 01"
+      - "link 🇰🇷 KOR 韩国 01"
+      - "link 🇰🇷 KOR 韩国 02"
+      - "link 🇦🇺 AUS 澳洲 01"
+      - "link 🇮🇳 IND 印度 01"
+      - "link 🇨🇦 CAN 加拿大 01"
+      - "link 🇷🇺 RUS 俄罗斯 01"
+      - "link 🇹🇷 TUR 土耳其 01"
   - name: Huahe测速
     type: url-test
     url: https://www.gstatic.com/generate_204
