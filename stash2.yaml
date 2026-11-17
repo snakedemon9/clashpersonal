@@ -2055,12 +2055,12 @@ proxy-groups:
       - 🍀huaheban
       - 🇨🇿泰国节点
       - 📍精选测速
+      - 自动选择3
+      - link
       - vv
       - Huahe选择
       - novas其他国家
       - novas
-      - 自动选择3
-      - zhuge
   - name: 🚀 手动选择
     type: select
     proxies:
@@ -2152,6 +2152,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 💫其他节点
       - 🇭🇰 香港节点
       - 🇭🇰香港选择
@@ -2163,8 +2165,6 @@ proxy-groups:
       - novas其他国家
       - novas
       - 🌏其他国家
-      - 自动选择3
-      - zhuge
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -2334,7 +2334,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-  - name: zhuge
+  - name: link
     type: select
     proxies:
       - 自动选择3
@@ -2421,6 +2421,8 @@ proxy-groups:
       - 💫其他节点
       - 🔀负载均衡
       - 📍精选测速
+      - 自动选择3
+      - link
       - vv
       - 🇭🇰香港选择
       - 🇯🇵日本选择
@@ -2431,14 +2433,14 @@ proxy-groups:
       - novas
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 全局设置
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 🇺🇲 美国节点
       - 🇭🇰 香港节点
       - 🇰🇵台湾节点
@@ -2462,8 +2464,6 @@ proxy-groups:
       - 🌏其他国家
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: 🤖 ChatGPT
     type: select
     proxies:
@@ -2483,6 +2483,8 @@ proxy-groups:
       - 🇨🇿泰国节点
       - 💫其他节点
       - 📍精选测速
+      - 自动选择3
+      - link
       - 🇭🇰香港选择
       - 🇯🇵日本选择
       - 🇰🇷韩国测速
@@ -2493,8 +2495,6 @@ proxy-groups:
       - novas
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: 📹 Youtube
     type: select
     proxies:
@@ -2516,6 +2516,8 @@ proxy-groups:
       - 🍀huaheban
       - 🔀负载均衡
       - 📍精选测速
+      - 自动选择3
+      - link
       - vv
       - 🇨🇿泰国节点
       - 🇨🇳回国节点
@@ -2524,8 +2526,6 @@ proxy-groups:
       - 🌏其他国家
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: 🎥 Netflix
     type: select
     proxies:
@@ -2551,14 +2551,14 @@ proxy-groups:
       - 🐟 其他网站
       - vv
       - 📍精选测速
+      - 自动选择3
+      - link
       - 🇨🇿泰国节点
       - 🇨🇳回国节点
       - novas其他国家
       - novas
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: 🐼disney
     proxies:
       - 🚀 全局设置
@@ -2566,6 +2566,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 📢 谷歌FCM
       - 🤖 ChatGPT
       - 🎥 Netflix
@@ -2593,8 +2595,6 @@ proxy-groups:
       - 🌏其他国家
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
     type: select
   - name: 🐟 其他网站
     type: select
@@ -2617,6 +2617,8 @@ proxy-groups:
       - vv
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 💫其他节点
       - 🔀负载均衡
       - 🇨🇳回国节点
@@ -2625,8 +2627,6 @@ proxy-groups:
       - 🌏其他国家
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -2644,6 +2644,8 @@ proxy-groups:
       - 🔀负载均衡
       - vv
       - 📍精选测速
+      - 自动选择3
+      - link
       - 💫其他节点
       - 🇭🇰香港选择
       - 🇯🇵日本选择
@@ -2656,8 +2658,6 @@ proxy-groups:
       - 🌏其他国家
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -2671,6 +2671,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 💫其他节点
       - 🇭🇰香港选择
       - 🇯🇵日本选择
@@ -2686,8 +2688,6 @@ proxy-groups:
       - 🌏其他国家
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: 🌏 出海媒体
     type: select
     proxies:
@@ -2702,6 +2702,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 💫其他节点
       - 🇭🇰香港选择
       - 🇯🇵日本选择
@@ -2716,8 +2718,6 @@ proxy-groups:
       - 🌏其他国家
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -2734,6 +2734,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 💫其他节点
       - 🇭🇰香港选择
       - 🇯🇵日本选择
@@ -2747,8 +2749,6 @@ proxy-groups:
       - 🌏其他国家
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: 🎮 国际游戏
     type: select
     proxies:
@@ -2765,6 +2765,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 💫其他节点
       - 🇭🇰香港选择
       - 🇯🇵日本选择
@@ -2778,8 +2780,6 @@ proxy-groups:
       - 🌏其他国家
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: 🎶 网易音乐
     type: select
     proxies:
@@ -2795,6 +2795,8 @@ proxy-groups:
       - vv
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 🇭🇰 香港节点
       - 🇭🇰香港选择
       - 🇯🇵 日本测速
@@ -2811,8 +2813,6 @@ proxy-groups:
       - Huahe选择
       - Huahe测速
       - 🚀 手动选择
-      - 自动选择3
-      - zhuge
   - name: 🎯 国内网络
     type: select
     proxies:
@@ -2827,6 +2827,8 @@ proxy-groups:
       - vv
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 💫其他节点
       - 🇭🇰香港选择
       - 🇯🇵日本选择
@@ -2842,8 +2844,6 @@ proxy-groups:
       - 🌏其他国家
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: 💫其他节点
     proxies:
       - VV 1x 日本3v
@@ -3246,6 +3246,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 💫其他节点
       - 🇭🇰 香港节点
       - 🇭🇰香港选择
@@ -3266,8 +3268,6 @@ proxy-groups:
       - 🌏其他国家
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -3283,6 +3283,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 💫其他节点
       - 🇭🇰香港选择
       - 🇯🇵日本选择
@@ -3297,8 +3299,6 @@ proxy-groups:
       - 🌏其他国家
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: 🍃 应用净化
     type: select
     proxies:
@@ -3307,6 +3307,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 💫其他节点
       - 🇭🇰 香港节点
       - 🇭🇰香港选择
@@ -3327,8 +3329,6 @@ proxy-groups:
       - 🌏其他国家
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: 📺 巴哈姆特
     type: select
     proxies:
@@ -3340,6 +3340,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 💫其他节点
       - 🇭🇰 香港节点
       - 🇭🇰香港选择
@@ -3358,13 +3360,13 @@ proxy-groups:
       - 🌏其他国家
       - Huahe选择
       - Huahe测速
-      - 自动选择3
-      - zhuge
   - name: battle.net
     proxies:
       - ♻️ 自动选择
       - 自动选择2⚡️
       - 📍精选测速
+      - 自动选择3
+      - link
       - 💫其他节点
       - 🇭🇰 香港节点
       - 🇭🇰香港选择
@@ -3386,8 +3388,6 @@ proxy-groups:
       - Huahe选择
       - Huahe测速
       - 🚀 手动选择
-      - 自动选择3
-      - zhuge
     type: select
   - name: Huahe选择
     type: select
