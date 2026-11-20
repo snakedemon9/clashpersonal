@@ -392,163 +392,6 @@ proxies:
     sni: cos.ap-guangzhou.myqcloud.com
     skip-cert-verify: true
     udp: true
-  - name: 🇭🇰 香港 01
-    type: vless
-    server: "aic970.huatls.top"
-    port: 31001
-    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    encryption: none
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: deb.debian.org
-    network: tcp
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: BXSZidVRfNu4J8ZGpywWnDK-IlMgXIIuGp8J7ZtUBxs
-      short-id: b5298981c79a7fc5
-  - name: 🇺🇸 美国 01
-    type: vless
-    server: "g4wfxe.huatls.top"
-    port: 31002
-    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    encryption: none
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: deb.debian.org
-    network: tcp
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: JApYbX9yXsqD-i19IzAtRXnzp_j6Luap1iloPGDF-XU
-      short-id: f9a74935edc6d437
-  - name: 🇺🇸 美国 02
-    type: vless
-    server: "vw5wt1.huatls.top"
-    port: 32010
-    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    encryption: none
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: deb.debian.org
-    network: tcp
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 8RYHy5mKOfDYQ57qvW_JfzVUPYIYpeNo551dwI5j3Q0
-      short-id: ab8531d480d98d47
-  - name: 🇯🇵 日本 01
-    type: vless
-    server: "tqxza0.huatls.top"
-    port: 31003
-    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    encryption: none
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: deb.debian.org
-    network: tcp
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: NktrVbNJ0mPzhhJCr9U5ogzukQ9S1Pw1N1IRFX05eTU
-      short-id: 3890633dbe322fe3
-  - name: 🇯🇵 日本 02
-    type: vless
-    server: "x03dxz.huatls.top"
-    port: 32011
-    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    encryption: none
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: deb.debian.org
-    network: tcp
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 8RYHy5mKOfDYQ57qvW_JfzVUPYIYpeNo551dwI5j3Q0
-      short-id: ab8531d480d98d47
-  - name: 🇸🇬 新加坡 01
-    type: vless
-    server: "hkggj3.huatls.top"
-    port: 31004
-    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    encryption: none
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: deb.debian.org
-    network: tcp
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: mdkVq40nRSVQUqwd0YYtFcdIUZvwvb72yk9u95ZEyjY
-      short-id: aa079ab318ee814d
-  - name: 🇰🇷 韩国 01
-    type: vless
-    server: "oip1xg.huatls.top"
-    port: 32012
-    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    encryption: none
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: deb.debian.org
-    network: tcp
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 8RYHy5mKOfDYQ57qvW_JfzVUPYIYpeNo551dwI5j3Q0
-      short-id: ab8531d480d98d47
-  - name: 🇺🇸 直连 美国 01 0.1x
-    type: tuic
-    server: "of893r.2zi2js.huatls.top"
-    port: 57003
-    password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    sni: "of893r.2zi2js.huatls.top"
-    disable-sni: false
-    congestion-controller: bbr
-    reduce-rtt: false
-    alpn:
-      - h3
-  - name: 🇯🇵 直连 日本 01 0.1x
-    type: tuic
-    server: "th8vsv.11jps.huatls.top"
-    port: 57003
-    password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    sni: "th8vsv.11jps.huatls.top"
-    disable-sni: false
-    congestion-controller: bbr
-    reduce-rtt: false
-    alpn:
-      - h3
-  - name: 🇺🇸 直连 美国 02 0.1x
-    type: vless
-    server: us-cdn.xhttp.huatls.top
-    port: 2083
-    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    encryption: none
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: us.xhttp.huatls.top
-    network: xhttp
-    xhttp-opts:
-      path: /
-      host: us.xhttp.huatls.top
-      mode: stream-up
-    alpn:
-      - h2
-    client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: cloudflare-ech.com
   - name: 5.0X 🇨🇳 日志记录 绍兴
     type: vmess
     server: shaoxing.ednovas.life
@@ -1333,6 +1176,151 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
+  - name: 🇭🇰 香港 01
+    type: vless
+    server: vljnom.huatls.top
+    port: 31001
+    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
+    encryption: none
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: deb.debian.org
+    network: tcp
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: BXSZidVRfNu4J8ZGpywWnDK-IlMgXIIuGp8J7ZtUBxs
+      short-id: b5298981c79a7fc5
+  - name: 🇺🇸 美国 01
+    type: vless
+    server: f4ggia.huatls.top
+    port: 31002
+    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
+    encryption: none
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: deb.debian.org
+    network: tcp
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: JApYbX9yXsqD-i19IzAtRXnzp_j6Luap1iloPGDF-XU
+      short-id: f9a74935edc6d437
+  - name: 🇺🇸 美国 02
+    type: vless
+    server: r0g004.huatls.top
+    port: 32010
+    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
+    encryption: none
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: deb.debian.org
+    network: tcp
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 8RYHy5mKOfDYQ57qvW_JfzVUPYIYpeNo551dwI5j3Q0
+      short-id: ab8531d480d98d47
+  - name: 🇯🇵 日本 01
+    type: vless
+    server: pedhhi.huatls.top
+    port: 31003
+    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
+    encryption: none
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: deb.debian.org
+    network: tcp
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: NktrVbNJ0mPzhhJCr9U5ogzukQ9S1Pw1N1IRFX05eTU
+      short-id: 3890633dbe322fe3
+  - name: 🇯🇵 日本 02
+    type: vless
+    server: zuaaqc.huatls.top
+    port: 32011
+    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
+    encryption: none
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: deb.debian.org
+    network: tcp
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 8RYHy5mKOfDYQ57qvW_JfzVUPYIYpeNo551dwI5j3Q0
+      short-id: ab8531d480d98d47
+  - name: 🇸🇬 新加坡 01
+    type: vless
+    server: fiq1g1.huatls.top
+    port: 31004
+    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
+    encryption: none
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: deb.debian.org
+    network: tcp
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: mdkVq40nRSVQUqwd0YYtFcdIUZvwvb72yk9u95ZEyjY
+      short-id: aa079ab318ee814d
+  - name: 🇰🇷 韩国 01
+    type: vless
+    server: k781vp.huatls.top
+    port: 32012
+    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
+    encryption: none
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: deb.debian.org
+    network: tcp
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 8RYHy5mKOfDYQ57qvW_JfzVUPYIYpeNo551dwI5j3Q0
+      short-id: ab8531d480d98d47
+  - name: 🇺🇸 直连 美国 01 0.1x
+    type: tuic
+    server: qgxzm7.2zi2js.huatls.top
+    port: 57003
+    password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
+    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
+    sni: qgxzm7.2zi2js.huatls.top
+    disable-sni: false
+    congestion-controller: bbr
+    reduce-rtt: false
+    alpn:
+      - h3
+  - name: 🇺🇸 直连 美国 02 0.1x
+    type: vless
+    server: us-cdn.xhttp.huatls.top
+    port: 2083
+    uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
+    encryption: none
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: us.xhttp.huatls.top
+    network: xhttp
+    xhttp-opts:
+      path: /
+      host: us.xhttp.huatls.top
+      mode: stream-up
+    alpn:
+      - h2
+    client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
   - name: VV 4x 美国1 A1
     type: ss
     server: df.668fx.com
@@ -1585,17 +1573,17 @@ proxies:
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
     sni: us2.vxrelay.xyz
-  - name: VV 1x 美国3
+  - name: VV 1x D美国3-网页-视频浏览-1倍率
     type: anytls
     server: us3-vul.vxrelay.xyz
-    port: 2388
+    port: 23882
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
     sni: us3.vxrelay.xyz
-  - name: VV 3x 美国4v AI Claude 家宽 双ISP
+  - name: VV 3x D美国4v-双ISP家宽IP-适合A
     type: vless
     server: us4-lisa.vxrelay.xyz
-    port: 6862
+    port: 6622
     uuid: 89d88975-49e7-44f0-a6cb-00084230c229
     alterId: 0
     cipher: auto
@@ -1732,7 +1720,7 @@ proxies:
     reality-opts:
       public-key: AhILoJxA86LB54Ogow_fXguB8vtFxBy_qp4fLUcIDm4
       short-id: 7121954f59d050
-    client-fingerprint: qq
+    client-fingerprint: edge
     network: tcp
   - name: VV 4.5x 日本4 AI Claude 家宽 双ISP
     type: anytls
@@ -1890,10 +1878,10 @@ proxies:
       short-id: b128c808f36d04
     client-fingerprint: chrome
     network: tcp
-  - name: VV 1x 韩国1 家宽
+  - name: VV 1x D韩国1-家宽住宅IP三网优化-流媒
     type: anytls
     server: kr1-lisa.vxrelay.xyz
-    port: 2523
+    port: 25282
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
     sni: kr1-lisa.vxrelay.xyz
@@ -2109,8 +2097,6 @@ proxy-groups:
       - VV 4x 美国9 A1 AI Claude 家宽 双ISP
       - VV 2x 美国1
       - VV 1x 美国2
-      - VV 1x 美国3
-      - VV 3x 美国4v AI Claude 家宽 双ISP
       - VV 4x 美国5 AI Claude 家宽 双ISP
       - VV 5x 美国6v AI Claude 家宽
       - VV 5x 美国7v AI Claude 家宽
@@ -2165,7 +2151,6 @@ proxy-groups:
       - VV 1x 日本3v
       - VV 1x 新加坡2v
       - VV 1x 新加坡3
-      - VV 1x 韩国1 家宽
       - VV 1x 越南1 家宽
       - VV 香港1 家宽
       - VV 香港2 家宽
@@ -2202,7 +2187,6 @@ proxy-groups:
       - VV 1x 新加坡2v
       - VV 1x 新加坡3
       - VV 4x 韩国1 A1 家宽
-      - VV 1x 韩国1 家宽
       - VV 4x 香港5
       - VV 4x 香港2 A1 家宽
       - VV 4x 香港3 A1 家宽
@@ -2231,8 +2215,6 @@ proxy-groups:
       - VV 4x 美国9 A1 AI Claude 家宽 双ISP
       - VV 2x 美国1
       - VV 1x 美国2
-      - VV 1x 美国3
-      - VV 3x 美国4v AI Claude 家宽 双ISP
       - VV 4x 美国5 AI Claude 家宽 双ISP
       - VV 5x 美国6v AI Claude 家宽
       - VV 5x 美国7v AI Claude 家宽
@@ -2830,7 +2812,6 @@ proxy-groups:
       - VV 1x 日本2
       - VV 1x 新加坡2v
       - VV 1x 新加坡3
-      - VV 1x 韩国1 家宽
       - VV 1x 越南1 家宽
       - VV 香港1 家宽
       - VV 香港2 家宽
@@ -2913,14 +2894,12 @@ proxy-groups:
   - name: 🇰🇷韩国测速
     proxies:
       - VV 4x 韩国1 A1 家宽
-      - VV 1x 韩国1 家宽
       - 🇰🇷 韩国 01
     type: url-test
     interval: 300
   - name: 🇰🇷韩国节点
     proxies:
       - VV 4x 韩国1 A1 家宽
-      - VV 1x 韩国1 家宽
       - 🇰🇷 韩国 01
     type: select
   - name: 🇺🇲 美国节点
@@ -2938,8 +2917,6 @@ proxy-groups:
       - VV 4x 美国9 A1 AI Claude 家宽 双ISP
       - VV 2x 美国1
       - VV 1x 美国2
-      - VV 1x 美国3
-      - VV 3x 美国4v AI Claude 家宽 双ISP
       - VV 4x 美国5 AI Claude 家宽 双ISP
       - VV 5x 美国6v AI Claude 家宽
       - VV 5x 美国7v AI Claude 家宽
@@ -2977,13 +2954,11 @@ proxy-groups:
       - 🇸🇬 新加坡 01
       - 🇰🇷 韩国 01
       - VV 1x 美国2
-      - VV 1x 美国3
       - VV 1x 日本2
       - VV 1x 日本3v
       - VV 1x 新加坡2v
       - VV 1x 新加坡3
       - VV 1x 越南1 家宽
-      - VV 1x 韩国1 家宽
       - VV 香港1 家宽
       - VV 香港2 家宽
       - VV 香港4 家宽
@@ -3070,8 +3045,8 @@ proxy-groups:
       - VV 4x 专线A1-菲律宾1-4倍率 A1
       - VV 2x 美国1
       - VV 1x 美国2
-      - VV 1x 美国3
-      - VV 3x 美国4v AI Claude 家宽 双ISP
+      - VV 1x D美国3-网页-视频浏览-1倍率
+      - VV 3x D美国4v-双ISP家宽IP-适合A
       - VV 4x 美国5 AI Claude 家宽 双ISP
       - VV 5x 美国6v AI Claude 家宽
       - VV 5x 美国7v AI Claude 家宽
@@ -3098,7 +3073,7 @@ proxy-groups:
       - VV 4x 香港5v
       - VV 4x 台湾1
       - VV 4x 台湾2v 家宽
-      - VV 1x 韩国1 家宽
+      - VV 1x D韩国1-家宽住宅IP三网优化-流媒
       - VV 1x 越南1 家宽
       - VV 3x 英国1
       - VV 2x 德国1 AI
@@ -3350,7 +3325,6 @@ proxy-groups:
       - 🇸🇬 新加坡 01
       - 🇰🇷 韩国 01
       - 🇺🇸 直连 美国 01 0.1x
-      - 🇯🇵 直连 日本 01 0.1x
       - 🇺🇸 直连 美国 02 0.1x
 rules:
   - DOMAIN-KEYWORD,blizzard,battle.net
@@ -18734,8 +18708,10 @@ profile:
 #GEO数据库
 geodata-mode: true
 geox-url:
-  geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
-  geosite: "https://github.com/flyhigherpi/merlinclash_clash_related/raw/refs/heads/master/geosite/geosite.dat"
+  geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/ge\
+    oip-lite.dat"
+  geosite: "https://github.com/flyhigherpi/merlinclash_clash_related/raw/refs/hea\
+    ds/master/geosite/geosite.dat"
 #启动参数
 allow-lan: true
 mode: rule
