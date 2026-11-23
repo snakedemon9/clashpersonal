@@ -1178,7 +1178,7 @@ proxies:
     udp: true
   - name: 🇭🇰 香港 01
     type: vless
-    server: x9u0pa.huatls.top
+    server: otjnr8.huatls.top
     port: 31001
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -1194,7 +1194,7 @@ proxies:
       short-id: b5298981c79a7fc5
   - name: 🇺🇸 美国 01
     type: vless
-    server: o2z57s.huatls.top
+    server: w7ej7m.huatls.top
     port: 31002
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -1210,7 +1210,7 @@ proxies:
       short-id: f9a74935edc6d437
   - name: 🇺🇸 美国 02
     type: vless
-    server: odzq5d.huatls.top
+    server: vcjy64.huatls.top
     port: 32010
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -1224,9 +1224,9 @@ proxies:
     reality-opts:
       public-key: 8RYHy5mKOfDYQ57qvW_JfzVUPYIYpeNo551dwI5j3Q0
       short-id: ab8531d480d98d47
-  - name: 🇯🇵 日本 01
+  - name: "🇯🇵 日本 01 "
     type: vless
-    server: peoz2i.huatls.top
+    server: q34sns.huatls.top
     port: 31003
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -1242,7 +1242,7 @@ proxies:
       short-id: 3890633dbe322fe3
   - name: 🇯🇵 日本 02
     type: vless
-    server: esy4m0.huatls.top
+    server: ms4wb4.huatls.top
     port: 32011
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -1256,9 +1256,9 @@ proxies:
     reality-opts:
       public-key: 8RYHy5mKOfDYQ57qvW_JfzVUPYIYpeNo551dwI5j3Q0
       short-id: ab8531d480d98d47
-  - name: 🇸🇬 新加坡 01
+  - name: "🇸🇬 新加坡 01 "
     type: vless
-    server: vvrtg4.huatls.top
+    server: tnqyxy.huatls.top
     port: 31004
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -1274,7 +1274,7 @@ proxies:
       short-id: aa079ab318ee814d
   - name: 🇰🇷 韩国 01
     type: vless
-    server: csxvga.huatls.top
+    server: rmkjv5.huatls.top
     port: 32012
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     encryption: none
@@ -1290,11 +1290,11 @@ proxies:
       short-id: ab8531d480d98d47
   - name: 🇺🇸 直连 美国 01 0.1x
     type: tuic
-    server: k2lpz7.2zi2js.huatls.top
+    server: a1fdsc.2zi2js.huatls.top
     port: 57003
     password: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
     uuid: 0ca453b3-1ee6-4db0-a092-ee87ed7074cd
-    sni: k2lpz7.2zi2js.huatls.top
+    sni: a1fdsc.2zi2js.huatls.top
     disable-sni: false
     congestion-controller: bbr
     reduce-rtt: false
@@ -1720,7 +1720,7 @@ proxies:
     reality-opts:
       public-key: AhILoJxA86LB54Ogow_fXguB8vtFxBy_qp4fLUcIDm4
       short-id: 7121954f59d050
-    client-fingerprint: edge
+    client-fingerprint: qq
     network: tcp
   - name: VV 4.5x 日本4 AI Claude 家宽 双ISP
     type: anytls
@@ -2143,9 +2143,7 @@ proxy-groups:
       - 🇭🇰 香港 01
       - 🇺🇸 美国 01
       - 🇺🇸 美国 02
-      - 🇯🇵 日本 01
       - 🇯🇵 日本 02
-      - 🇸🇬 新加坡 01
       - 🇰🇷 韩国 01
       - VV 1x 日本2
       - VV 1x 日本3v
@@ -2360,9 +2358,9 @@ proxy-groups:
       - 🇭🇰 香港 01
       - 🇺🇸 美国 01
       - 🇺🇸 美国 02
-      - 🇯🇵 日本 01
+      - "🇯🇵 日本 01 "
       - 🇯🇵 日本 02
-      - 🇸🇬 新加坡 01
+      - "🇸🇬 新加坡 01 "
       - 🇰🇷 韩国 01
   - name: 📲 Telegram
     type: select
@@ -2949,9 +2947,7 @@ proxy-groups:
       - 🇭🇰 香港 01
       - 🇺🇸 美国 01
       - 🇺🇸 美国 02
-      - 🇯🇵 日本 01
       - 🇯🇵 日本 02
-      - 🇸🇬 新加坡 01
       - 🇰🇷 韩国 01
       - VV 1x 美国2
       - VV 1x 日本2
@@ -3320,9 +3316,9 @@ proxy-groups:
       - 🇭🇰 香港 01
       - 🇺🇸 美国 01
       - 🇺🇸 美国 02
-      - 🇯🇵 日本 01
+      - "🇯🇵 日本 01 "
       - 🇯🇵 日本 02
-      - 🇸🇬 新加坡 01
+      - "🇸🇬 新加坡 01 "
       - 🇰🇷 韩国 01
       - 🇺🇸 直连 美国 01 0.1x
       - 🇺🇸 直连 美国 02 0.1x
