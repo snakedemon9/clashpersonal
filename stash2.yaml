@@ -3323,6 +3323,7 @@ proxy-groups:
       - 🇺🇸 直连 美国 01 0.1x
       - 🇺🇸 直连 美国 02 0.1x
 rules:
+  - AND,((IP-CIDR,8.8.8.8/32,no-resolve),(DST-PORT,853),(NETWORK,tcp)),自动选择3
   - DOMAIN-KEYWORD,blizzard,battle.net
   - DOMAIN-SUFFIX,dss.map.fastly.net,🐼disney
   - DOMAIN-SUFFIX,alphacdn.net,🐼disney
