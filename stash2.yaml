@@ -3341,7 +3341,9 @@ rules:
   - DOMAIN-SUFFIX,facebook.com,♻️ 自动选择
   - DOMAIN-SUFFIX,https://www.bloomberg.com,🍀huaheban
   - DOMAIN-SUFFIX,wsj.com,🍀huaheban
-  - DOMAIN-SUFFIX,www.googleapis.com,📢 谷歌FCM
+  - DOMAIN,yt3.googleusercontent.com,📹 Youtube
+  - DOMAIN-SUFFIX,ggpht.com,📹 Youtube
+  - DOMAIN-SUFFIX,www.googleapis.com,🚀 全局设置
   - DOMAIN-SUFFIX,chinadigitaltimes.net,🍀huaheban
   - DOMAIN-SUFFIX,voachinese.com,🍀huaheban
   - DOMAIN-SUFFIX,rfa.org,🍀huaheban
@@ -3671,7 +3673,6 @@ rules:
   - DOMAIN-SUFFIX,pups.bdimg.com,🍃 应用净化
   - DOMAIN-SUFFIX,push.music.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,push.zhanzhang.baidu.com,🍃 应用净化
-  - DOMAIN-SUFFIX,qchannel0d.cn,🍃 应用净化
   - DOMAIN-SUFFIX,qianclick.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,release.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,res.limei.com,🍃 应用净化
@@ -4190,21 +4191,16 @@ rules:
   - DOMAIN-SUFFIX,click.hd.sohu.com,🍃 应用净化
   - DOMAIN-SUFFIX,click2.hd.sohu.com,🍃 应用净化
   - DOMAIN-SUFFIX,ctr.hd.sohu.com,🍃 应用净化
-  - DOMAIN-SUFFIX,epro.sogou.com,🍃 应用净化
   - DOMAIN-SUFFIX,epro.sohu.com,🍃 应用净化
   - DOMAIN-SUFFIX,go.sohu.com,🍃 应用净化
-  - DOMAIN-SUFFIX,golden1.sogou.com,🍃 应用净化
   - DOMAIN-SUFFIX,golden1.sohu.com,🍃 应用净化
   - DOMAIN-SUFFIX,hui.sohu.com,🍃 应用净化
-  - DOMAIN-SUFFIX,inte.sogou.com,🍃 应用净化
   - DOMAIN-SUFFIX,inte.sogoucdn.com,🍃 应用净化
   - DOMAIN-SUFFIX,inte.sohu.com,🍃 应用净化
   - DOMAIN-SUFFIX,lm.tv.sohu.com,🍃 应用净化
-  - DOMAIN-SUFFIX,lu.sogoucdn.com,🍃 应用净化
   - DOMAIN-SUFFIX,pb.hd.sohu.com,🍃 应用净化
   - DOMAIN-SUFFIX,push.tv.sohu.com,🍃 应用净化
   - DOMAIN-SUFFIX,pv.hd.sohu.com,🍃 应用净化
-  - DOMAIN-SUFFIX,pv.sogou.com,🍃 应用净化
   - DOMAIN-SUFFIX,pv.sohu.com,🍃 应用净化
   - DOMAIN-SUFFIX,theta.sogoucdn.com,🍃 应用净化
   - DOMAIN-SUFFIX,um.hd.sohu.com,🍃 应用净化
@@ -4670,7 +4666,6 @@ rules:
   - DOMAIN-SUFFIX,youku.com,🌏 国内媒体
   - IP-CIDR,106.11.0.0/16,🌏 国内媒体,no-resolve
   - DOMAIN,cache.video.iqiyi.com,🌏 出海媒体
-  - DOMAIN-SUFFIX,iq.com,🌏 出海媒体
   - DOMAIN-SUFFIX,1password.com,🚀 全局设置
   - DOMAIN-SUFFIX,adguard.org,🚀 全局设置
   - DOMAIN-SUFFIX,bit.no.com,🚀 全局设置
@@ -4713,16 +4708,15 @@ rules:
   - DOMAIN-KEYWORD,facebook,🚀 全局设置
   - DOMAIN-KEYWORD,fbcdn,🚀 全局设置
   - DOMAIN-KEYWORD,github,🚀 全局设置
-  - DOMAIN-KEYWORD,gmail,📢 谷歌FCM
-  - DOMAIN-KEYWORD,google,📢 谷歌FCM
+  - DOMAIN-KEYWORD,gmail,🚀 全局设置
+  - DOMAIN-KEYWORD,google,🚀 全局设置
   - DOMAIN-KEYWORD,instagram,🚀 全局设置
   - DOMAIN-KEYWORD,porn,🚀 全局设置
   - DOMAIN-KEYWORD,sci-hub,🚀 全局设置
   - DOMAIN-KEYWORD,spotify,🚀 全局设置
   - DOMAIN-KEYWORD,telegram,🚀 全局设置
-  - DOMAIN-KEYWORD,twitter,📢 谷歌FCM
+  - DOMAIN-KEYWORD,twitter,🚀 全局设置
   - DOMAIN-KEYWORD,whatsapp,🚀 全局设置
-  - DOMAIN-KEYWORD,youtube,🚀 全局设置
   - DOMAIN-SUFFIX,gfwlist.start,🚀 全局设置
   - DOMAIN-SUFFIX,000webhost.com,🚀 全局设置
   - DOMAIN-SUFFIX,030buy.com,🚀 全局设置
@@ -4890,9 +4884,7 @@ rules:
   - DOMAIN-SUFFIX,addictedtocoffee.de,🚀 全局设置
   - DOMAIN-SUFFIX,addyoutube.com,🚀 全局设置
   - DOMAIN-SUFFIX,adelaidebbs.com,🚀 全局设置
-  - DOMAIN-SUFFIX,admob.com,🚀 全局设置
   - DOMAIN-SUFFIX,adpl.org.hk,🚀 全局设置
-  - DOMAIN-SUFFIX,ads-twitter.com,🚀 全局设置
   - DOMAIN-SUFFIX,adsense.com,🚀 全局设置
   - DOMAIN-SUFFIX,adult-sex-games.com,🚀 全局设置
   - DOMAIN-SUFFIX,adultfriendfinder.com,🚀 全局设置
@@ -5414,7 +5406,6 @@ rules:
   - DOMAIN-SUFFIX,buzzhand.com,🚀 全局设置
   - DOMAIN-SUFFIX,buzzhand.net,🚀 全局设置
   - DOMAIN-SUFFIX,buzzorange.com,🚀 全局设置
-  - DOMAIN-SUFFIX,buzzsprout.com,🚀 全局设置
   - DOMAIN-SUFFIX,bvpn.com,🚀 全局设置
   - DOMAIN-SUFFIX,bwbx.io,🚀 全局设置
   - DOMAIN-SUFFIX,bwgyhw.com,🚀 全局设置
@@ -5578,7 +5569,6 @@ rules:
   - DOMAIN-SUFFIX,chinacitynews.be,🚀 全局设置
   - DOMAIN-SUFFIX,chinacomments.org,🚀 全局设置
   - DOMAIN-SUFFIX,chinadialogue.net,🚀 全局设置
-  - DOMAIN-SUFFIX,chinadigitaltimes.net,🚀 全局设置
   - DOMAIN-SUFFIX,chinaelections.org,🚀 全局设置
   - DOMAIN-SUFFIX,chinaeweekly.com,🚀 全局设置
   - DOMAIN-SUFFIX,chinafile.com,🚀 全局设置
@@ -5687,7 +5677,6 @@ rules:
   - DOMAIN-SUFFIX,clinica-tibet.ru,🚀 全局设置
   - DOMAIN-SUFFIX,clipfish.de,🚀 全局设置
   - DOMAIN-SUFFIX,cloakpoint.com,🚀 全局设置
-  - DOMAIN-SUFFIX,cloudcone.com,🚀 全局设置
   - DOMAIN-SUFFIX,cloudflare-ipfs.com,🚀 全局设置
   - DOMAIN-SUFFIX,cloudfunctions.net,🚀 全局设置
   - DOMAIN-SUFFIX,club1069.com,🚀 全局设置
@@ -6038,7 +6027,6 @@ rules:
   - DOMAIN-SUFFIX,dtic.mil,🚀 全局设置
   - DOMAIN-SUFFIX,dtwang.org,🚀 全局设置
   - DOMAIN-SUFFIX,duanzhihu.com,🚀 全局设置
-  - DOMAIN-SUFFIX,dubox.com,🚀 全局设置
   - DOMAIN-SUFFIX,duck.com,🚀 全局设置
   - DOMAIN-SUFFIX,duckdns.org,🚀 全局设置
   - DOMAIN-SUFFIX,duckduckgo.com,🚀 全局设置
@@ -6249,7 +6237,6 @@ rules:
   - DOMAIN-SUFFIX,f8.com,🚀 全局设置
   - DOMAIN-SUFFIX,fa.gov.tw,🚀 全局设置
   - DOMAIN-SUFFIX,facebook.br,🚀 全局设置
-  - DOMAIN-SUFFIX,facebook.com,🚀 全局设置
   - DOMAIN-SUFFIX,facebook.de,🚀 全局设置
   - DOMAIN-SUFFIX,facebook.design,🚀 全局设置
   - DOMAIN-SUFFIX,facebook.hu,🚀 全局设置
@@ -6407,7 +6394,6 @@ rules:
   - DOMAIN-SUFFIX,flitto.com,🚀 全局设置
   - DOMAIN-SUFFIX,flnet.org,🚀 全局设置
   - DOMAIN-SUFFIX,flog.tw,🚀 全局设置
-  - DOMAIN-SUFFIX,flurry.com,🚀 全局设置
   - DOMAIN-SUFFIX,flyvpn.com,🚀 全局设置
   - DOMAIN-SUFFIX,flyzy2005.com,🚀 全局设置
   - DOMAIN-SUFFIX,fmnnow.com,🚀 全局设置
@@ -6942,7 +6928,6 @@ rules:
   - DOMAIN-SUFFIX,googlebot.com,🚀 全局设置
   - DOMAIN-SUFFIX,googlechinawebmaster.com,🚀 全局设置
   - DOMAIN-SUFFIX,googlecode.com,🚀 全局设置
-  - DOMAIN-SUFFIX,googlecommerce.com,🚀 全局设置
   - DOMAIN-SUFFIX,googledomains.com,🚀 全局设置
   - DOMAIN-SUFFIX,googledrive.com,🚀 全局设置
   - DOMAIN-SUFFIX,googleearth.com,🚀 全局设置
@@ -6960,7 +6945,6 @@ rules:
   - DOMAIN-SUFFIX,googlesile.com,🚀 全局设置
   - DOMAIN-SUFFIX,googlesource.com,🚀 全局设置
   - DOMAIN-SUFFIX,googleusercontent.com,🚀 全局设置
-  - DOMAIN-SUFFIX,googlevideo.com,🚀 全局设置
   - DOMAIN-SUFFIX,googleweblight.com,🚀 全局设置
   - DOMAIN-SUFFIX,googlezip.net,🚀 全局设置
   - DOMAIN-SUFFIX,gopetition.com,🚀 全局设置
@@ -7138,7 +7122,6 @@ rules:
   - DOMAIN-SUFFIX,hinet.net,🚀 全局设置
   - DOMAIN-SUFFIX,hitbtc.com,🚀 全局设置
   - DOMAIN-SUFFIX,hitomi.la,🚀 全局设置
-  - DOMAIN-SUFFIX,hiwifi.com,🚀 全局设置
   - DOMAIN-SUFFIX,hizb-ut-tahrir.info,🚀 全局设置
   - DOMAIN-SUFFIX,hizb-ut-tahrir.org,🚀 全局设置
   - DOMAIN-SUFFIX,hizbuttahrir.org,🚀 全局设置
@@ -7416,7 +7399,6 @@ rules:
   - DOMAIN-SUFFIX,inkui.com,🚀 全局设置
   - DOMAIN-SUFFIX,inmediahk.net,🚀 全局设置
   - DOMAIN-SUFFIX,innermongolia.org,🚀 全局设置
-  - DOMAIN-SUFFIX,inoreader.com,🚀 全局设置
   - DOMAIN-SUFFIX,inote.tw,🚀 全局设置
   - DOMAIN-SUFFIX,insecam.org,🚀 全局设置
   - DOMAIN-SUFFIX,inside.com.tw,🚀 全局设置
@@ -7796,7 +7778,6 @@ rules:
   - DOMAIN-SUFFIX,linglingfa.com,🚀 全局设置
   - DOMAIN-SUFFIX,lingvodics.com,🚀 全局设置
   - DOMAIN-SUFFIX,link-o-rama.com,🚀 全局设置
-  - DOMAIN-SUFFIX,linkedin.com,🚀 全局设置
   - DOMAIN-SUFFIX,linkideo.com,🚀 全局设置
   - DOMAIN-SUFFIX,linksalpha.com,🚀 全局设置
   - DOMAIN-SUFFIX,linkuswell.com,🚀 全局设置
@@ -8255,8 +8236,6 @@ rules:
   - DOMAIN-SUFFIX,netcolony.com,🚀 全局设置
   - DOMAIN-SUFFIX,netfirms.com,🚀 全局设置
   - DOMAIN-SUFFIX,netflav.com,🚀 全局设置
-  - DOMAIN-SUFFIX,netflix.com,🚀 全局设置
-  - DOMAIN-SUFFIX,netflix.net,🚀 全局设置
   - DOMAIN-SUFFIX,netme.cc,🚀 全局设置
   - DOMAIN-SUFFIX,netsarang.com,🚀 全局设置
   - DOMAIN-SUFFIX,netsneak.com,🚀 全局设置
@@ -8303,11 +8282,6 @@ rules:
   - DOMAIN-SUFFIX,nexttv.com.tw,🚀 全局设置
   - DOMAIN-SUFFIX,nf.id.au,🚀 全局设置
   - DOMAIN-SUFFIX,nfjtyd.com,🚀 全局设置
-  - DOMAIN-SUFFIX,nflxext.com,🚀 全局设置
-  - DOMAIN-SUFFIX,nflximg.com,🚀 全局设置
-  - DOMAIN-SUFFIX,nflximg.net,🚀 全局设置
-  - DOMAIN-SUFFIX,nflxso.net,🚀 全局设置
-  - DOMAIN-SUFFIX,nflxvideo.net,🚀 全局设置
   - DOMAIN-SUFFIX,ng.mil,🚀 全局设置
   - DOMAIN-SUFFIX,nga.mil,🚀 全局设置
   - DOMAIN-SUFFIX,ngensis.com,🚀 全局设置
@@ -8495,7 +8469,6 @@ rules:
   - DOMAIN-SUFFIX,ontrac.com,🚀 全局设置
   - DOMAIN-SUFFIX,oopsforum.com,🚀 全局设置
   - DOMAIN-SUFFIX,open.com.hk,🚀 全局设置
-  - DOMAIN-SUFFIX,openai.com,🚀 全局设置
   - DOMAIN-SUFFIX,openallweb.com,🚀 全局设置
   - DOMAIN-SUFFIX,opendemocracy.net,🚀 全局设置
   - DOMAIN-SUFFIX,opendn.xyz,🚀 全局设置
@@ -8633,7 +8606,6 @@ rules:
   - DOMAIN-SUFFIX,perfect-privacy.com,🚀 全局设置
   - DOMAIN-SUFFIX,perfectgirls.net,🚀 全局设置
   - DOMAIN-SUFFIX,periscope.tv,🚀 全局设置
-  - DOMAIN-SUFFIX,perplexity.ai,🚀 全局设置
   - DOMAIN-SUFFIX,persecutionblog.com,🚀 全局设置
   - DOMAIN-SUFFIX,persiankitty.com,🚀 全局设置
   - DOMAIN-SUFFIX,phapluan.org,🚀 全局设置
@@ -8920,7 +8892,6 @@ rules:
   - DOMAIN-SUFFIX,realsexpass.com,🚀 全局设置
   - DOMAIN-SUFFIX,reason.com,🚀 全局设置
   - DOMAIN-SUFFIX,rebatesrule.net,🚀 全局设置
-  - DOMAIN-SUFFIX,recaptcha.net,🚀 全局设置
   - DOMAIN-SUFFIX,recordhistory.org,🚀 全局设置
   - DOMAIN-SUFFIX,recovery.org.tw,🚀 全局设置
   - DOMAIN-SUFFIX,recoveryversion.com.tw,🚀 全局设置
@@ -8931,7 +8902,6 @@ rules:
   - DOMAIN-SUFFIX,redchinacn.net,🚀 全局设置
   - DOMAIN-SUFFIX,redchinacn.org,🚀 全局设置
   - DOMAIN-SUFFIX,redd.it,🚀 全局设置
-  - DOMAIN-SUFFIX,reddit.com,🚀 全局设置
   - DOMAIN-SUFFIX,redditlist.com,🚀 全局设置
   - DOMAIN-SUFFIX,redditmedia.com,🚀 全局设置
   - DOMAIN-SUFFIX,redditstatic.com,🚀 全局设置
@@ -8959,7 +8929,6 @@ rules:
   - DOMAIN-SUFFIX,revleft.com,🚀 全局设置
   - DOMAIN-SUFFIX,revocationcheck.com,🚀 全局设置
   - DOMAIN-SUFFIX,revver.com,🚀 全局设置
-  - DOMAIN-SUFFIX,rfa.org,🚀 全局设置
   - DOMAIN-SUFFIX,rfachina.com,🚀 全局设置
   - DOMAIN-SUFFIX,rfamobile.org,🚀 全局设置
   - DOMAIN-SUFFIX,rfaweb.org,🚀 全局设置
@@ -9376,8 +9345,6 @@ rules:
   - DOMAIN-SUFFIX,statueofdemocracy.org,🚀 全局设置
   - DOMAIN-SUFFIX,stboy.net,🚀 全局设置
   - DOMAIN-SUFFIX,stc.com.sa,🚀 全局设置
-  - DOMAIN-SUFFIX,steamcommunity.com,🚀 全局设置
-  - DOMAIN-SUFFIX,steampowered.com,🚀 全局设置
   - DOMAIN-SUFFIX,steel-storm.com,🚀 全局设置
   - DOMAIN-SUFFIX,steemit.com,🚀 全局设置
   - DOMAIN-SUFFIX,steganos.com,🚀 全局设置
@@ -9465,7 +9432,6 @@ rules:
   - DOMAIN-SUFFIX,szetowah.org.hk,🚀 全局设置
   - DOMAIN-SUFFIX,t-g.com,🚀 全局设置
   - DOMAIN-SUFFIX,t.co,🚀 全局设置
-  - DOMAIN-SUFFIX,t.me,🚀 全局设置
   - DOMAIN-SUFFIX,t35.com,🚀 全局设置
   - DOMAIN-SUFFIX,t66y.com,🚀 全局设置
   - DOMAIN-SUFFIX,t91y.com,🚀 全局设置
@@ -9545,7 +9511,6 @@ rules:
   - DOMAIN-SUFFIX,tcpspeed.com,🚀 全局设置
   - DOMAIN-SUFFIX,tcsofbc.org,🚀 全局设置
   - DOMAIN-SUFFIX,tcsovi.org,🚀 全局设置
-  - DOMAIN-SUFFIX,tdesktop.com,🚀 全局设置
   - DOMAIN-SUFFIX,tdm.com.mo,🚀 全局设置
   - DOMAIN-SUFFIX,teachparentstech.org,🚀 全局设置
   - DOMAIN-SUFFIX,teamamericany.com,🚀 全局设置
@@ -9555,20 +9520,15 @@ rules:
   - DOMAIN-SUFFIX,teck.in,🚀 全局设置
   - DOMAIN-SUFFIX,teco-hk.org,🚀 全局设置
   - DOMAIN-SUFFIX,teco-mo.org,🚀 全局设置
-  - DOMAIN-SUFFIX,teddysun.com,🚀 全局设置
   - DOMAIN-SUFFIX,teeniefuck.net,🚀 全局设置
   - DOMAIN-SUFFIX,teensinasia.com,🚀 全局设置
   - DOMAIN-SUFFIX,tehrantimes.com,🚀 全局设置
   - DOMAIN-SUFFIX,telecomspace.com,🚀 全局设置
-  - DOMAIN-SUFFIX,telegra.ph,🚀 全局设置
   - DOMAIN-SUFFIX,telegram-cdn.org,🚀 全局设置
   - DOMAIN-SUFFIX,telegram.dog,🚀 全局设置
-  - DOMAIN-SUFFIX,telegram.me,🚀 全局设置
-  - DOMAIN-SUFFIX,telegram.org,🚀 全局设置
   - DOMAIN-SUFFIX,telegram.space,🚀 全局设置
   - DOMAIN-SUFFIX,telegramdownload.com,🚀 全局设置
   - DOMAIN-SUFFIX,telegraph.co.uk,🚀 全局设置
-  - DOMAIN-SUFFIX,telesco.pe,🚀 全局设置
   - DOMAIN-SUFFIX,tellme.pw,🚀 全局设置
   - DOMAIN-SUFFIX,tenacy.com,🚀 全局设置
   - DOMAIN-SUFFIX,tenor.com,🚀 全局设置
@@ -10161,7 +10121,6 @@ rules:
   - DOMAIN-SUFFIX,voa.mobi,🚀 全局设置
   - DOMAIN-SUFFIX,voacambodia.com,🚀 全局设置
   - DOMAIN-SUFFIX,voacantonese.com,🚀 全局设置
-  - DOMAIN-SUFFIX,voachinese.com,🚀 全局设置
   - DOMAIN-SUFFIX,voachineseblog.com,🚀 全局设置
   - DOMAIN-SUFFIX,voagd.com,🚀 全局设置
   - DOMAIN-SUFFIX,voaindonesia.com,🚀 全局设置
@@ -10376,7 +10335,6 @@ rules:
   - DOMAIN-SUFFIX,wisevid.com,🚀 全局设置
   - DOMAIN-SUFFIX,wistia.com,🚀 全局设置
   - DOMAIN-SUFFIX,withgoogle.com,🚀 全局设置
-  - DOMAIN-SUFFIX,withyoutube.com,🚀 全局设置
   - DOMAIN-SUFFIX,witnessleeteaching.com,🚀 全局设置
   - DOMAIN-SUFFIX,witopia.net,🚀 全局设置
   - DOMAIN-SUFFIX,wizcrafts.net,🚀 全局设置
@@ -10419,7 +10377,6 @@ rules:
   - DOMAIN-SUFFIX,wrchina.org,🚀 全局设置
   - DOMAIN-SUFFIX,wretch.cc,🚀 全局设置
   - DOMAIN-SUFFIX,writesonic.com,🚀 全局设置
-  - DOMAIN-SUFFIX,wsj.com,🚀 全局设置
   - DOMAIN-SUFFIX,wsj.net,🚀 全局设置
   - DOMAIN-SUFFIX,wsjhk.com,🚀 全局设置
   - DOMAIN-SUFFIX,wtbn.org,🚀 全局设置
@@ -10605,19 +10562,11 @@ rules:
   - DOMAIN-SUFFIX,youthforfreechina.org,🚀 全局设置
   - DOMAIN-SUFFIX,youthnetradio.org,🚀 全局设置
   - DOMAIN-SUFFIX,youthwant.com.tw,🚀 全局设置
-  - DOMAIN-SUFFIX,youtu.be,🚀 全局设置
-  - DOMAIN-SUFFIX,youtube-nocookie.com,🚀 全局设置
-  - DOMAIN-SUFFIX,youtube.com,🚀 全局设置
   - DOMAIN-SUFFIX,youtubecn.com,🚀 全局设置
-  - DOMAIN-SUFFIX,youtubeeducation.com,🚀 全局设置
-  - DOMAIN-SUFFIX,youtubegaming.com,🚀 全局设置
-  - DOMAIN-SUFFIX,youtubekids.com,🚀 全局设置
   - DOMAIN-SUFFIX,youversion.com,🚀 全局设置
   - DOMAIN-SUFFIX,youwin.com,🚀 全局设置
   - DOMAIN-SUFFIX,youxu.info,🚀 全局设置
-  - DOMAIN-SUFFIX,yt.be,🚀 全局设置
   - DOMAIN-SUFFIX,ytht.net,🚀 全局设置
-  - DOMAIN-SUFFIX,ytimg.com,🚀 全局设置
   - DOMAIN-SUFFIX,ytn.co.kr,🚀 全局设置
   - DOMAIN-SUFFIX,yuanming.net,🚀 全局设置
   - DOMAIN-SUFFIX,yuanzhengtang.org,🚀 全局设置
@@ -10713,8 +10662,6 @@ rules:
   - DOMAIN-SUFFIX,zzcloud.me,🚀 全局设置
   - DOMAIN-SUFFIX,zzux.com,🚀 全局设置
   - DOMAIN-SUFFIX,gfwlist.end,🚀 全局设置
-  - DOMAIN-SUFFIX,amazon.co.jp,🚀 全局设置
-  - DOMAIN-SUFFIX,amazon.com,🚀 全局设置
   - DOMAIN-SUFFIX,amazonaws.com,🚀 全局设置
   - IP-CIDR,13.32.0.0/15,🚀 全局设置,no-resolve
   - IP-CIDR,13.35.0.0/17,🚀 全局设置,no-resolve
@@ -10733,38 +10680,24 @@ rules:
   - IP-CIDR,54.230.156.0/22,🚀 全局设置,no-resolve
   - DOMAIN-KEYWORD,uk-live,🚀 全局设置
   - DOMAIN-SUFFIX,bbc.co,🚀 全局设置
-  - DOMAIN-SUFFIX,bbc.com,🚀 全局设置
   - DOMAIN-SUFFIX,apache.org,🚀 全局设置
-  - DOMAIN-SUFFIX,docker.com,🚀 全局设置
   - DOMAIN-SUFFIX,docker.io,🚀 全局设置
   - DOMAIN-SUFFIX,elastic.co,🚀 全局设置
   - DOMAIN-SUFFIX,elastic.com,🚀 全局设置
-  - DOMAIN-SUFFIX,gcr.io,🚀 全局设置
   - DOMAIN-SUFFIX,gitlab.com,🚀 全局设置
   - DOMAIN-SUFFIX,gitlab.io,🚀 全局设置
   - DOMAIN-SUFFIX,jitpack.io,🚀 全局设置
   - DOMAIN-SUFFIX,maven.org,🚀 全局设置
-  - DOMAIN-SUFFIX,medium.com,🚀 全局设置
   - DOMAIN-SUFFIX,mvnrepository.com,🚀 全局设置
   - DOMAIN-SUFFIX,quay.io,🚀 全局设置
-  - DOMAIN-SUFFIX,reddit.com,🚀 全局设置
   - DOMAIN-SUFFIX,redhat.com,🚀 全局设置
   - DOMAIN-SUFFIX,sonatype.org,🚀 全局设置
   - DOMAIN-SUFFIX,sourcegraph.com,🚀 全局设置
   - DOMAIN-SUFFIX,spring.io,🚀 全局设置
   - DOMAIN-SUFFIX,spring.net,🚀 全局设置
-  - DOMAIN-SUFFIX,stackoverflow.com,🚀 全局设置
   - DOMAIN-SUFFIX,discord.co,🚀 全局设置
-  - DOMAIN-SUFFIX,discord.com,🚀 全局设置
-  - DOMAIN-SUFFIX,discord.gg,🚀 全局设置
   - DOMAIN-SUFFIX,discord.media,🚀 全局设置
-  - DOMAIN-SUFFIX,discordapp.com,🚀 全局设置
-  - DOMAIN-SUFFIX,discordapp.net,🚀 全局设置
-  - DOMAIN-SUFFIX,facebook.com,🚀 全局设置
-  - DOMAIN-SUFFIX,fb.com,🚀 全局设置
-  - DOMAIN-SUFFIX,fb.me,🚀 全局设置
   - DOMAIN-SUFFIX,fbcdn.com,🚀 全局设置
-  - DOMAIN-SUFFIX,fbcdn.net,🚀 全局设置
   - IP-CIDR,31.13.24.0/21,🚀 全局设置,no-resolve
   - IP-CIDR,31.13.64.0/18,🚀 全局设置,no-resolve
   - IP-CIDR,45.64.40.0/22,🚀 全局设置,no-resolve
@@ -10779,31 +10712,9 @@ rules:
   - IP-CIDR,179.60.192.0/22,🚀 全局设置,no-resolve
   - IP-CIDR,185.60.216.0/22,🚀 全局设置,no-resolve
   - IP-CIDR,204.15.20.0/22,🚀 全局设置,no-resolve
-  - DOMAIN-SUFFIX,github.com,🚀 全局设置
-  - DOMAIN-SUFFIX,github.io,🚀 全局设置
   - DOMAIN-SUFFIX,githubapp.com,🚀 全局设置
-  - DOMAIN-SUFFIX,githubassets.com,🚀 全局设置
-  - DOMAIN-SUFFIX,githubusercontent.com,🚀 全局设置
-  - DOMAIN-SUFFIX,1e100.net,🚀 全局设置
-  - DOMAIN-SUFFIX,2mdn.net,🚀 全局设置
   - DOMAIN-SUFFIX,app-measurement.net,🚀 全局设置
-  - DOMAIN-SUFFIX,g.co,🚀 全局设置
-  - DOMAIN-SUFFIX,ggpht.com,🚀 全局设置
-  - DOMAIN-SUFFIX,goo.gl,🚀 全局设置
-  - DOMAIN-SUFFIX,googleapis.cn,🚀 全局设置
-  - DOMAIN-SUFFIX,googleapis.com,🚀 全局设置
   - DOMAIN-SUFFIX,gstatic.cn,🚀 全局设置
-  - DOMAIN-SUFFIX,gstatic.com,🚀 全局设置
-  - DOMAIN-SUFFIX,gvt0.com,🚀 全局设置
-  - DOMAIN-SUFFIX,gvt1.com,🚀 全局设置
-  - DOMAIN-SUFFIX,gvt2.com,🚀 全局设置
-  - DOMAIN-SUFFIX,gvt3.com,🚀 全局设置
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 全局设置
-  - DOMAIN-SUFFIX,youtu.be,🚀 全局设置
-  - DOMAIN-SUFFIX,youtube-nocookie.com,🚀 全局设置
-  - DOMAIN-SUFFIX,youtube.com,🚀 全局设置
-  - DOMAIN-SUFFIX,yt.be,🚀 全局设置
-  - DOMAIN-SUFFIX,ytimg.com,🚀 全局设置
   - IP-CIDR,74.125.0.0/16,🚀 全局设置,no-resolve
   - IP-CIDR,173.194.0.0/16,🚀 全局设置,no-resolve
   - IP-CIDR,120.232.181.162/32,🚀 全局设置,no-resolve
@@ -10824,11 +10735,7 @@ rules:
   - IP-CIDR,220.181.174.162/32,🚀 全局设置,no-resolve
   - IP-CIDR,220.181.174.226/32,🚀 全局设置,no-resolve
   - IP-CIDR,220.181.174.34/32,🚀 全局设置,no-resolve
-  - DOMAIN-SUFFIX,cdninstagram.com,🚀 全局设置
-  - DOMAIN-SUFFIX,instagram.com,🚀 全局设置
   - DOMAIN-SUFFIX,instagr.am,🚀 全局设置
-  - DOMAIN-SUFFIX,iwara.tv,🚀 全局设置
-  - DOMAIN-SUFFIX,kakao.com,🚀 全局设置
   - DOMAIN-SUFFIX,kakao.co.kr,🚀 全局设置
   - DOMAIN-SUFFIX,kakaocdn.net,🚀 全局设置
   - IP-CIDR,1.201.0.0/24,🚀 全局设置,no-resolve
@@ -10838,10 +10745,7 @@ rules:
   - IP-CIDR,110.76.140.0/22,🚀 全局设置,no-resolve
   - IP-CIDR,113.61.104.0/22,🚀 全局设置,no-resolve
   - DOMAIN-SUFFIX,lin.ee,🚀 全局设置
-  - DOMAIN-SUFFIX,line-apps.com,🚀 全局设置
   - DOMAIN-SUFFIX,line-cdn.net,🚀 全局设置
-  - DOMAIN-SUFFIX,line-scdn.net,🚀 全局设置
-  - DOMAIN-SUFFIX,line.me,🚀 全局设置
   - DOMAIN-SUFFIX,line.naver.jp,🚀 全局设置
   - DOMAIN-SUFFIX,nhncorp.jp,🚀 全局设置
   - IP-CIDR,103.2.28.0/24,🚀 全局设置,no-resolve
@@ -10854,90 +10758,32 @@ rules:
   - IP-CIDR,203.104.128.0/19,🚀 全局设置,no-resolve
   - DOMAIN,cloud.oracle.com,🚀 全局设置
   - DOMAIN-SUFFIX,oraclecloud.com,🚀 全局设置
-  - DOMAIN-KEYWORD,1drv,🚀 全局设置
-  - DOMAIN-KEYWORD,onedrive,🚀 全局设置
-  - DOMAIN-KEYWORD,skydrive,🚀 全局设置
-  - DOMAIN-SUFFIX,livefilestore.com,🚀 全局设置
-  - DOMAIN-SUFFIX,oneclient.sfx.ms,🚀 全局设置
-  - DOMAIN-SUFFIX,onedrive.com,🚀 全局设置
-  - DOMAIN-SUFFIX,onedrive.live.com,🚀 全局设置
-  - DOMAIN-SUFFIX,photos.live.com,🚀 全局设置
-  - DOMAIN-SUFFIX,skydrive.wns.windows.com,🚀 全局设置
-  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,🚀 全局设置
-  - DOMAIN-SUFFIX,storage.live.com,🚀 全局设置
-  - DOMAIN-SUFFIX,storage.msn.com,🚀 全局设置
-  - DOMAIN-KEYWORD,porn,🚀 全局设置
   - DOMAIN-SUFFIX,8teenxxx.com,🚀 全局设置
   - DOMAIN-SUFFIX,ahcdn.com,🚀 全局设置
   - DOMAIN-SUFFIX,bcvcdn.com,🚀 全局设置
-  - DOMAIN-SUFFIX,bongacams.com,🚀 全局设置
-  - DOMAIN-SUFFIX,chaturbate.com,🚀 全局设置
   - DOMAIN-SUFFIX,dditscdn.com,🚀 全局设置
   - DOMAIN-SUFFIX,livejasmin.com,🚀 全局设置
-  - DOMAIN-SUFFIX,phncdn.com,🚀 全局设置
   - DOMAIN-SUFFIX,phprcdn.com,🚀 全局设置
-  - DOMAIN-SUFFIX,pornhub.com,🚀 全局设置
   - DOMAIN-SUFFIX,pornhubpremium.com,🚀 全局设置
   - DOMAIN-SUFFIX,rdtcdn.com,🚀 全局设置
-  - DOMAIN-SUFFIX,redtube.com,🚀 全局设置
   - DOMAIN-SUFFIX,sb-cd.com,🚀 全局设置
-  - DOMAIN-SUFFIX,spankbang.com,🚀 全局设置
-  - DOMAIN-SUFFIX,t66y.com,🚀 全局设置
-  - DOMAIN-SUFFIX,xhamster.com,🚀 全局设置
   - DOMAIN-SUFFIX,xnxx-cdn.com,🚀 全局设置
-  - DOMAIN-SUFFIX,xnxx.com,🚀 全局设置
-  - DOMAIN-SUFFIX,xvideos-cdn.com,🚀 全局设置
-  - DOMAIN-SUFFIX,xvideos.com,🚀 全局设置
   - DOMAIN-SUFFIX,ypncdn.com,🚀 全局设置
-  - DOMAIN-SUFFIX,pixiv.net,🚀 全局设置
-  - DOMAIN-SUFFIX,pximg.net,🚀 全局设置
   - DOMAIN-SUFFIX,fanbox.cc,🚀 全局设置
   - DOMAIN-SUFFIX,amplitude.com,🚀 全局设置
-  - DOMAIN-SUFFIX,firebaseio.com,🚀 全局设置
   - DOMAIN-SUFFIX,hockeyapp.net,🚀 全局设置
   - DOMAIN-SUFFIX,readdle.com,🚀 全局设置
-  - DOMAIN-SUFFIX,smartmailcloud.com,🚀 全局设置
-  - DOMAIN-SUFFIX,fanatical.com,🚀 全局设置
-  - DOMAIN-SUFFIX,humblebundle.com,🚀 全局设置
-  - DOMAIN-SUFFIX,underlords.com,🚀 全局设置
-  - DOMAIN-SUFFIX,valvesoftware.com,🚀 全局设置
-  - DOMAIN-SUFFIX,playartifact.com,🚀 全局设置
-  - DOMAIN-SUFFIX,steam-chat.com,🚀 全局设置
-  - DOMAIN-SUFFIX,steamcommunity.com,🚀 全局设置
-  - DOMAIN-SUFFIX,steamgames.com,🚀 全局设置
-  - DOMAIN-SUFFIX,steampowered.com,🚀 全局设置
-  - DOMAIN-SUFFIX,steamserver.net,🚀 全局设置
-  - DOMAIN-SUFFIX,steamstatic.com,🚀 全局设置
-  - DOMAIN-SUFFIX,steamstat.us,🚀 全局设置
-  - DOMAIN,steambroadcast.akamaized.net,🚀 全局设置
-  - DOMAIN,steamcommunity-a.akamaihd.net,🚀 全局设置
-  - DOMAIN,steamstore-a.akamaihd.net,🚀 全局设置
-  - DOMAIN,steamusercontent-a.akamaihd.net,🚀 全局设置
-  - DOMAIN,steamuserimages-a.akamaihd.net,🚀 全局设置
-  - DOMAIN,steampipe.akamaized.net,🚀 全局设置
   - DOMAIN-SUFFIX,tap.io,🚀 全局设置
   - DOMAIN-SUFFIX,taptap.tw,🚀 全局设置
-  - DOMAIN-SUFFIX,twitch.tv,🚀 全局设置
-  - DOMAIN-SUFFIX,ttvnw.net,🚀 全局设置
-  - DOMAIN-SUFFIX,jtvnw.net,🚀 全局设置
   - DOMAIN-KEYWORD,ttvnw,🚀 全局设置
-  - DOMAIN-SUFFIX,t.co,🚀 全局设置
   - DOMAIN-SUFFIX,twimg.co,🚀 全局设置
-  - DOMAIN-SUFFIX,twimg.com,🚀 全局设置
   - DOMAIN-SUFFIX,twimg.org,🚀 全局设置
-  - DOMAIN-SUFFIX,t.me,🚀 全局设置
-  - DOMAIN-SUFFIX,tdesktop.com,🚀 全局设置
-  - DOMAIN-SUFFIX,telegra.ph,🚀 全局设置
-  - DOMAIN-SUFFIX,telegram.me,🚀 全局设置
-  - DOMAIN-SUFFIX,telegram.org,🚀 全局设置
-  - DOMAIN-SUFFIX,telesco.pe,🚀 全局设置
   - IP-CIDR,91.108.0.0/16,🚀 全局设置,no-resolve
   - IP-CIDR,109.239.140.0/24,🚀 全局设置,no-resolve
   - IP-CIDR,149.154.160.0/20,🚀 全局设置,no-resolve
   - IP-CIDR6,2001:67c:4e8::/48,🚀 全局设置,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,🚀 全局设置,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,🚀 全局设置,no-resolve
-  - DOMAIN-SUFFIX,terabox.com,🚀 全局设置
   - DOMAIN-SUFFIX,teraboxcdn.com,🚀 全局设置
   - IP-CIDR,18.194.0.0/15,🚀 全局设置,no-resolve
   - IP-CIDR,34.224.0.0/12,🚀 全局设置,no-resolve
@@ -10957,12 +10803,6 @@ rules:
   - DOMAIN-SUFFIX,mediawiki.org,🚀 全局设置
   - DOMAIN-SUFFIX,wikibooks.org,🚀 全局设置
   - DOMAIN-SUFFIX,wikidata.org,🚀 全局设置
-  - DOMAIN-SUFFIX,wikileaks.org,🚀 全局设置
-  - DOMAIN-SUFFIX,wikimedia.org,🚀 全局设置
-  - DOMAIN-SUFFIX,wikinews.org,🚀 全局设置
-  - DOMAIN-SUFFIX,wikipedia.org,🚀 全局设置
-  - DOMAIN-SUFFIX,wikiquote.org,🚀 全局设置
-  - DOMAIN-SUFFIX,wikisource.org,🚀 全局设置
   - DOMAIN-SUFFIX,wikiversity.org,🚀 全局设置
   - DOMAIN-SUFFIX,wikivoyage.org,🚀 全局设置
   - DOMAIN-SUFFIX,wiktionary.org,🚀 全局设置
@@ -17943,11 +17783,9 @@ rules:
   - DOMAIN-SUFFIX,xiami.com,🎯 国内网络
   - DOMAIN-SUFFIX,xiami.net,🎯 国内网络
   - DOMAIN-SUFFIX,ykimg.com,🎯 国内网络
-  - DOMAIN-SUFFIX,youku.com,🎯 国内网络
   - DOMAIN-SUFFIX,baidu.com,🎯 国内网络
   - DOMAIN-SUFFIX,baidubcr.com,🎯 国内网络
   - DOMAIN-SUFFIX,baidupcs.com,🎯 国内网络
-  - DOMAIN-SUFFIX,baidustatic.com,🎯 国内网络
   - DOMAIN-SUFFIX,bcebos.com,🎯 国内网络
   - DOMAIN-SUFFIX,bdimg.com,🎯 国内网络
   - DOMAIN-SUFFIX,bdstatic.com,🎯 国内网络
@@ -17956,23 +17794,8 @@ rules:
   - DOMAIN-SUFFIX,hao123img.com,🎯 国内网络
   - DOMAIN-SUFFIX,jomodns.com,🎯 国内网络
   - DOMAIN-SUFFIX,yunjiasu-cdn.net,🎯 国内网络
-  - DOMAIN-SUFFIX,acg.tv,🎯 国内网络
-  - DOMAIN-SUFFIX,acgvideo.com,🎯 国内网络
-  - DOMAIN-SUFFIX,b23.tv,🎯 国内网络
-  - DOMAIN-SUFFIX,bigfun.cn,🎯 国内网络
-  - DOMAIN-SUFFIX,bigfunapp.cn,🎯 国内网络
-  - DOMAIN-SUFFIX,biliapi.com,🎯 国内网络
-  - DOMAIN-SUFFIX,biliapi.net,🎯 国内网络
-  - DOMAIN-SUFFIX,bilibili.com,🎯 国内网络
   - DOMAIN-SUFFIX,bilibili.co,🎯 国内网络
   - DOMAIN-SUFFIX,biliintl.co,🎯 国内网络
-  - DOMAIN-SUFFIX,biligame.com,🎯 国内网络
-  - DOMAIN-SUFFIX,biligame.net,🎯 国内网络
-  - DOMAIN-SUFFIX,bilivideo.com,🎯 国内网络
-  - DOMAIN-SUFFIX,bilivideo.cn,🎯 国内网络
-  - DOMAIN-SUFFIX,hdslb.com,🎯 国内网络
-  - DOMAIN-SUFFIX,im9.com,🎯 国内网络
-  - DOMAIN-SUFFIX,smtcdns.net,🎯 国内网络
   - DOMAIN-SUFFIX,amemv.com,🎯 国内网络
   - DOMAIN-SUFFIX,bdxiguaimg.com,🎯 国内网络
   - DOMAIN-SUFFIX,bdxiguastatic.com,🎯 国内网络
@@ -18030,11 +17853,6 @@ rules:
   - DOMAIN-SUFFIX,douyu.tv,🎯 国内网络
   - DOMAIN-SUFFIX,douyuscdn.com,🎯 国内网络
   - DOMAIN-SUFFIX,douyutv.com,🎯 国内网络
-  - DOMAIN-SUFFIX,epicgames.com,🎯 国内网络
-  - DOMAIN-SUFFIX,epicgames.dev,🎯 国内网络
-  - DOMAIN-SUFFIX,helpshift.com,🎯 国内网络
-  - DOMAIN-SUFFIX,paragon.com,🎯 国内网络
-  - DOMAIN-SUFFIX,unrealengine.com,🎯 国内网络
   - DOMAIN-SUFFIX,dbankcdn.com,🎯 国内网络
   - DOMAIN-SUFFIX,hc-cdn.com,🎯 国内网络
   - DOMAIN-SUFFIX,hicloud.com,🎯 国内网络
@@ -18071,7 +17889,6 @@ rules:
   - DOMAIN-SUFFIX,360buy.com,🎯 国内网络
   - DOMAIN-SUFFIX,360buyimg.com,🎯 国内网络
   - DOMAIN-SUFFIX,jcloudcs.com,🎯 国内网络
-  - DOMAIN-SUFFIX,jd.com,🎯 国内网络
   - DOMAIN-SUFFIX,jd.hk,🎯 国内网络
   - DOMAIN-SUFFIX,jdcloud.com,🎯 国内网络
   - DOMAIN-SUFFIX,jdpay.com,🎯 国内网络
@@ -18139,11 +17956,6 @@ rules:
   - DOMAIN-SUFFIX,sohuno.com,🎯 国内网络
   - DOMAIN-SUFFIX,sohurdc.com,🎯 国内网络
   - DOMAIN-SUFFIX,v-56.com,🎯 国内网络
-  - DOMAIN-SUFFIX,playstation.com,🎯 国内网络
-  - DOMAIN-SUFFIX,playstation.net,🎯 国内网络
-  - DOMAIN-SUFFIX,playstationnetwork.com,🎯 国内网络
-  - DOMAIN-SUFFIX,sony.com,🎯 国内网络
-  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯 国内网络
   - DOMAIN-SUFFIX,cm.steampowered.com,🎯 国内网络
   - DOMAIN-SUFFIX,steamcontent.com,🎯 国内网络
   - DOMAIN-SUFFIX,steamusercontent.com,🎯 国内网络
@@ -18170,7 +17982,6 @@ rules:
   - DOMAIN-SUFFIX,qqmail.com,🎯 国内网络
   - DOMAIN-SUFFIX,qqurl.com,🎯 国内网络
   - DOMAIN-SUFFIX,smtcdns.com,🎯 国内网络
-  - DOMAIN-SUFFIX,smtcdns.net,🎯 国内网络
   - DOMAIN-SUFFIX,soso.com,🎯 国内网络
   - DOMAIN-SUFFIX,tencent-cloud.net,🎯 国内网络
   - DOMAIN-SUFFIX,tencent.com,🎯 国内网络
@@ -18279,7 +18090,6 @@ rules:
   - DOMAIN-SUFFIX,ctrip.com,🎯 国内网络
   - DOMAIN-SUFFIX,dangdang.com,🎯 国内网络
   - DOMAIN-SUFFIX,dfcfw.com,🎯 国内网络
-  - DOMAIN-SUFFIX,dianping.com,🎯 国内网络
   - DOMAIN-SUFFIX,dilidili.wang,🎯 国内网络
   - DOMAIN-SUFFIX,douban.com,🎯 国内网络
   - DOMAIN-SUFFIX,doubanio.com,🎯 国内网络
@@ -18689,6 +18499,7 @@ rules:
   - IP-CIDR,101.198.128.0/18,🎯 国内网络,no-resolve
   - IP-CIDR,101.198.192.0/19,🎯 国内网络,no-resolve
   - IP-CIDR,101.199.196.0/22,🎯 国内网络,no-resolve
+  - RULE-SET,cn-domains,🎯 国内网络
   - GEOIP,CN,🎯 国内网络
   - MATCH,🐟 其他网站
 redir-port: 23457
@@ -18756,3 +18567,11 @@ dns:
     - 119.29.29.29
     - 223.5.5.5
     - 180.76.76.76
+rule-providers:
+  cn-domains:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs
+    path: ./ruleset/cn-domains.mrs
+    interval: 86400
