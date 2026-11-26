@@ -1178,182 +1178,182 @@ proxies:
     udp: true
   - name: VV 4x 美国1 A1
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 25429
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 美国2 A1
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 50155
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 美国3 A1
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 51467
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 美国4 A1 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 56512
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 美国5 A1 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 29988
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 美国6 A1 AI Claude 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 18338
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 美国7 A1 AI Claude 家宽 静态
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 57008
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 美国7a A1 AI Claude 家宽 静态
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 12993
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 美国8 A1 AI Claude 家宽 双ISP
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 8135
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 美国9 A1 AI Claude 家宽 双ISP
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 31539
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 加拿大1 A1 Claude 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 62284
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 台湾2 A1 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 45819
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 台湾1 A1
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 13599
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 日本2 A1
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 42721
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 日本3 A1
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 58490
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 日本4 A1 AI 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 8641
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 日本5 A1 AI 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 8291
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 日本6 A1 AI Claude 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 8890
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 日本7 A1 AI Claude 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 50589
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 日本8 A1 AI Claude 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 15687
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 日本9 A1 AI Claude 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 17091
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 新加坡1 A1
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 35058
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 新加坡2 A1
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 57598
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 新加坡3 A1
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 37923
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 韩国1 A1 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 25997
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 越南1 A1 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 24308
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
@@ -1367,21 +1367,21 @@ proxies:
     sni: hk5.vxrelay.xyz
   - name: VV 4x 香港2 A1 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 27502
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 香港3 A1 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 49642
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
     udp: true
   - name: VV 4x 香港4 A1 家宽
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 6740
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
@@ -1402,7 +1402,7 @@ proxies:
     udp: true
   - name: VV 4x 德国1 A1
     type: ss
-    server: df.668fx.com
+    server: www.defucloud.xyz
     port: 5139
     cipher: chacha20-ietf-poly1305
     password: 89d88975-49e7-44f0-a6cb-00084230c229
